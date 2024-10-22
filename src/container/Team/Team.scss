@@ -1,0 +1,80 @@
+.about_info {
+margin: 0 3rem;
+display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.teamTitle {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+
+    @media screen and (max-width: 1000px) {
+        font-size: 32px;
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+    }
+}
+
+.about_subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+}
+
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    padding:0 2rem;
+    @media screen and (max-width: 1000px) {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.about__card {
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    width: 90%;
+    padding: 15% 5% 10% 5%;
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+
+    @media screen and (max-width: 915px) {
+        border: 1px solid white;
+    }
+
+    &:hover {
+        box-shadow: -1px 3px 10px 0px rgba(236, 236, 236, 1);
+    }
+
+    .about__icon {
+        color: #313BAC;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h5 {
+        font-size: 1.3rem;
+    }
+
+    small {
+        color: rgb(40, 40, 40);
+    }
+}
+
+.about__content small {
+    color: var(--color-light);
+    font-size: 1rem;
+    color: rgb(40, 40, 40);
+}
+

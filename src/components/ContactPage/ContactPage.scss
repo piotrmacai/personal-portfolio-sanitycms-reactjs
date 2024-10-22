@@ -1,0 +1,148 @@
+.contactpage_main_container {
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 1rem 5rem 1rem;
+    background: url("../../assets/bgimage.png");
+    background-size: fill;
+    background-position: center;
+    background-repeat: repeat;
+    @media screen and (max-width: 915px) {
+      background: url("../../assets/mobilebg.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: repeat; 
+        padding: 1rem 1rem 5rem 1rem;
+    }
+
+
+    .contactpage_hero{
+        min-height:100vh;
+        display:flex;
+        flex-direction: start;
+        align-items: start;
+    
+    .contactpage_header_container{
+            flex:2;
+            padding-top:3rem;
+            width:65vw;
+            @media screen and (max-width: 915px) {
+              width:72vw;
+              margin-left:-1rem;
+            }
+
+            .contactpagetag {
+              margin-left:26vw;
+              @media screen and (max-width:915px) {
+                margin-left:0;
+            }
+            }
+        
+        }
+
+        .app__header-circles {
+            flex: 0.75;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            height: 100%;
+            margin-left: -33rem;
+          
+            div {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+          
+              background: var(--white-color);
+              box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          
+              img {
+                width: 60%;
+                height: 60%;
+              }
+            }
+          
+            // circles with different height & width
+          
+            div:nth-child(1) {
+              width: 90px;
+              height: 90px;
+              background-color: white;
+              margin-top:-3.5rem;
+            }
+          
+            div:nth-child(2) {
+    
+              width:80px;
+              height: 80px;
+              margin-top:0;
+            }
+          
+            div:nth-child(3) {
+              width: 70px;
+              height: 70px;
+              margin-top:2rem;
+            }
+          
+            @media screen and (max-width: 915px) {
+              div:nth-child(1) {
+                width: 85px;
+                height: 85px;
+                margin:1rem;
+    
+              }
+            
+              div:nth-child(2) {
+                margin: 1.5rem;
+                margin-top:1rem;
+                width: 80px;
+                height: 80px;
+              }
+            
+              div:nth-child(3) {
+                width: 80px;
+                height: 80px;
+    
+              }
+            }
+          
+            @media screen and (max-width: 915px) {
+              width: 100%;
+              flex-direction: row;
+              flex-wrap: wrap;
+              margin-left: 0;
+          
+              div {
+                margin: 1rem;
+              }
+            }
+          }
+        
+        .contactpage_chatContainer {
+            flex: 1;
+            width:35%;
+            height:60vh;
+            display: flex;
+            align-items:flex-end;
+            justify-content: flex-end;
+            background-color:transparent;
+            h4 {
+              font-size:1.2rem;
+              position:fixed;
+              bottom:45vh;
+              right:-4.2rem;
+              rotate:90deg;
+              @media screen and (max-width: 915px) {
+                display:none;
+              }
+            }
+        
+            @media screen and (max-width: 915px) {
+              margin: 0;
+            }
+        }
+    }
+
+}

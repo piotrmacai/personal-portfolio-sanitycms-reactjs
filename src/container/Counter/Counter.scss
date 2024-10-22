@@ -1,0 +1,86 @@
+.counterContainer {
+    width: 100%;
+    min-height: 35vh;
+    flex-direction: column;
+    margin:0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    @media screen and (max-width: 1000px) {
+       min-height: 85vh;
+       margin:0 0;
+    }
+    .counterContainer_info {
+      display:flex;
+      flex-direction:column;
+      text-align:center;
+      margin:1rem 0;
+      .counter_h2{
+        font-size:2rem;
+        text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
+        font-weight: 600;
+      }
+   
+      .counter_p{
+         font-size:1rem;
+        color: var(--secondary-color);
+        font-weight: 600;
+        margin:1rem 0;   
+      }
+      
+    }
+ 
+    .counterContainerApp {
+          display: flex;
+          height:30vh;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: row;
+          border: 1px solid transparent;
+          border-radius: 1rem;
+          width: 65vw;
+          padding: 10% 5% 12% 5%;
+          text-align: center;
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+          transition: all 0.3s ease;
+          @media screen and (max-width: 915px) {
+            height:85vh;
+            padding: 15% 5% 12% 5%;
+            flex-direction: column;
+          }     
+          &:hover {
+              box-shadow: -1px 3px 10px 0px rgba(236, 236, 236, 1);
+          }
+
+          .counterContainerAppCard {
+            padding: 15% 5% 10% 5%;
+            text-align: center;
+            @media screen and (max-width: 915px) {
+              padding: 5% 5% 5% 5%;
+            }     
+            .separator {
+              border:  1-px dashed #000;
+            }
+
+          .about__icon {
+              color: #313BAC;
+              font-size: 2rem;
+              margin-bottom: 0.3rem;
+          }
+
+          .counter_h2{
+            font-size:2rem;
+            text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
+            font-weight: 600;
+          }
+       
+          .counter_p{
+             font-size:1rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+            margin:1rem 0;   
+          }
+        }
+     }
+}

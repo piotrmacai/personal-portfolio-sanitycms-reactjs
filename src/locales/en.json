@@ -1,0 +1,132 @@
+{
+
+    "menu1":"Home",
+    "menu2":"Web Services",
+    "menu3":"AI Services",
+    "menu4":"Contact",
+    "menu5":"AI Tools",
+    "menu6":"AI Prompts",
+
+    "footermenu1":"AI Prompts",
+    "footermenu2":"Services",
+    "footermenu3":"About",
+    "footermenu4":"Tech",
+    "footermenu5":"Pricing & Contact",
+    "footermenu6":"AI Tools",
+
+    "calendly":"Make an appointment",
+    "pricingPhone": "Phone",
+
+    "welcome": "Hi, I'm Ai & Web Dev!",
+    "intro": "Piotr Macai",
+
+    "talkwithgpt":"Talk with AI AssistantGPT",
+
+    "skiils_header":"My Skills and Technologies I use",
+    
+    "works_All":"All",
+    "works_Web":"Web",
+    "works_AI":"AI",
+
+    "portfolio_header_h":"My the most interesting projects.",
+    "portfolio_header_P":"See what i'm building right now",
+    "portfolio_header_Desc": "With projects which are changing businesses",
+
+    "about_CardTitle1":"Content creation",
+    "about_CardDesc1":"I'm creating eye-catching logos, UX / UI templates, and all kinds of social media content, as well as posters, business cards and commercial banners",
+    "about_CardTitle2":"AI tools & implementations",
+    "about_CardDesc2":"I'm offering cutting-edge AI services that leverage the power of Artificial Intelliegence Tools to help businesses achieve their goals.",
+    "about_CardTitle3":"AI chatbots",
+    "about_CardDesc3":"I'm creating custom, tailored to your needs ChatGPT powered AI chatbots and assistants trained on your own, custom data and knowledge base, as created for your own purposes",
+    "about_CardTitle4":"Automations ",
+    "about_CardDesc4":"I will help you automate various repetitive tasks and processes for businesses and individuals",
+    "about_CardTitle5":"Websites & Landing Pages",
+    "about_CardDesc5":"Modern and tailor-made websites, created from scratch in any technology or using a selected template. Each of our pages can have any functions and possibilities, as well as any integration. And of course they are always SEO-friendly and load very quickly",
+    "about_CardTitle6":"Audits and Consultations",
+    "about_CardDesc6":"I will audit your website, online store or social media profiles, including Google presence, providing you with the report details",
+
+    "cta_subtitle1": "Unlocking the Potential of Artificial Intelligence",
+    "cta_title1": "AI Developer & Specialist",
+    "cta_desc1": "Welcome to my digital home where I explore the limitless possibilities of artificial intelligence. I am an AI developer and specialist dedicated to harnessing the power of machine learning and data-driven technologies, with a particular focus on implementing AI and complex AI automation solutions for businesses and organizations.",
+
+    "cta_subtitle2": "Perfectly Tailored Solutions",
+    "cta_title2": "For Your Business Needs",
+    "cta_desc2": "I always strive to provide personalized solutions that perfectly align with the unique needs of your business and address its biggest challenges and pain points. Whether you are seeking operational optimization, improved efficiency, or specific issue resolutions, I am here to assist you.",
+
+    "counter_subtitle1": "ACHIEVING EXCELLENCE",
+    "counter_title1": "A Few Numbers I'm Proud Of",
+    "counter_desc1": "",
+
+    "mainwelcome": "Hi, i'm Piotr Macai!",
+    "mainintro": " AI & Web Specialist",
+    "main_heroP": "I Can Help You Grow Your Business",
+    "main_heroP2": "with Web & AI",
+
+    
+    "about_title":"My Services",
+    "about_title2":"and specializations",
+
+    "team_title":"About Me",
+    "team_desc":"Hello! I'm specializing in helping businesses effectively communicate their message and connect with their target audience. Our team of experts offers a range of services, including content creation, social media management, and branding. We work closely with our clients to develop customized marketing strategies that drive results.",
+    "team_CardTitle1":"I love AI",
+    "team_CardDesc1":"and other game-changing technologies",
+    "team_CardTitle2":"Deep knowledge",
+    "team_CardDesc2":"in AI Tools and web technologies",
+    "team_CardTitle3":"Wide experience",
+    "team_CardDesc3":"in every aspect of businesses",
+
+    "publ_CardTitle1":"ChatGPT & LLMs",
+    "publ_CardDesc1":"Prompts Library",
+    "publ_CardTitle2":"AI Tools",
+    "publ_CardDesc2":"Library",
+    "publ_CardTitle3":"Ainsider",
+    "publ_CardDesc3":"AI Newsletter & Blog",
+
+    "publ_header_h":"My AI Libraries",
+    "publ_header_P":"Tools & Prompts",
+
+
+    "contact_headerTitle": "Free Project Pricing - With AI Chatbot Or With Form Below!",
+    "contact_headerSmallTitle": "Contact with Aiware",
+    "contact_SmallP1": "TALK WITH OUR AI CUSTOMER SUPPORT CHATBOT!",
+    "contact_SmallP2": "CLICK AT CHAT ICON AT BOTTOM RIGHT",
+
+
+
+    "faq1title_1":"Frequently",
+    "faq1title_2":"Asked",
+    "faq1title_3":"Questions",
+    "faq1q":"Why your business should have own AI chatbot?",
+    "faq1a":"AI Chatbots are prroviding 24/7 service and support, without the need for human agents. Theyt're handling multiple requests and queries simultaneously, without compromising the quality of service and offer client personalized solutions based on the user’s preferences, needs, and history. They can also collecting valuable data and insights from the users interactions and feedback, which can help improve the business strategy and performance. It all can save a lot of time, resources, and costs, by reducing errors and increasing efficiency.",
+    "faq2q":"What is needed to create custom AI chatbot?",
+    "faq2a":"We need also chatbot knowledge base source - it can be any document, pdf, or website",
+    "faq3q":"What is needed for creating a website? What i should prepare?",
+    "faq3a":"For any website we need personalized informations about your business and your services, was what you told from yourself. Everything other we can provide - copywriting, images, graphics and videos.",
+    "faq4q":"What is the cost of website or landing?",
+    "faq4a":"The cost - is a complex topic and depends of the website size and content, used features and used technology is from 200$ to 1000$. For example, simple, standard one-page website or landing in Wordpress costs 200$, and in HTML it's 250$. And more complex website, with blog costs 350-540$. Web applications or advanced React.js and Next.js Websites costs from 500$ (2000 pln), but if they are large or have more complex features, they can cost around 500$.",
+    "faq5q":"What is the cost of ecommerce or elearning platform?",
+    "faq5a":"The cost - despite of the product amount and used integrations and features is from 250$ to 1000$.",
+    "faq6q":"What is the time needed to complete project for website and ecommerce?",
+    "faq6a":"Despite of the website content and features amount - it's from 5 to 10 days, and for ecomm - from 7 to 15 days.",
+    "faq7q":"How can I start inquiry or get a free project pricing?",
+    "faq7a":"The best way to fill out that form: http://aiware.me/#contact .You can also write at our email: me@aiware.me or talk with us at Whatsapp: https://wa.me/48794168298 or Messneger: https://m.me/piotr.macx.5",
+
+
+
+    "pricing_header":"Get to know",
+    "pricing_formHeader": "Free project pricing",
+    "pricing_desc":"Contact",
+    "pricing_mess":"Talk",
+    "pricing_formName":"Your name",
+    "pricing_formEmail":"Your email",
+    "pricing_formMessage":"Your message. What do you need?",
+    "pricing_formDetails":"Project details - you can describe it in own words",
+    "pricing_formContent":"Do you have own texts, images, etc.?",
+    "pricing_formLinks":"Inspirations, templates, other pages - if you have a pattern / designs that you like, paste their links here",
+    "pricing_formRodo":"I consent to the processing of personal data necessary to handle the form and answer the inquiry",
+    "pricing_formButton":"Send",
+    "pricing_formButtonDesc":"Thanks for message!",
+    "pricing_Calendly":"Meeting"
+
+
+}
