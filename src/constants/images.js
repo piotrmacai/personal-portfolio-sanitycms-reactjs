@@ -46,8 +46,14 @@ import toolicon from '../assets/toolicon.png';
 import macaibgr from '../assets/macaibgr.png';
 import macaibg2 from '../assets/macaibg2.png';
 import artstation from '../assets/artstation.png';
+import insdrcloud from '../assets/insdrcloud.jpg';
+import beehiv from '../assets/beehiv.jpg';
+import insdr from '../assets/insdr.jpg';
 
 export default {
+  insdr,
+  beehiv,
+  insdrcloud,
   artstation,
   macaibg2,
   macaibgr,

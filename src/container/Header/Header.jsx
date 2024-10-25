@@ -40,6 +40,7 @@ const Header = () => {
           <p className="p-text">{t('main_heroP')}</p>
           <p className="p-text">{t('main_heroP2')}</p>
         </div> */}
+        
         <a href="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noreferrer">
         <button className="newsletterBtn">JOIN TO MY NEWSLETTER</button>
         </a>

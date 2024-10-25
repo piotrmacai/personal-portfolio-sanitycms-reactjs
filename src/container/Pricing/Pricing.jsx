@@ -24,15 +24,15 @@ const Pricing = () => {
                     <article className="pricing_contact__option">
                         <MdOutlineEmail />
                         <h4>Email</h4>
-                        <h5>piotr@macai.studio</h5>
-                        <a href="mailto:piotr@macai.studio" target="_blank" rel="noopener noreferrer">Email</a>
+                        <h5>piotr@insdr.cloud</h5>
+                        <a href="mailto:piotr@insdr.cloud" target="_blank" rel="noopener noreferrer">Email</a>
                     </article>
 
                     <article className="pricing_contact__option">
                         <RiMessengerLine />
                         <h4>Messenger</h4>
                         <h5>{t('pricing_mess')}</h5>
-                        <a href="https://m.me/piotr.macx.5" target="_blank" rel="noopener noreferrer">Messenger</a>
+                        <a href="https://www.facebook.com/piotrmacai/" target="_blank" rel="noopener noreferrer">Messenger</a>
                     </article>
 
                     <article className="pricing_contact__option">
@@ -44,7 +44,7 @@ const Pricing = () => {
                 </div>
 
                 <form
-                    action="https://formspree.io/f/xpzgknjl"
+                    action="https://formspree.io/f/xovqvrlg"
                     method="POST"
                     className="formContact"
                     ref={form}
@@ -53,7 +53,7 @@ const Pricing = () => {
                     <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
                         <input
                             type="text"
-                            name="FullName"
+                            name="name"
                             placeholder={t('pricing_formName')}
                             required
                             className="formInput"
@@ -61,13 +61,13 @@ const Pricing = () => {
                         <input
                             type="email"
                             name="email"
-                            placeholder={t('pricing.formEmail')}
+                            placeholder={t('pricing_formEmail')}
                             required
                             className="formInput"
                         />
                     </div>
 
-                    <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
+                    {/* <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
                         <input
                             type="text"
                             name="Purpose"
@@ -93,11 +93,21 @@ const Pricing = () => {
                             placeholder={t('pricing_formContent')}
                             className="formInputMess"
                         ></textarea>
+                    </div> */}
+
+                    <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
+                        <input
+                            type="text"
+                            name="business"
+                            placeholder={t('pricing_formMessage')}
+                            required
+                            className="formInput"
+                        />
                     </div>
 
                     <div className="flex mb-11.5">
                         <textarea
-                            name="Details"
+                            name="message"
                             rows={4}
                             placeholder={t('pricing_formLinks')}
                             className="formInputMess"
@@ -121,7 +131,7 @@ const Pricing = () => {
                         type="submit"
                         className="btnPricingForm"
                     >
-                        {loading ? 'Thanks for message!' : t('contact.button')}
+                        {loading ? 'Thanks for message!' : 'Send'}
                     </button>
                 </form>
             </div>
