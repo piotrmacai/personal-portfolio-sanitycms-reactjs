@@ -49,8 +49,10 @@ import artstation from '../assets/artstation.png';
 import insdrcloud from '../assets/insdrcloud.jpg';
 import beehiv from '../assets/beehiv.jpg';
 import insdr from '../assets/insdr.jpg';
+import macai from '../assets/macai.jpg';
 
 export default {
+  macai,
   insdr,
   beehiv,
   insdrcloud,
