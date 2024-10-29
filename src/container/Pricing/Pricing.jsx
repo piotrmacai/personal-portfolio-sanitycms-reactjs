@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import './Pricing.scss';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
-import { BsCalendar4Week } from 'react-icons/bs';
+import { BsCalendar4Week, BsFillTelephoneFill } from 'react-icons/bs';
 import { useTranslation } from "react-i18next";
 
 const Pricing = () => {
@@ -33,6 +33,13 @@ const Pricing = () => {
                         <h4>Messenger</h4>
                         <h5>{t('pricing_mess')}</h5>
                         <a href="https://www.facebook.com/piotrmacai/" target="_blank" rel="noopener noreferrer">Messenger</a>
+                    </article>
+
+                    <article className="pricing_contact__option">
+                    <BsFillTelephoneFill />
+                        <h4>Phone/Whatsapp</h4>
+                        <h5>{t('pricing_phone')}</h5>
+                        <a href="#" target="_blank" rel="noopener noreferrer">+48 576 287 032</a>
                     </article>
 
                     <article className="pricing_contact__option">
