@@ -8,7 +8,7 @@ const Homepage = () => {
       <Cta/>
       {/* <Publication />           */}
       <Slider/>
-      {/* <Work/> */}
+      <Work/>
       <About />
       <Skills/>
       <Pricing />
