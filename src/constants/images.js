@@ -50,8 +50,10 @@ import insdrcloud from '../assets/insdrcloud.jpg';
 import beehiv from '../assets/beehiv.jpg';
 import insdr from '../assets/insdr.jpg';
 import macai from '../assets/macai.jpg';
+import uichatbot from '../assets/uichatbot.jpg';
 
 export default {
+  uichatbot,
   macai,
   insdr,
   beehiv,
