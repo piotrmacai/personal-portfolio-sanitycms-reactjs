@@ -3,12 +3,12 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
 import './ResourcesTabs.scss';
-import { AgentTabsData } from './AgentTabsData';
+import { ResourcesTabsData } from './ResourcesTabsData';
 
 const ResourcesTabs = () => {
   const [skills, setSkills] = useState([]);
-  const [selectedTab, setSelectedTab] = useState("overview"); // State to track the selected tab
-  const tabs = AgentTabsData();
+  const [selectedTab, setSelectedTab] = useState("1"); // State to track the selected tab
+  const tabs = ResourcesTabsData();
 
   useEffect(() => {
     const skillsQuery = '*[_type == "skills"]';
@@ -17,7 +17,7 @@ const ResourcesTabs = () => {
 
   return (
     <div className="app__agenttabs-container">
-      <h2 className="head-text">Documentation</h2>
+      <h2 className="head-text">See What I'm Building</h2>
 
       <div className="app__documentation-container">
         {/* Sidebar with tabs */}

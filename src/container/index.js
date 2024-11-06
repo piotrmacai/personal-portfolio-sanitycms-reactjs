@@ -14,4 +14,5 @@ export { default as Slider } from './Slider/Slider';
 export { default as Counter } from './Counter/Counter';
 export { default as Publication } from './Publication/Publication';
 export { default as AgentTabs } from './AgentTabs/AgentTabs';
+export { default as ResourcesTabs } from './ResourcesTabs/ResourcesTabs';
 

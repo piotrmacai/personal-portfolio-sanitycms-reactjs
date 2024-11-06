@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Footer, Header,  Pricing, Work, Skills, Cta, Slider, AgentTabs, Publication} from '../';
+import { About, Footer, Header,  Pricing, Work, Skills, Cta, Slider, AgentTabs, ResourcesTabs, Publication} from '../';
 
 const Homepage = () => {
   return (
@@ -8,9 +8,10 @@ const Homepage = () => {
       <Cta/>
       {/* <Publication />           */}
       <Slider/>
-      <Work/>
       <About />
-      <AgentTabs/>
+      <Work/>
+      
+      <ResourcesTabs/>
       <Skills/>
       <Pricing />
       <Footer />

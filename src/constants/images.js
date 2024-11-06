@@ -57,8 +57,10 @@ import googleassistants from '../assets/googleassistants.jpg';
 import poeassistants from '../assets/poeassistants.jpg';
 import monicaassistants from '../assets/monicaassistants.jpg';
 import glifs from '../assets/glifs.jpg';
+import ainsiderpl from '../assets/ainsiderpl.jpg';
 
 export default {
+  ainsiderpl,
   glifs,
   monicaassistants,
   poeassistants,
