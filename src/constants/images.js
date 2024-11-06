@@ -51,8 +51,20 @@ import beehiv from '../assets/beehiv.jpg';
 import insdr from '../assets/insdr.jpg';
 import macai from '../assets/macai.jpg';
 import uichatbot from '../assets/uichatbot.jpg';
+import hfassistant from '../assets/hfassistant.jpg';
+import youassistants from '../assets/youassistants.jpg';
+import googleassistants from '../assets/googleassistants.jpg';
+import poeassistants from '../assets/poeassistants.jpg';
+import monicaassistants from '../assets/monicaassistants.jpg';
+import glifs from '../assets/glifs.jpg';
 
 export default {
+  glifs,
+  monicaassistants,
+  poeassistants,
+  googleassistants,
+  youassistants,
+  hfassistant,
   uichatbot,
   macai,
   insdr,

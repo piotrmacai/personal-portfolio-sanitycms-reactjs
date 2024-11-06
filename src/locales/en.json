@@ -22,6 +22,8 @@
 
     "talkwithgpt":"Talk with AI AssistantGPT",
 
+    "agenttabs_header":"See My AI Assistant and AI Agents",
+
     "skiils_header":"My Skills and Technologies I use",
     
     "works_All":"All",
@@ -128,7 +130,13 @@
     "pricing_formRodo":"I consent to the processing of personal data necessary to handle the form and answer the inquiry",
     "pricing_formButton":"Send",
     "pricing_formButtonDesc":"Thanks for message!",
-    "pricing_Calendly":"Meeting"
+    "pricing_Calendly":"Meeting",
+
+    "Documentation": "Documentation",
+    "Overview": "Overview",
+    "Setup": "Setup",
+    "Usage": "Usage",
+    "API Reference": "API Reference"
 
 
 }
