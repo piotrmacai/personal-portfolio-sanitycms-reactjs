@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
-import './ResourcesTabs.scss';
-import { ResourcesTabsData } from './ResourcesTabsData';
+import './GenAiTabs.scss';
+import { GenAiTabsData } from './GenAiTabsData';
 import { useTranslation } from 'react-i18next';
 
-const ResourcesTabs = () => {
+const GenAiTabs = () => {
   const [skills, setSkills] = useState([]);
   const [selectedTab, setSelectedTab] = useState("1"); // State to track the selected tab
-  const tabs = ResourcesTabsData();
+  const tabs = GenAiTabsData();
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -18,8 +18,8 @@ const ResourcesTabs = () => {
   }, []);
 
   return (
-    <div className="app__resourcestabs-container">
-      <h2 className="resources_header">{t('resourcestabs_header')}</h2>
+    <div className="app__agenttabs-container">
+      <h2 className="genai-header">{t('genaiTabHeader')}</h2>
 
       <div className="app__documentation-container">
         {/* Sidebar with tabs */}
@@ -50,8 +50,8 @@ const ResourcesTabs = () => {
 };
 
 export default AppWrap(
-  MotionWrap(ResourcesTabs, 'app__resourcestabs'),
-  'resourcestabs',
+  MotionWrap(GenAiTabs, 'app__genaitabs'),
+  'genaitabs',
   "app__whitebg"
 );
 

@@ -57,6 +57,35 @@ const Pricing = () => {
                     ref={form}
                     onSubmit={handleSubmit}
                 >
+
+                    <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
+                        <input
+                            type="text"
+                            name="subject"
+                            placeholder={t('pricing_formSubject')}
+                            required
+                            className="formInput"
+                        />
+                    </div>  
+                    
+                    <div className="flex mb-11.5">
+                        <textarea
+                            name="message"
+                            rows={4}
+                            placeholder={t('pricing_formMessage')}
+                            className="formInputMess"
+                        ></textarea>
+                    </div>
+
+                    <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
+                          <textarea
+                             name="business"
+                            rows={2}
+                            placeholder={t('pricing_formBusiness')}
+                            className="formInputMess"
+                        ></textarea>
+                    </div> 
+                    
                     <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
                         <input
                             type="text"
@@ -65,6 +94,9 @@ const Pricing = () => {
                             required
                             className="formInput"
                         />
+                    </div>
+
+                    <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
                         <input
                             type="email"
                             name="email"
@@ -74,52 +106,7 @@ const Pricing = () => {
                         />
                     </div>
 
-                    {/* <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
-                        <input
-                            type="text"
-                            name="Purpose"
-                            placeholder={t('pricing_formMessage')}
-                            required
-                            className="formInput"
-                        />
-                    </div>
-
-                    <div className="flex mb-11.5">
-                        <textarea
-                            name="BusinessType"
-                            rows={4}
-                            placeholder={t('pricing_formDetails')}
-                            className="formInputMess"
-                        ></textarea>
-                    </div>
-
-                    <div className="flex mb-11.5">
-                        <textarea
-                            name="Design"
-                            rows={4}
-                            placeholder={t('pricing_formContent')}
-                            className="formInputMess"
-                        ></textarea>
-                    </div> */}
-
-                    <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
-                        <input
-                            type="text"
-                            name="business"
-                            placeholder={t('pricing_formMessage')}
-                            required
-                            className="formInput"
-                        />
-                    </div>
-
-                    <div className="flex mb-11.5">
-                        <textarea
-                            name="message"
-                            rows={4}
-                            placeholder={t('pricing_formLinks')}
-                            className="formInputMess"
-                        ></textarea>
-                    </div>
+                 
 
                     <div className="check">
                         <input

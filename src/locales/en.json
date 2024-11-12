@@ -6,6 +6,10 @@
     "menu4":"Contact",
     "menu5":"AI Tools",
     "menu6":"AI Prompts",
+    "menu_solutions":"Solutions",
+    "menu_chatbots":"AI Assistants",
+    "menu_ai":"Generative AI Visuals",
+    "menu_guides":"AI Tutorials and Guides",
 
     "resourcesTabDesc1":"AI Tools Library with Blog and Newsletter",
     "resourcesTabDesc2":"Web & AI Studio helping to scale and grow businesses with the latest technology",
@@ -13,6 +17,9 @@
     "resourcesTabDesc4":"AI Tools Library with Blog and Newsletter dedicated to a Polish-speaking audience",
     "resourcesTabDesc5":"Newsletter on AI technology, tools, and models for creators",
     "resourcesTabDesc6":"A set of AI Assistants and Agents for various business purposes",
+    "resourcesTabDesc7":"AI Training and Tutorials - I offer a variety of training sessions and detailed guides on artificial intelligence that will help you understand and implement modern technologies in your business.",
+
+    "genaiTabHeader":"See My AI Video and AI Images Collections",
 
     "footermenu1":"AI Prompts",
     "footermenu2":"Services",
@@ -30,6 +37,7 @@
     "talkwithgpt":"Talk with AI AssistantGPT",
 
     "agenttabs_header":"See My AI Assistant and AI Agents",
+    "resourcestabs_header":"See My AI Resources & Guides",
 
     "skiils_header":"My Skills and Technologies I use",
     
@@ -54,13 +62,41 @@
     "about_CardTitle6":"Audits and Consultations",
     "about_CardDesc6":"I will audit your website, online store or social media profiles, including Google presence, providing you with the report details",
 
+
+    "cta_newsletter": "Join the AI Newsletter",
+    "cta_consultation": "FREE CONSULTATION",
+    "cta_talk": "Talk About Your Project",
+
+
     "cta_subtitle1": "Unlocking the Potential of Artificial Intelligence",
     "cta_title1": "AI Developer & Specialist",
     "cta_desc1": "Welcome to my digital home where I explore the limitless possibilities of artificial intelligence. I am an AI developer and specialist dedicated to harnessing the power of machine learning and data-driven technologies, with a particular focus on implementing AI and complex AI automation solutions for businesses and organizations.",
-
     "cta_subtitle2": "Perfectly Tailored Solutions",
     "cta_title2": "For Your Business Needs",
     "cta_desc2": "I always strive to provide personalized solutions that perfectly align with the unique needs of your business and address its biggest challenges and pain points. Whether you are seeking operational optimization, improved efficiency, or specific issue resolutions, I am here to assist you.",
+
+
+    "aicta_subtitle1": "Creating Custom AI Assistants",
+    "aicta_title1": "Tailored Chatbots and AI Agents for Your Business",
+    "aicta_desc1": "Utilizing the latest artificial intelligence technologies, I create custom AI assistants that are perfectly tailored to the individual needs of your company. My solutions are designed to support your business goals and enhance customer interactions.",
+    "aicta_subtitle2": "Personalized AI Solutions",
+    "aicta_title2": "For Your Specific Needs",
+    "aicta_desc2": "My goal is to provide personalized chatbots and AI agents that effectively respond to the unique needs of your business. Whether you need support in customer service, process automation, or solving specific problems, I am here to help you.",
+
+    "webcta_subtitle1": "Website Creation",
+    "webcta_title1": "Custom-Made Websites, Landing Pages, and Online Stores",
+    "webcta_desc1": "Using the latest technologies, I create custom websites, landing pages, and online stores based on custom code in React/Next or using WordPress and low-code/no-code tools, perfectly tailored to the individual needs of your business.",
+    "webcta_subtitle2": "Personalized Web Solutions",
+    "webcta_title2": "For Your Specific Needs",
+    
+    "webcta_desc2": "My goal is to provide personalized websites, landing pages, and stores that effectively address the unique needs of your business. Whether you need support in website creation, conversion optimization, or system integration, I am here to help you.",
+    "videocta_subtitle1": "Generative AI - Creating Videos, Photos, and Graphics",
+    "videocta_title1": "Promotional Videos, Social Media, and Storytelling Using AI",
+    "videocta_desc1": "By utilizing generative artificial intelligence and manual editing skills, I create promotional videos, photos, and graphics that are perfectly tailored to the individual needs of your company.",
+    "videocta_subtitle2": "Personalized Multimedia Solutions",
+    "videocta_title2": "For Your Specific Needs",
+    "videocta_desc2": "My goal is to provide personalized multimedia solutions that effectively address the unique needs of your business. Whether you need support in creating videos, photos, graphics, or marketing strategies, I am here to help you.",
+
 
     "counter_subtitle1": "ACHIEVING EXCELLENCE",
     "counter_title1": "A Few Numbers I'm Proud Of",
@@ -130,8 +166,10 @@
     "pricing_phone":"Talk or text",
     "pricing_formName":"Your name",
     "pricing_formEmail":"Your email",
+    "pricing_formSubject":"How can i help You? What type of my service do You need?",
     "pricing_formMessage":"Your message. What do you need?",
-    "pricing_formDetails":"Project details - you can describe it in own words",
+    "pricing_formBusiness":"Please decribe your business or job in a few words",
+    "pricing_formDetails":"Pleae write details of your project or question. It will help me to give You the most relevant answer.",
     "pricing_formContent":"Do you have own texts, images, etc.?",
     "pricing_formLinks":"Inspirations, templates, other pages - if you have a pattern / designs that you like, paste their links here",
     "pricing_formRodo":"I consent to the processing of personal data necessary to handle the form and answer the inquiry",

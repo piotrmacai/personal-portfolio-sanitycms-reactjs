@@ -52,6 +52,54 @@
     align-items: center;
     list-style: none;
 
+    li {
+      margin: 0 0.8rem;
+      cursor: pointer;
+      position: relative; // To anchor the submenu
+  
+      a {
+        color: var(--gray-color);
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+  
+        &:hover {
+          color: var(--secondary-color);
+        }
+      }
+    }
+  
+    // Style for the Portfolio menu and its submenu
+    .portfolio-menu {
+      &:hover .portfolio-submenu {
+        display: block;
+      }
+  
+      .portfolio-submenu {
+        display: none;
+        position: absolute;
+        top: 100%; // Positions below the main Portfolio item
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        overflow: hidden;
+  
+        li {
+          margin: 0;
+          white-space: nowrap;
+          padding: 0.5rem 1rem;
+  
+          a {
+            color: var(--gray-color);
+            &:hover {
+              color: var(--secondary-color);
+            }
+          }
+        }
+      }
+    }
+
     .button {
       background-color: var(--secondary-color);
       border: 0px solid transparent;

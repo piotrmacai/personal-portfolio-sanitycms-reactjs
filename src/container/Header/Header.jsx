@@ -33,6 +33,7 @@ const Header = () => {
           <div>
             <p className="p-text">{t('mainwelcome')}</p>
             <h1 className="head-text">{t('mainintro')}</h1>
+            
           </div>
         </div>
 
@@ -42,7 +43,7 @@ const Header = () => {
         </div> */}
         
         <a href="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noreferrer">
-        <button className="newsletterBtn">JOIN TO MY NEWSLETTER</button>
+        <button className="newsletterBtn">{t('cta_newsletter')}</button>
         </a>
       </div>
     </motion.div>

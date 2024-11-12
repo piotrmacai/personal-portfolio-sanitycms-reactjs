@@ -10,6 +10,10 @@
     "menu4":"Kontakt",
     "menu5":"Narzędzia AI",
     "menu6":"Prompty",
+    "menu_solutions":"Rozwiązania",
+    "menu_chatbots":"Asystenci AI",
+    "menu_ai":"Generatywna AI",
+    "menu_guides":"Poradniki i Kursy AI",
 
     "resourcesTabDesc1":"Biblioteka Narzędzi AI z Blogiem i Newsletterem",
     "resourcesTabDesc2":"Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
@@ -17,6 +21,11 @@
     "resourcesTabDesc4":"Biblioteka Narzędzi AI z Blogiem i Newsletterem przeznaczona dla polskojęzycznej audiencji",
     "resourcesTabDesc5":"Newsletter na temat technologii AI oraz narzędzi i modeli dla kreatorów",
     "resourcesTabDesc6":"Zestaw Asystentów i Agentów AI dla różnych biznesowych celów",
+    "resourcesTabDesc7":"Szkolenia i Poradniki AI - oferuję różnorodne szkolenia oraz szczegółowe poradniki dotyczące sztucznej inteligencji, które pomogą Ci zrozumieć i wdrożyć nowoczesne technologie w Twoim biznesie.",
+
+    "genaiTabHeader":"Zobacz moje Video i Grafiki stworzone z AI",
+    "resourcestabs_header":"Zobacz moje Biblioteki i Poradniki AI",
+
 
     "calendly":"Umów się na rozmowę",
     "pricingPhone": "Telefon",
@@ -54,12 +63,38 @@
     "about_CardTitle6": "Audyty i konsultacje",
     "about_CardDesc6": "Przeprowadzam audyty stron, sklepu internetowych lub profili w mediach społecznościowych, włącznie z obecnością w Google, dostarczając Ci szczegółowy raport.",
 
+    "cta_newsletter": "Dołącz do AI Newslettera",
+    "cta_consultation": "DARMOWA KONSULTACJA",
+    "cta_talk": "Porozmawiajmy o Twoim Projekcie",
+
     "cta_subtitle1": "Innowacyjne Strategie",
     "cta_title1": "Wznieś Swój Biznes Na Wyższy Poziom",
     "cta_desc1": "Wykorzystując najnowsze technologie sztucznej inteligencji, która jest jedną z największych rewolucji Naszych czasów, moja starannie opracowana strategia obejmuje najnowsze pomysły i techniki, dostosowane do Twojej konkretnej branży i celów.",
     "cta_subtitle2": "Rozwiązania Idealnie Dostosowane",
     "cta_title2": "Dla Potrzeb Twojego Biznesu",
     "cta_desc2": "Zawsze zależy mi na dostarczaniu spersonalizowanych rozwiązań, które doskonale współgrają z unikalnymi potrzebami Twojego biznesu oraz rozwiązują jego największe problemu i bolączki. Bez względu na to, czy szukasz optymalizacji operacji, poprawy efektywności czy rozwiązania konkretnych problemów, jestem tutaj, aby Ci pomóc.",
+
+
+    "aicta_subtitle1": "Tworzenie Customowych Asystentów AI",
+    "aicta_title1": "Dopasowane Chatboty i AI Agenci dla Twojego Biznesu",
+    "aicta_desc1": "Wykorzystując najnowsze technologie sztucznej inteligencji, tworzę customowe asystenty AI, które są idealnie dopasowane do indywidualnych potrzeb Twojej firmy. Moje rozwiązania są zaprojektowane, aby wspierać Twoje cele biznesowe i poprawiać interakcje z klientami.",
+    "aicta_subtitle2": "Personalizowane Rozwiązania AI",
+    "aicta_title2": "Dla Twoich Specyficznych Potrzeb",
+    "aicta_desc2": "Moim celem jest dostarczanie spersonalizowanych chatbotów i AI agentów, które skutecznie odpowiadają na unikalne potrzeby Twojego biznesu. Niezależnie od tego, czy potrzebujesz wsparcia w obsłudze klienta, automatyzacji procesów, czy rozwiązywania konkretnych problemów, jestem tutaj, aby Ci pomóc.",
+
+    "webcta_subtitle1": "Tworzenie Stron Internetowych",
+    "webcta_title1": "Szyte na miarę Strony, Landing Page i Sklepy Internetowe",
+    "webcta_desc1": "Wykorzystując najnowsze technologie, tworzę strony internetowe, landing page oraz sklepy internetowe szyte na miarę, oparte na customowym kodzie w React/Next lub z użyciem WordPress oraz narzędzi low-code i no-code, które są idealnie dopasowane do indywidualnych potrzeb Twojej firmy.",
+    "webcta_subtitle2": "Personalizowane Rozwiązania Webowe",
+    "webcta_title2": "Dla Twoich Specyficznych Potrzeb",
+    "webcta_desc2": "Moim celem jest dostarczanie spersonalizowanych stron internetowych, landing page i sklepów, które skutecznie odpowiadają na unikalne potrzeby Twojego biznesu. Niezależnie od tego, czy potrzebujesz wsparcia w tworzeniu strony, optymalizacji konwersji, czy integracji z systemami, jestem tutaj, aby Ci pomóc.",
+
+    "videocta_subtitle1": "Generatywna AI - Tworzenie Video, Zdjęć i Grafik",
+    "videocta_title1": "Reklamowe Video, Social Media i Storytelling z Użyciem AI",
+    "videocta_desc1": "Wykorzystując generatywną sztuczną inteligencję oraz ręczne umiejętności edycji, tworzę video reklamowe, zdjęcia i grafiki, które są idealnie dopasowane do indywidualnych potrzeb Twojej firmy.",
+    "videocta_subtitle2": "Personalizowane Rozwiązania Multimedialne",
+    "videocta_title2": "Dla Twoich Specyficznych Potrzeb",
+    "videocta_desc2": "Moim celem jest dostarczanie spersonalizowanych rozwiązań multimedialnych, które skutecznie odpowiadają na unikalne potrzeby Twojego biznesu. Niezależnie od tego, czy potrzebujesz wsparcia w tworzeniu video, zdjęć, grafik, czy strategii marketingowej, jestem tutaj, aby Ci pomóc.",
 
     "counter_subtitle1": "MOJE OSIĄGNIĘCIA",
     "counter_title1": "Wyniki z jakich jestem dumny",
@@ -250,6 +285,8 @@
     "pricing_phone":"Zadzwoń lub napisz",
     "pricing_formName": "Twoje imię",
     "pricing_formEmail": "Twój adres email",
+    "pricing_formSubject":"Jak mogę Ci pomóc?",
+    "pricing_formBusiness":"Opisz swoją działalność w kilku słowach",
     "pricing_formMessage": "Twoja wiadomość. Prosimy - opisz czego potrzebujesz własnymi słowami.",
     "pricing_formDetails": "Szczegóły projektu - możesz opisać je własnymi słowami",
     "pricing_formContent": "Czy posiadasz własne teksty, obrazy itp.?",

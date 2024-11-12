@@ -21,30 +21,6 @@ export const ResourcesTabsData = () => {
     },
     {
       id: "2",
-      label: "Insdr.cloud",
-      content: (
-        <div>
-          <h2 style={{ marginBottom: '30px' }}>Insdr.cloud - Web & AI & Automation Agency</h2>
-          <p>{t('resourcesTabDesc2')}</p>
-          <img src={images.insdr} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
-          <a href="https://insdr.cloud" className="Btn">Insdr.cloud</a>
-        </div>
-      ),
-    },
-    {
-      id: "3",
-      label: "Macai.studio",
-      content: (
-        <div>
-          <h2 style={{ marginBottom: '30px' }}>Macai.studio - Visuals created by AI mixed with human touch</h2>
-          <img src={images.macai} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
-          <p>{t('resourcesTabDesc3')}</p>
-          <a href="https://macai.studio" className="Btn">Macai.studio</a>
-        </div>
-      ),
-    },
-    {
-      id: "4",
       label: "Ainsider.pl",
       content: (
         <div>
@@ -56,7 +32,7 @@ export const ResourcesTabsData = () => {
       ),
     },
     {
-      id: "5",
+      id: "3",
       label: "AI Newsletter",
       content: (
         <div>
@@ -68,16 +44,41 @@ export const ResourcesTabsData = () => {
       ),
     },
     {
-      id: "6",
-      label: "AI Assistants",
+      id: "4",
+      label: "AI Tutorials",
       content: (
         <div>
-          <h2 style={{ marginBottom: '30px' }}>Set of AI Agent and Assistants</h2>
-          <img src={images.hfassistants} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
-          <p>{t('resourcesTabDesc6')}</p>
-          <a href="/assistants" className="Btn">AI Agents and Assitants</a>
+          <h2 style={{ marginBottom: '30px' }}>AI Guides and Tutorials</h2>
+          <img src={images.gumroad} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
+          <p>{t('resourcesTabDesc7')}</p>
+          <a href="https://macaipiotr.gumroad.com/" className="Btn">See My AI Guides at Gumroad</a>
         </div>
       ),
     },
+    // {
+    //   id: "2",
+    //   label: "Insdr.cloud",
+    //   content: (
+    //     <div>
+    //       <h2 style={{ marginBottom: '30px' }}>Insdr.cloud - Web & AI & Automation Agency</h2>
+    //       <p>{t('resourcesTabDesc2')}</p>
+    //       <img src={images.insdr} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
+    //       <a href="https://insdr.cloud" className="Btn">Insdr.cloud</a>
+    //     </div>
+    //   ),
+    // },
+    // {
+    //   id: "3",
+    //   label: "Macai.studio",
+    //   content: (
+    //     <div>
+    //       <h2 style={{ marginBottom: '30px' }}>Macai.studio - Visuals created by AI mixed with human touch</h2>
+    //       <img src={images.macai} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
+    //       <p>{t('resourcesTabDesc3')}</p>
+    //       <a href="https://macai.studio" className="Btn">Macai.studio</a>
+    //     </div>
+    //   ),
+    // },
+    
   ];
 };

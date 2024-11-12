@@ -6,3 +6,7 @@ export { default as Chatbot } from './Chatbot/Chatbot';
 export { default as Contact} from './ContactPage/ContactPage';
 export { default as LanguageSwitcher } from './LanguageSwitcher/LanguageSwitcher';
 export { default as Assistants } from './Assistants/Assistants';
+export { default as Building } from './Building/Building';
+export { default as Web } from './Web/Web';
+export { default as Video } from './Video/Video';
+export { default as Resources } from './Resources/Resources';

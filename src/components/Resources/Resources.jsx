@@ -1,8 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
+import { AppWrap } from '../../wrapper';
 import './socialmedia.scss';
-import { Work, Footer, AgentTabs, AiCta, Pricing } from '../../container';
+import { Work, Footer, ResourcesTabs, WebCta, Pricing } from '../../container';
 import Chatbot from '../Chatbot/Chatbot'
 import { useTranslation } from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
@@ -21,7 +22,7 @@ const scaleVariants = {
 
 // 
 
-const Assistants = () => {
+const Resources = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -35,7 +36,7 @@ const Assistants = () => {
         <div className="badge-cmp app__flex">
           <div>
             <p className="p-text">{t('mainwelcome')}</p>
-            <h1 className="head-text">{t('mainintro')}</h1>
+            <h1 className="head-text">{t('resourcestabs_header')}</h1>
           </div>
         </div>
 
@@ -49,12 +50,12 @@ const Assistants = () => {
                             <div> <BsLinkedin />     </div>
                        </a>
                   
-                       {/* <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
+                       <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
                            <div> <FaBehance/>    </div>                               
                         </a>   
                         <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
                            <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
-                        </a>     */}
+                        </a>    
                         <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
                            <div>< BsGithub /></div>
                        </a>
@@ -67,7 +68,7 @@ const Assistants = () => {
           <p className="p-text">{t('main_heroP2')}</p>
         </div> */}
         <a href="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noreferrer">
-        <button className="newsletterBtn">{t('cta_newsletter')}</button>
+        <button className="newsletterBtn">{t('cta_talk')}</button>
         </a>
       </div>
     </motion.div>
@@ -102,13 +103,13 @@ const Assistants = () => {
         <Chatbot/>
      </div>
   </div>
-<AiCta/>
-<AgentTabs/>
+<ResourcesTabs/>
 <Pricing/>
 <Footer/>
+
   </>
   )
 };
 
-// export default AppWrap(Portfolio, 'portfolio');
-export default Assistants;
+export default AppWrap(Resources, 'resources');
+// export default Resources;

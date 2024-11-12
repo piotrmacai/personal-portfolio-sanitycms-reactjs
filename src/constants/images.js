@@ -58,8 +58,17 @@ import poeassistants from '../assets/poeassistants.jpg';
 import monicaassistants from '../assets/monicaassistants.jpg';
 import glifs from '../assets/glifs.jpg';
 import ainsiderpl from '../assets/ainsiderpl.jpg';
+import instagram from '../assets/instagram.jpeg';
+import youtube from '../assets/youtube.jpeg';
+import myartstation from '../assets/myartstation.jpg';
+import gumroad from '../assets/gumroad.jpeg';
+
 
 export default {
+  gumroad,
+  myartstation,
+  instagram,
+  youtube,
   ainsiderpl,
   glifs,
   monicaassistants,

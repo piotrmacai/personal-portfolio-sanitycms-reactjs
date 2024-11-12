@@ -1,24 +1,24 @@
-.app__resourcestabs-container {
+.app__agenttabs-container {
     flex: 1;
     width: 100%;
-    flex-direction: column;   
+    flex-direction: column;
     align-items: center;
-    margin-top:2rem;
 
-    .resources_header{
-    font-size:2rem;
-    text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
-    margin-bottom:2rem;
-    text-align:center;
-  }
-  
+    .genai-header{
+      font-size:2rem;
+      text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
+      margin-bottom:2rem;
+    }
+
+ 
 
   .app__documentation-container {
     display: flex;
     align-items: flex-start;
     padding:0;
     margin:0;
-
+  }
+  
   .app__tabs-sidebar {
     width: 200px;
     display: flex;
@@ -297,5 +297,5 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
   }
-}
+
 }

@@ -6,7 +6,7 @@ import { images } from '../../constants';
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
 import { FaFacebook, FaBehance } from 'react-icons/fa';
 
-const Cta = () => {
+const VideoCta = () => {
     const { t } = useTranslation();
 
     return (
@@ -19,11 +19,11 @@ const Cta = () => {
                 </div>
     
                 <div className="cta_section_info">
-                    <p className="cta_section_info_p"> {t('cta_subtitle1')}</p>
+                    <p className="cta_section_info_p"> {t('videocta_subtitle1')}</p>
                     <h2 data-aos="zoom-in" className="cta_section_info_h2">
-                    {t('cta_title1')}
+                    {t('videocta_title1')}
                     </h2>
-                    <p className="cta_section_info_basicp">{t('cta_desc1')}</p>
+                    <p className="cta_section_info_basicp">{t('videocta_desc1')}</p>
 
                     <div className="cta_social">
                            
@@ -51,7 +51,7 @@ const Cta = () => {
                     </div>
 
                         <a href="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noreferrer">
-                            <button className="newsBtn">{t('cta_newsletter')}</button>
+                            <button className="newsBtn">{t('cta_talk')}</button>
                         </a>
 
                 </div>
@@ -62,13 +62,13 @@ const Cta = () => {
             <div className="cta_section2">
     
                 <div className="cta_section_info">
-                    <p className="cta_section_info_p">{t('cta_subtitle2')} </p>
+                    <p className="cta_section_info_p">{t('videocta_subtitle2')} </p>
                     <h2 data-aos="zoom-in" className="cta_section_info_h2">
-                    {t('cta_title2')}
+                    {t('videocta_title2')}
                     </h2>
-                    <p className="cta_section_info_basicp">{t('cta_desc2')}</p>
+                    <p className="cta_section_info_basicp">{t('videocta_desc2')}</p>
                     <a href="/contact">
-                        <button className="consBtn">FREE CONSULTATION</button>
+                        <button className="consBtn">{t('cta_consultation')}</button>
                     </a>
                 </div>
 
@@ -82,5 +82,4 @@ const Cta = () => {
     );
 };
 
-export default AppWrap(MotionWrap(Cta, 'app__cta'), 'cta', 'app__whitebg');
-
+export default AppWrap(MotionWrap(VideoCta, 'app__videocta'), 'videocta', 'app__whitebg');

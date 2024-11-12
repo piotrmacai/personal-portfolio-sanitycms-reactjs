@@ -19,7 +19,7 @@ const AgentTabs = () => {
 
   return (
     <div className="app__agenttabs-container">
-      <h2 className="head-text">{t('agenttabs_header')}</h2>
+      <h2 className="agent-header"><span>{t('agenttabs_header')}</span></h2>
 
       <div className="app__documentation-container">
         {/* Sidebar with tabs */}

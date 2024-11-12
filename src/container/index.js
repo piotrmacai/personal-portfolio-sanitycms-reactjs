@@ -10,9 +10,13 @@ export { default as Homepage } from './Homepage/Homepage';
 export { default as Faq } from './Faq/Faq';
 export { default as Pricing } from './Pricing/Pricing';
 export { default as Cta } from './Cta/Cta';
+export { default as AiCta } from './Cta/AiCta';
+export { default as WebCta } from './Cta/WebCta';
+export { default as VideoCta } from './Cta/VideoCta';
 export { default as Slider } from './Slider/Slider';
 export { default as Counter } from './Counter/Counter';
 export { default as Publication } from './Publication/Publication';
 export { default as AgentTabs } from './AgentTabs/AgentTabs';
 export { default as ResourcesTabs } from './ResourcesTabs/ResourcesTabs';
+export { default as GenAiTabs } from './GenAiTabs/GenAiTabs';
 
