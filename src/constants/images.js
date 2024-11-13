@@ -63,7 +63,6 @@ import youtube from '../assets/youtube.jpeg';
 import myartstation from '../assets/myartstation.jpg';
 import gumroad from '../assets/gumroad.jpeg';
 
-
 export default {
   gumroad,
   myartstation,
