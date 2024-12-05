@@ -34,7 +34,9 @@ const Slider = () => {
             className="mySwiper"
           >
             <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.ainsiderToolsNew} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
+            <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.behanceBanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="https://insdr.cloud" target="_blank" rel="noreferrer"><img src={images.insdr} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
+            <SwiperSlide><a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noreferrer"><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
              <SwiperSlide><a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer"><img src={images.ainsiderNewsletter} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="https://github.com/piotrmacai/ai-chatbot-vercel-v1.0" target="_blank" rel="noreferrer"><img src={images.uichatbot} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
            <SwiperSlide><a href="https://ainsider.pl" target="_blank" rel="noreferrer"><img src={images.aiwareCloud} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>

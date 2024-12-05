@@ -34,7 +34,7 @@ const SliderDesign = () => {
             className="mySwiper"
           >
                         <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.art3} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-                        <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
+                        <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
                         <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.behanceBanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.art2} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>

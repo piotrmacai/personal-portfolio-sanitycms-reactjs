@@ -113,8 +113,10 @@ import gptebook from '../assets/gptebook.jpeg';
 import cosmic from '../assets/cosmic.jpg';
 import nikead from '../assets/nikead.jpg';
 import behanceicon from '../assets/behanceicon.png';
+import macaicyberpunk from '../assets/macaicyberpunk.png';
 
 export default {
+  macaicyberpunk,
   behanceicon,
   nikead,
   cosmic,
