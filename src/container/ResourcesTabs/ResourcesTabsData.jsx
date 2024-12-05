@@ -39,7 +39,7 @@ export const ResourcesTabsData = () => {
           <h2 style={{ marginBottom: '30px' }}>Ainsider AI Newsletter with Beehiiv</h2>
           <img src={images.beehiv} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
           <p>{t('resourcesTabDesc5')}</p>
-          <a href="https://ainsider.beehiiv.com/" className="Btn">Newsletter</a>
+          <a href="https://ainsider.beehiiv.com/" className="Btn">AI Newsletter</a>
         </div>
       ),
     },

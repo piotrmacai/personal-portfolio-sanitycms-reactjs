@@ -1,6 +1,6 @@
 import {React, useEffect} from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { Navbar, Contact, Chatbot, Projects, Web, Assistants, Building, Video, Resources } from './components';
+import { Navbar, Contact, Chatbot, Projects, Web, Assistants, Building, Video, Resources, Design } from './components';
 import './App.scss';
 import {Homepage} from './container';
 import HttpsRedirect from 'react-https-redirect';
@@ -34,10 +34,11 @@ const App = () => {
           <Route path="/" element={<Homepage />} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/web" element={<Web/>} />
-          <Route path="/ai" element={<Assistants/>} />
+          <Route path="/design" element={<Design/>} />
+          <Route path="/ai-agents" element={<Assistants/>} />
           <Route path="/myprojects" element={<Building/>} />
-          <Route path="/genai" element={<Video/>} />
-          <Route path="/ainsider" element={<Resources/>} />
+          <Route path="/ai" element={<Video/>} />
+          <Route path="/aitech" element={<Resources/>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         </I18nextProvider>

@@ -22,20 +22,20 @@ const Navbar = () => {
           <Link to="/">{t('menu1')}</Link> 
         </li> 
         
-        <li className="app__flex p-text">
-        <Link to="/projects">Portfolio</Link> 
-        </li> 
+       
         {/* Main Portfolio Item with Submenu */}
         <li className="app__flex p-text portfolio-menu">
           <Link to="#">{t('menu_solutions')}</Link>
           <ul className="portfolio-submenu">
-            <li><Link to="/web">Web & UX/UI</Link></li>
-            <li><Link to="/ai">{t('menu_chatbots')}</Link></li>
-            <li><Link to="/genai">{t('menu_ai')}</Link></li>
-            <li><Link to="/ainsider">{t('menu_guides')}</Link></li>      
+            <li><Link to="/web">Web & Apps</Link></li>
+            <li><Link to="/design">Design & Visuals</Link></li>
+            <li><Link to="/ai-agents">{t('menu_chatbots')}</Link></li>
+            <li><Link to="/ai">{t('menu_guides')}</Link></li>      
           </ul>
         </li>
-        
+         <li className="app__flex p-text">
+        <Link to="/projects">Portfolio</Link> 
+        </li> 
         <li className="app__flex p-text">
           <Link to="/contact">{t('menu4')}</Link> 
         </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
         </li> */}
         
         <li className="button app__flex p-text">
-          <Link to="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</Link> 
+          <Link to="https://ainsider.beehiiv.com/" target="_blank" rel="noopener noreferrer">AI Newsletter</Link> 
         </li>
         
         <li className="app__flex p-text">
@@ -73,19 +73,17 @@ const Navbar = () => {
                 <Link to="https://ainsider.tools/magazine" target="_blank" rel="noopener noreferrer">Blog</Link> 
               </li> */}
               
-              <li className="app__flex p-text"><Link to="/web">Web & UX/UI</Link></li>
-
-              <li className="app__flex p-text"><Link to="/ai">{t('menu_chatbots')}</Link></li>
-
-              <li className="app__flex p-text"><Link to="/genai">{t('menu_ai')}</Link></li>  
-
-              <li className="app__flex p-text"><Link to="/ainsider">{t('menu_guides')}</Link></li>    
+              <li className="app__flex p-text"><Link to="/web">Web & Apps</Link></li>
+              <li className="app__flex p-text"><Link to="/design">Design & Visuals</Link></li> 
+               <li className="app__flex p-text"><Link to="/ai-agents">{t('menu_chatbots')}</Link></li>
+              <li className="app__flex p-text"><Link to="/ai">{t('menu_guides')}</Link></li>    
+              {/* <li className="app__flex p-text"><Link to="/genai">{t('menu_ai')}</Link></li>   */}
 
               <li className="app__flex p-text">
                 <Link to="/contact" onClick={() => setToggle(false)}>{t('menu4')}</Link>
               </li>
               <li className="button app__flex p-text">
-                <Link to="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</Link> 
+                <Link to="https://ainsider.beehiiv.com/" target="_blank" rel="noopener noreferrer">AI Newsletter</Link> 
               </li>
             </ul>
           </motion.div>

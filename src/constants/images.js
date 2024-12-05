@@ -26,6 +26,7 @@ import trabaho_slider from '../assets/trabaho_slider.jpg';
 import volton_slider from '../assets/volton_slider.jpg';
 import piotrmacai from '../assets/piotrmacai.png';
 import macailogo from '../assets/macailogo.png';
+import macailogo2 from '../assets/macailogo2.png';
 import openai from '../assets/openai.png';
 import aiwareme from '../assets/aiwareme.png';
 import nftlanding from '../assets/nftlanding.jpg';
@@ -62,8 +63,109 @@ import instagram from '../assets/instagram.jpeg';
 import youtube from '../assets/youtube.jpeg';
 import myartstation from '../assets/myartstation.jpg';
 import gumroad from '../assets/gumroad.jpeg';
+import ainsiderNewsletter from '../assets/ainsiderNewsletter.jpg';
+import ainsiderToolsNew from '../assets/ainsiderToolsNew.jpg';
+import YtImg from '../assets/YtImg.jpg';
+import YtImg2 from '../assets/YtImg2.png';
+import BehanceImg from '../assets/BehanceImg.jpg';
+import BehanceImg2 from '../assets/BehanceImg2.jpg';
+import bots from '../assets/bots.jpg';
+import computerHead from '../assets/computerHead.jpg';
+import videoHead from '../assets/videoHead.jpg';
+import designHead from '../assets/designHead.jpg';
+import deviceHead from '../assets/deviceHead.png';
+import deviceHeadTr from '../assets/deviceHeadTr.png';
+import deviceHead3 from '../assets/deviceHead3.jpg';
+import deviceHead4 from '../assets/deviceHead4.jpg';
+import macaiface from '../assets/macaiface.png';
+import macaiface2 from '../assets/macaiface2.png';
+import volton from '../assets/volton.jpg';
+import trabaho from '../assets/trabaho.jpg';
+import szkolajazdynew from '../assets/szkolajazdynew.jpg';
+import smp from '../assets/smp.jpg';
+import skin from '../assets/skin.jpg';
+import paintball from '../assets/paintball.jpg';
+import lanelyya from '../assets/lanelyya.jpg';
+import cora from '../assets/cora.jpg';
+import bodymedica from '../assets/bodymedica.jpg';
+import bakaliovelove from '../assets/bakaliovelove.jpg';
+import afterrave from '../assets/afterrave.jpg';
+import mobileaiware from '../assets/mobileaiware.png';
+import deviantart from '../assets/deviantart.png';
+import deviantartlogo from '../assets/deviantartlogo.png';
+import deviantartsvg from '../assets/deviantartsvg.svg';
+import behanceBanner from '../assets/behanceBanner.jpg';
+import artstationBanner from '../assets/artstationBanner.jpg';
+import art1 from '../assets/art1.jpg';
+import art2 from '../assets/art2.jpg';
+import art3 from '../assets/art3.jpg';
+import adadidas from '../assets/adadidas.jpeg';
+import aibanner from '../assets/aibanner.jpeg';
+import webbanner from '../assets/webbanner.jpeg';
+import productad1 from '../assets/productad1.jpg';
+import productad2 from '../assets/productad2.jpg';
+import ainsiderbanner1 from '../assets/ainsiderbanner1.jpg';
+import ainsiderbanner2 from '../assets/ainsiderbanner2.jpg';
+import gptbanner from '../assets/gptbanner.jpg';
+import macaistudiobanner from '../assets/macaistudiobanner.jpeg';
+import promptrlogo from '../assets/promptrlogo.jpeg';
+import gptebook from '../assets/gptebook.jpeg';
+import cosmic from '../assets/cosmic.jpg';
+import nikead from '../assets/nikead.jpg';
+import behanceicon from '../assets/behanceicon.png';
 
 export default {
+  behanceicon,
+  nikead,
+  cosmic,
+  gptebook,
+  promptrlogo,
+  macaistudiobanner,
+  gptbanner,
+  ainsiderbanner1,
+  ainsiderbanner2,
+  productad2,
+  productad1,
+  webbanner,
+  aibanner,
+  adadidas,
+  art1,
+  art2,
+  art3,
+  artstationBanner,
+  behanceBanner,
+  deviantartsvg,
+  deviantart,
+  deviantartlogo,
+  mobileaiware,
+  afterrave,
+  bakaliovelove,
+  bodymedica,
+  cora,
+  lanelyya,
+  paintball,
+  skin,
+  smp,
+  szkolajazdynew,
+  trabaho,
+  volton,
+  macaiface2,
+  macaiface,
+  deviceHead4,
+  deviceHead3,
+  deviceHeadTr,
+  deviceHead,
+  designHead,
+  videoHead,
+  computerHead,
+  YtImg2,
+  bots,
+  BehanceImg2,
+  BehanceImg,
+  YtImg,
+  ainsiderToolsNew,
+  ainsiderNewsletter,
+  macailogo2,
   gumroad,
   myartstation,
   instagram,

@@ -9,15 +9,14 @@ const Footer = () => {
     return (
         <footer>
 
-            <a href="/" className="footer__logo">PIOTR MACAI</a>
+            <a href="/" className="footer__logo">MACAI.STUDIO</a>
  
             <ul className="permalinks">
                 <li><a href="/">Home</a></li>
                 <li><a href="/projects">Portfolio</a></li>
                 <li><a href="/contact">{t('footermenu5')}</a></li>
                 <li><a href="https://ainsider.tools/" target="_blank" rel="noopener noreferrer">Ai Tools</a> </li>
-                <li><a href="https://ainsider.tools/magazine" target="_blank" rel="noreferrer">Blog</a></li>
-                <li><a href="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noreferrer">Newsletter</a></li>
+                <li><a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">Ai Newsletter</a></li>
             </ul>
 
             <div className="footer__socials">
@@ -29,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div className="footer__copyright">
-                <small>&copy; @piotrmacai 2024. All rights reserved.</small>
+                <small>&copy; @macaistudio 2024. All rights reserved.</small>
             </div>
 
         </footer >

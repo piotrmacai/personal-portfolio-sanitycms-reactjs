@@ -68,8 +68,8 @@ const Projects = () => {
           <p className="p-text">{t('main_heroP')}</p>
           <p className="p-text">{t('main_heroP2')}</p>
         </div> */}
-        <a href="https://ainsider.beehiiv.com/subscribe" target="_blank" rel="noreferrer">
-        <button className="newsletterBtn">JOIN TO MY NEWSLETTER</button>
+        <a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">
+        <button className="newsletterBtn">AI Newsletter</button>
         </a>
       </div>
     </motion.div>
@@ -79,7 +79,7 @@ const Projects = () => {
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src={images.macaibg2} className="app_header-img" alt="profile_bg" />
+      <img src={images.macaiface2} className="app_header-img" alt="profile_bg" />
       <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}

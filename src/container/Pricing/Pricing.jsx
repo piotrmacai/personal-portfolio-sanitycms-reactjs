@@ -24,8 +24,8 @@ const Pricing = () => {
                     <article className="pricing_contact__option">
                         <MdOutlineEmail />
                         <h4>Email</h4>
-                        <h5>me@piotrmacai.com</h5>
-                        <a href="mailto:me@piotrmacai.com" target="_blank" rel="noopener noreferrer">Email</a>
+                        <h5>piotr@macai.studio</h5>
+                        <a href="mailto:piotr@macai.studio" target="_blank" rel="noopener noreferrer">Email</a>
                     </article>
 
                     <article className="pricing_contact__option">

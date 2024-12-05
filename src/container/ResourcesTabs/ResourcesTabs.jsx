@@ -18,7 +18,7 @@ const ResourcesTabs = () => {
   }, []);
 
   return (
-    <div className="app__resourcestabs-container">
+    <div className="app__agenttabs-container">
       <h2 className="resources_header">{t('resourcestabs_header')}</h2>
 
       <div className="app__documentation-container">

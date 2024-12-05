@@ -53,6 +53,61 @@ justify-content: center;
 align-items: flex-start;
 flex-direction: column;
 
+.cta_social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap:1rem;
+  margin-top:1.5rem;
+  @media screen and (max-width: 1000px) {
+    flex-direction: row;
+  }   
+
+  div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #313BAC;
+    color:white;
+    margin: 0.25rem 0;
+    border: 1px solid var(--lightGray-color);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      color:white;
+    }
+
+    &:hover {
+      background-color: var(--white-color);
+      border-color: var(--secondary-color);
+
+      svg {
+        color: var(--secondary-color);
+      }
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 70px;
+      height: 70px;
+
+      margin: 0.5rem 0;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+
 .newsletterBtn {
   width: max-content;
   display: inline-block;
@@ -79,14 +134,14 @@ flex-direction: column;
 
 
 .badge-cmp{
-  padding: 1.5rem 2rem;
+  padding: 1.2rem 2rem;
   background: var(--white-color);
   border-radius: 15px;
   flex-direction: row;
   min-width:37vw;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   @media screen and (max-width: 915px) {
-    padding: 1.5rem 3rem;
+    padding: 1.3rem 0.8rem;
     }
 
   .p-text {
@@ -94,6 +149,7 @@ flex-direction: column;
     font-size: 1rem;
     @media screen and (max-width: 915px) {
     padding-left:1.5rem;
+    margin-top:1rem; 
     }
   }
 
@@ -102,22 +158,39 @@ flex-direction: column;
     text-align: start;
     text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
     font-size: 3.5rem;
-    line-height: 3.8rem;
+    line-height: 3.5rem;
+    padding-bottom:1rem;
     @media screen and (max-width: 915px) {
       font-size: 2rem;
+      padding-bottom:0.3rem;
+      line-height: 2rem;
     }
+  }
+  
+  .cta_section_info_p{
+    font-size:1rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  padding-bottom:0.6rem;
+  color:#696969;
+  @media screen and (max-width: 915px) {
+    font-size: 1rem;
+    padding-bottom:0.3rem;
+    line-height: 2rem;
+    padding-left:1.5rem;
+  }
   }
 }
 
 .tag-cmp {
-  padding: 1rem 2rem;
+  padding: 0.4rem 1rem;
   background: var(--white-color);
   border-radius: 15px;
   flex-direction: row;
   width: auto;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   @media screen and (max-width: 915px) {
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     }
 }
 
@@ -127,9 +200,9 @@ flex-direction: column;
 
   .p-text {
     width: 100%;
-    text-transform: uppercase;
-    text-align: right;
+  
     font-size:1rem;
+    margin:0.4rem 0;   
   }
 }
 
@@ -252,7 +325,7 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 position: relative;
-margin-top:1.5rem;
+margin-top:0rem;
 
 @media screen and (max-width: 915px) {
   margin: 0;

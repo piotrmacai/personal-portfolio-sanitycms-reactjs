@@ -1,3 +1,14 @@
+.hide-on-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .hide-on-mobile {
+    display: block;
+  }
+}
+
+
 .cta_social {
     display: flex;
     justify-content: flex-start;

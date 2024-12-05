@@ -1,0 +1,87 @@
+.features-tabs {
+    padding-top: 4.625rem; // Equivalent to pt-18.5
+    padding-bottom: 5rem; // Equivalent to pb-20
+    position: relative;
+    background:transparent !important;
+
+  
+    &__container {
+      max-width: 1390px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      position: relative;
+    }
+  
+    &__header {
+      padding-bottom: 2rem;
+    }
+  
+    &__menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.75rem; // Equivalent to gap-7
+      margin-bottom: 3.75rem; // Equivalent to mb-15
+      border: 1px solid var(--stroke-color);
+      box-shadow: var(--solid-shadow-5);
+      background: transparent;
+      border-radius: 10px;
+  
+      &-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.3s ease;
+
+        .p-text {
+          font-size:1rem;
+          color: var(--secondary-color);
+          font-weight: 400;
+          margin:1rem 0;   
+        }
+  
+        &.active {
+          font-weight: bold;
+          color: var(--secondary-color);
+  
+          &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0.25rem;
+            background: transparent;
+          }
+        }
+      }
+  
+      &-icon {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      &-number {
+        font-weight: 500;
+      }
+  
+      &-title {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  
+    &__content {
+      max-width: 1154px;
+      margin: 0 auto;
+    }
+  }
+  
