@@ -11,7 +11,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const SliderDesign = () => {
+const SliderAgents = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -26,14 +26,14 @@ const SliderDesign = () => {
 
                 <div className="heading_section_1">                          
                     <h2 data-aos="zoom-in" className="cta_section_info_h2">
-                    {t('designcta_title1')}
+                    {t('aicta_title1')}
                     </h2>                    
                     {/* <p className="cta_section_info_p"> {t('designcta_subtitle1')}</p>          */}
                 </div>
 
                 <div className="heading_section_2">
 
-                        <p className="cta_section_info_basicp">{t('designcta_desc1')}</p>
+                        <p className="cta_section_info_basicp">{t('aicta_desc1')}</p>
                         <a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">
                             <button className="newsBtn">{t('cta_newsletter')}</button>
                         </a>
@@ -90,4 +90,4 @@ const SliderDesign = () => {
 
 
 // export default Slider
-export default AppWrap(MotionWrap(SliderDesign, 'app__slider'), 'slider', 'app__whitebg');
+export default AppWrap(MotionWrap(SliderAgents, 'app__slider'), 'slider', 'app__whitebg');

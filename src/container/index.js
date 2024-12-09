@@ -23,6 +23,7 @@ export { default as VideoCta } from './Cta/VideoCta';
 export { default as Slider } from './Slider/Slider';
 export { default as SliderDesign } from './Slider/SliderDesign';
 export { default as SliderWeb } from './Slider/SliderWeb';
+export { default as SliderAgents } from './Slider/SliderAgents';
 export { default as Counter } from './Counter/Counter';
 export { default as Publication } from './Publication/Publication';
 export { default as AgentTabs } from './AgentTabs/AgentTabs';
@@ -32,3 +33,5 @@ export { default as GridPortfolio } from './GridPortfolio/GridPortfolio';
 export { default as GridPortfolioDesign } from './GridPortfolio/GridPortfolioDesign';
 export { default as GridPortfolioDesignSecond } from './GridPortfolio/GridPortfolioDesignSecond';
 export { default as FeaturesTab } from './FeaturesTab/FeaturesTab';
+export { default as HeadingWeb } from './Heading/HeadingWeb';
+
