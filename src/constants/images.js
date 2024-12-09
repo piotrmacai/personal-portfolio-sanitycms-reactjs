@@ -114,8 +114,12 @@ import cosmic from '../assets/cosmic.jpg';
 import nikead from '../assets/nikead.jpg';
 import behanceicon from '../assets/behanceicon.png';
 import macaicyberpunk from '../assets/macaicyberpunk.png';
+import pgr from '../assets/pgr.jpg';
+import klicious from '../assets/klicious.jpg';
 
 export default {
+  klicious,
+  pgr,
   macaicyberpunk,
   behanceicon,
   nikead,

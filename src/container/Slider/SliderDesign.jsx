@@ -26,7 +26,7 @@ const SliderDesign = () => {
 
                 <div className="heading_section_1">                          
                     <h2 data-aos="zoom-in" className="cta_section_info_h2">
-                    {t('designcta_title1')}
+                    {t('designcta_subtitle1')}
                     </h2>                    
                     {/* <p className="cta_section_info_p"> {t('designcta_subtitle1')}</p>          */}
                 </div>
@@ -34,8 +34,8 @@ const SliderDesign = () => {
                 <div className="heading_section_2">
 
                         <p className="cta_section_info_basicp">{t('designcta_desc1')}</p>
-                        <a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">
-                            <button className="newsBtn">{t('cta_newsletter')}</button>
+                        <a href="/projects" target="_blank" rel="noreferrer">
+                            <button className="newsBtn">{t('cta_portfolio')}</button>
                         </a>
                 </div>
 
@@ -53,21 +53,21 @@ const SliderDesign = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
-                        <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.art3} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-                        <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-                        <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.behanceBanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.art2} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.aibanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.art1} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://www.behance.net/macaistudio/" target="_blank" rel="noreferrer"><img src={images.gptbanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://insdr.cloud" target="_blank" rel="noreferrer"><img src={images.insdr} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noreferrer"><img src={images.ainsiderbanner1} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-             <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.volton_slider} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.productad1} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noreferrer"><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects"><img src={images.nftlanding} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.ainsiderbanner2} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
+                        <SwiperSlide><img src={images.art3} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.behanceBanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.art2} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.aibanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.art1} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.gptbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.insdr} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.ainsiderbanner1} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.volton_slider} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.productad1} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.nftlanding} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.ainsiderbanner2} className="app_header-img" alt="profile_bg" /></SwiperSlide>
 
             {/* <SwiperSlide><a href="https://huggingface.co/chat/assistants?user=Piotr-Macai" target="_blank" rel="noreferrer"><img src={images.hfassistants} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>  */}
             {/* <SwiperSlide><a href="https://tools.ainsider.tech" target="_blank" rel="noreferrer"><img src={images.imgpromptr} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>            <SwiperSlide><a href="https://szkolajazdymachowski.pl" target="_blank" rel="noreferrer"><img src={images.szkolajazdychatbot_slider} className="app_header-img" alt="profile_bg" /></a></SwiperSlide> */}

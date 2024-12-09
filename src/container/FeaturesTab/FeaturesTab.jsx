@@ -14,7 +14,7 @@ const FeaturesTab = () => {
   const featuresTabData = [
     {
       id: "tabOne",
-      title: t("cta_talk") || "Feature One",
+      title: t("feature_one_title") || "Feature One",
       desc1: t("feature_one_desc1") || "Description for feature one.",
       desc2: t("feature_one_desc2") || "Additional details about feature one.",
       image: images.deviceHead4,

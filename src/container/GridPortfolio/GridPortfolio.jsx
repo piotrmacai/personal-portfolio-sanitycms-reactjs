@@ -29,7 +29,7 @@ const GridPortfolio = () => {
   const gridItems = [
     { src: images.mobileaiware, className: 'large', link: 'https://insdr.cloud' },
     { src: images.behanceBanner, className: 'medium', link: 'https://www.behance.net/macaistudio/' }, 
-    { src: images.nftlanding, className: 'medium', link: '/web' },
+    { src: images.deviceHead4, className: 'medium', link: '/web' },
     { type: 'info', link: null },
     { src: images.deviceHead, className: 'medium', link: '/design' },
     { src: images.artstationBanner, className: 'medium', link: 'https://www.artstation.com/piotrmacai' },

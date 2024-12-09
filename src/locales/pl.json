@@ -104,34 +104,34 @@
 
 
     "cta_newsletter": "Dołącz do AI Newslettera",
-    "cta_consultation": "DARMOWA KONSULTACJA",
+    "cta_consultation": "Darmowa Konsultacja",
     "cta_talk": "Porozmawiajmy o Twoim Projekcie",
     "cta_portfolio": "Zobacz Moje Portfolio",
 
     "grid_subtitle1": "Zobacz Moje Study-Cases",
     "grid_title1": "Portfolio & Projekty",
 
-    "cta_subtitle1": "Innowacyjne Strategie",
+    "cta_subtitle1": "Rozwiązana AI i Web dla Biznesu",
     "cta_title1": "Wznieś Swój Biznes Na Wyższy Poziom",
     "cta_desc1": "Wykorzystuję najnowsze technologie sztucznej inteligencji, aby opracować strategie idealnie dopasowane do Twojej branży i celów. Dzięki temu pomagam w optymalizacji procesów, zwiększaniu efektywności i odkrywaniu nowych możliwości rozwoju.",
     "cta_subtitle2": "Rozwiązania Idealnie Dostosowane",
     "cta_title2": "Dla Potrzeb Twojego Biznesu",
     "cta_desc2": "Otrzymasz rozwiązania, które pomagają osiągnąć przewagę konkurencyjną i maksymalizować efektywność działań biznesowych, niezależnie od wyzwań, przed którymi stoisz.",
     
-    "aicta_subtitle1": "Indywidualne Rozwiązania AI",
+    "aicta_subtitle1": "Asystenci i Agenci AI",
     "aicta_title1": "Na podstawie indywidualnych potrzeb, wedle zaplanowanej strategii",
     "aicta_desc1": "Możesz zautomatyzować wiele procesów oraz zaoszczędzić wiele czasu jak i zasobów dzięki asystentom AI oraz indywidualnym automatyzacjom, które są dostosowane do specyficznych potrzeb Twojego biznesu. Moje rozwiązania automatyzują kluczowe procesy, poprawiając interakcje z klientami i zwiększając efektywność operacyjną. Dzięki spersonalizowanemu podejściu, moje systemy stają się nieodłącznym elementem Twojej strategii rozwoju, wspierając wzrost i innowacyjność.",
     "aicta_subtitle2": "Asystenci AI i Automatyzacje",
     "aicta_title2": "Asystenci AI i Automatyzacje - Twoje Kluczowe Rozwiązanie",
     "aicta_desc2": "Dzięki naszym asystentom AI zyskujesz inteligentne narzędzia, które automatyzują rutynowe zadania, zwiększają efektywność operacyjną i pozwalają skupić się na strategicznych działaniach. Oszczędzając czas i zasoby, poprawiają jakość obsługi klientów, co przekłada się na wyższą satysfakcję i lojalność, a także przyczynia się do wzrostu Twojego biznesu.",
    
-    "webcta_subtitle1": "Tworzenie Stron Internetowych",
-    "webcta_title1": "Szyte Na Miarę Strony, Landing Page i Sklepy Internetowe",
+    "webcta_subtitle1": "Szyte Na Miarę Strony, Landing Page i Sklepy Internetowe",
+    "webcta_title1": "Landing Page | Web | Ecommerce",
     "webcta_desc1": "Projektuję nowoczesne strony internetowe, które wyróżniają się estetyką, intuicyjnością i wydajnością. Korzystam z React/Next.js, WordPressa lub narzędzi no-code, aby tworzyć rozwiązania idealnie dopasowane do Twojej wizji i potrzeb.",
     "webcta_subtitle2": "Personalizowane Rozwiązania Webowe",
     "webcta_title2": "Dla Twoich Indywidualnych Celów",
     "webcta_desc2": "Twoja strona stanie się skutecznym narzędziem sprzedaży, budując zaufanie wśród klientów i zwiększając Twoją widoczność w cyfrowym świecie.",
-    "designcta_subtitle1": "Usługi UX/UI i Projektowania",
+    "designcta_subtitle1": "Design | UX/UI | Branding | Wizualizacje",
     "designcta_title1": "Tworzenie Wyjątkowych Interfejsów i Niezapomnianych Doświadczeń Użytkownika",
     "designcta_desc1": "Projektuję interfejsy, które nie tylko zachwycają estetyką, ale również zwiększają efektywność i satysfakcję użytkowników. Łączę nowoczesny design z funkcjonalnością, tworząc rozwiązania, które budują trwałe relacje z klientami.",
     "designcta_subtitle2": "Indywidualne Rozwiązania dla Twojego Biznesu",
@@ -162,7 +162,7 @@
     
     "mainwelcome": "Witaj! Jestem Piotr Macai!",
     "mainintro": "AI & Web Specialist",
-    "maindesc": "Creator Of New Digital World",
+    "maindesc": "Design | Web | AI | Automatyzacje",
     "main_heroP": "Konsultacje | Strategie | Wdrożenia | Modele | Narzędzia | Technologia AI",
 
     "about_title": "Moje Usługi",

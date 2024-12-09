@@ -54,14 +54,16 @@ const SliderWeb = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
-            <SwiperSlide><a href="https://ainsider.tools" target="_blank" rel="noreferrer"><img src={images.ainsiderToolsNew} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer"><img src={images.insdr} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.aiwareCloud} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.volton_slider} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.bakaliovelove} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.afterrave} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.uichatbot} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-            <SwiperSlide><a href="/projects"><img src={images.nftlanding} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
+            <SwiperSlide><img src={images.ainsiderToolsNew} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.insdr} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.aiwareCloud} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.volton_slider} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.bakaliovelove} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.afterrave} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.uichatbot} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.nftlanding} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.ainsiderNewsletter} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.pgr} className="app_header-img" alt="profile_bg" /></SwiperSlide>
 
             {/* <SwiperSlide><a href="https://huggingface.co/chat/assistants?user=Piotr-Macai" target="_blank" rel="noreferrer"><img src={images.hfassistants} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>  */}
             {/* <SwiperSlide><a href="https://tools.ainsider.tech" target="_blank" rel="noreferrer"><img src={images.imgpromptr} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>            <SwiperSlide><a href="https://szkolajazdymachowski.pl" target="_blank" rel="noreferrer"><img src={images.szkolajazdychatbot_slider} className="app_header-img" alt="profile_bg" /></a></SwiperSlide> */}
@@ -72,9 +74,12 @@ const SliderWeb = () => {
         </div>
 
         <div className="slider_headers">
-        <a href="/projects">
+        {/* <a href="/projects">
                     <button className="consBtn">SEE ALL MY PROJECTS</button>
-               </a>
+               </a> */}
+                 <a href="/projects" target="_blank" rel="noreferrer">
+                        <button className="consBtn">{t('cta_portfolio')}</button>
+                    </a>
         </div>
           
    </div>

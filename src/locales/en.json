@@ -115,7 +115,7 @@
   
 
     "cta_newsletter": "Join the AI Newsletter",
-    "cta_consultation": "FREE CONSULTATION",
+    "cta_consultation": "Free Consultation",
     "cta_talk": "Talk About Your Project",
     "cta_portfolio": "See My Portfolio",
 
@@ -129,23 +129,23 @@
     "cta_title2": "For Your Business Needs",
     "cta_desc2": "You will receive solutions that address your specific challenges, streamline operations, and give you a distinct advantage in your market.",
 
-    "aicta_subtitle1": "Individual AI Solutions",
+    "aicta_subtitle1": "AI Agents, Chatbots and Automations",
     "aicta_title1": "Based on individual needs, according to a planned strategy",
     "aicta_desc1": "You can automate many processes and save a lot of time and resources with AI assistants and custom automations tailored to the specific needs of your business. My solutions automate key processes, improving customer interactions and increasing operational efficiency. With a personalized approach, my systems become an integral part of your growth strategy, supporting growth and innovation.",
     "aicta_subtitle2": "AI Assistants and Automations",
     "aicta_title2": "AI Assistants and Automations - Your Key Solution",
     "aicta_desc2": "With our AI assistants, you gain intelligent tools that automate routine tasks, enhance operational efficiency, and allow you to focus on strategic actions. By saving time and resources, they improve the quality of customer service, leading to higher satisfaction and loyalty, and contribute to the growth of your business.",
     
-    "webcta_subtitle1": "Website Creation",
-    "webcta_title1": "Custom-Made Websites, Landing Pages, and Online Stores",
+    "webcta_subtitle1": "Website and Creation",
+    "webcta_title1": "Websites, Landing Pages, and Ecommerce",
     "webcta_desc1": "Using the latest technologies, I create custom websites, landing pages, and online stores based on custom code in React/Next or using WordPress and low-code/no-code tools, perfectly tailored to the individual needs of your business.",
     "webcta_subtitle2": "Personalized Web Solutions",
     "webcta_title2": "For Your Specific Needs",
     "webcta_desc2": "Your online presence will stand out with a website that attracts customers, increases conversions, and builds trust in your brand.",
 
-    "designcta_subtitle1": "UX/UI and Design Services",
+    "designcta_subtitle1": "Design UX/UI Visuals Branding Ads Images.",
     "designcta_title1": "Crafting Exceptional Interfaces and Memorable User Experiences",
-    "designcta_desc1": "I design interfaces that not only captivate with aesthetics but also improve user efficiency and satisfaction. By combining modern design with functionality, I create solutions that build lasting relationships with your customers.",
+    "designcta_desc1": "I design unique visuals, images and interfaces that not only captivate with aesthetics but also improve user efficiency and satisfaction. By combining modern design with functionality, I create solutions that build lasting relationships with your customers.",
     "designcta_subtitle2": "Tailored Solutions for Your Business",
     "designcta_title2": "Designs That Deliver Results",
 "designcta_desc2": "Your users will benefit from intuitive, user-friendly interfaces designed to provide effortless navigation and memorable interactions. These seamless experiences not only enhance engagement and satisfaction but also build lasting trust and loyalty to your brand, ensuring long-term customer relationships and driving business growth.",
@@ -161,9 +161,9 @@
     "counter_title1": "A Few Numbers I'm Proud Of",
     "counter_desc1": "",
 
-    "mainwelcome": "Piotr Macai",
+    "mainwelcome": "Web | AI | Design | Automation",
     "mainintro": "Designer & Developer",
-    "maindesc": "Creator Of New Digital World",
+    "maindesc": "Piotr Machowski",
     "main_heroP": "Consultations | Strategies | Implementation | LLMs | Custom Models | Tools | AI Technology",
     "main_heroP2": "with Web & AI",
 
