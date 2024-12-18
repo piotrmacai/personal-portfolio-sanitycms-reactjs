@@ -18,21 +18,21 @@ const GridPortfolio = () => {
   };
 
   const gridItemTexts = [
-    'Video',
-    'Web',
+    'AI & Automations',
+    'Design',
+    'Github',
     'AI',
-    'AI',
-    'Design &/UX/UI',
-    'AI Resources'
+    'My Portfolio',
+    'Visuals'
   ];
 
   const gridItems = [
     { src: images.mobileaiware, className: 'large', link: 'https://insdr.cloud' },
     { src: images.behanceBanner, className: 'medium', link: 'https://www.behance.net/macaistudio/' }, 
-    { src: images.deviceHead4, className: 'medium', link: '/web' },
+    { src: images.git, className: 'medium', link: 'https://github.com/piotrmacai' },
     { type: 'info', link: null },
-    { src: images.deviceHead, className: 'medium', link: '/design' },
-    { src: images.artstationBanner, className: 'medium', link: 'https://www.artstation.com/piotrmacai' },
+    { src: images.deviceHead4, className: 'small imghead', link: '/web' },
+    { src: images.artstationBanner, className: 'small', link: 'https://www.artstation.com/piotrmacai' },
   ];
 
   return (
@@ -57,11 +57,11 @@ const GridPortfolio = () => {
                 <p className="gridcta_section_info_p">{t('grid_subtitle1')}</p>
                 <h2 className="gridcta_section_info_h2">{t('grid_title1')}</h2>
                 <div className="gridcta_social">
-                  <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
+                  {/* <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
                     <div>
                       <BsTwitter />
                     </div>
-                  </a>
+                  </a> */}
                   {/* <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" rel="noreferrer">
                     <div>
                       <BsLinkedin />

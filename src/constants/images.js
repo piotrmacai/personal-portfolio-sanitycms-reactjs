@@ -116,8 +116,10 @@ import behanceicon from '../assets/behanceicon.png';
 import macaicyberpunk from '../assets/macaicyberpunk.png';
 import pgr from '../assets/pgr.jpg';
 import klicious from '../assets/klicious.jpg';
+import git from '../assets/git.jpg';
 
 export default {
+  git,
   klicious,
   pgr,
   macaicyberpunk,

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './socialmedia.scss';
-import { Header, DesignWork, Footer, AgentTabs, DesignCta, Pricing, FeaturesTab, GridPortfolio, GridPortfolioDesign, GridPortfolioDesignSecond, SliderDesign, AboutDesign } from '../../container';
+import { Header, DesignWork, Footer, AgentTabs, DesignCta, Pricing, FeaturesTab, GridPortfolio, GridPortfolioDesign, GridPortfolioDesignSecond, SliderDesign, SliderVisuals, AboutDesign } from '../../container';
 import Chatbot from '../Chatbot/Chatbot'
 import { useTranslation } from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
@@ -27,14 +27,14 @@ const Design = () => {
     <>
   
   <Header /> 
-  <SliderDesign/>
+  <SliderVisuals/>
   <AboutDesign/>
 
-<GridPortfolioDesign/>
-< GridPortfolioDesignSecond/>
   <DesignCta/> 
   <FeaturesTab/>   
 
+<GridPortfolioDesign/>
+{/* < GridPortfolioDesignSecond/> */}
 <Pricing/>
 <Footer/>
 

@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <>
       <Header />  
-      <GridPortfolio/>  
+  
       {/* <Slider/>    */}
        <Cta/> 
       <About /> 
@@ -19,7 +19,7 @@ const Homepage = () => {
       <div className="hide-on-mobile">
         <ResourcesTabs/>
       </div>
-    
+        {/* <GridPortfolio/>   */}
       <Skills/>
       <Pricing />
       <Footer />
