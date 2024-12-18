@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './socialmedia.scss';
-import { Header, WebWork, Footer, AgentTabs, WebCta, Pricing, GridPortfolio, FeaturesTab, SliderWeb, AboutWeb } from '../../container';
+import { Header, WebWork, Footer, AgentTabs, WebCta, Pricing, GridPortfolio, FeaturesTab, SliderWebClean, AboutWeb } from '../../container';
 import Chatbot from '../Chatbot/Chatbot'
 import { useTranslation } from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
@@ -31,7 +31,7 @@ const Web = () => {
      </div>
 
   <Header /> 
-  <SliderWeb/> 
+  <SliderWebClean/> 
   <AboutWeb/>
 <WebCta/>
 {/* <WebWork/> */}

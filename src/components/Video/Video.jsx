@@ -33,13 +33,15 @@ const Video = () => {
 <Header />  
 <AboutAI/>
 <AiCta/>
-<ResourcesTabs/>
+<FeaturesTab/> 
 
-<FeaturesTab/>   
-<GridPortfolio/>
+<div className="hide-on-mobile">
+  <ResourcesTabs/>
+</div>
+  
+{/* <GridPortfolio/> */}
 {/* <VideoCta/> */}
-{/* <div className="hide-on-mobile">
-</div> */}
+
 <Footer/>
   </>
   )

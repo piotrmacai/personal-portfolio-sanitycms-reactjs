@@ -17,14 +17,23 @@
     margin-top: 2rem;
   }
 
-  .head-text {
+  .about-head-text {
     padding-top:5rem;
+    font-size:2rem;
+    text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
+    font-size:2.6rem;
 
     @media screen and (max-width:1000px) {
         margin-left:1.5rem;
         margin-right:1.5rem;
-        font-size:36px;
+        font-size:2rem;
     }
+  }
+
+  .cta_section_info_h2{
+    font-size:2rem;
+    text-shadow: -1px 0  rgb(0, 128, 233), 0 1px rgb(148, 0, 116), 1px 0 rgb(106, 0, 0), 0 -1px rgb(163, 163, 163);
+    margin-bottom:2rem;
   }
   
   .app__profile-item {

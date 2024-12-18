@@ -9,16 +9,17 @@ const Homepage = () => {
   
       {/* <Slider/>    */}
        <Cta/> 
-      <About /> 
+      {/* <About />  */}
       <SliderDesign/>
       <SliderWeb/>
        <SliderAgents/>
       <FeaturesTab/>   
-      {/* <Publication />           */}
+
       {/* <Work/>      */}
       <div className="hide-on-mobile">
         <ResourcesTabs/>
-      </div>
+      </div>      
+      {/* <Publication />           */}
         {/* <GridPortfolio/>   */}
       <Skills/>
       <Pricing />

@@ -28,10 +28,9 @@ const Projects = () => {
     <>
  
   <Header /> 
- <div  className="ai_chatContainer">
-        <h4>{t('talkwithgpt')}</h4>
+ {/* <div  className="ai_chatContainer">
         <Chatbot/>
-     </div>
+     </div> */}
 <Work/>
 <Footer/>
 

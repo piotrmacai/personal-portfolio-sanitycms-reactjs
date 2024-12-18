@@ -34,8 +34,8 @@ const SliderDesign = () => {
                 <div className="heading_section_2">
 
                         <p className="cta_section_info_basicp">{t('designcta_desc1')}</p>
-                        <a href="/projects" target="_blank" rel="noreferrer">
-                            <button className="newsBtn">{t('cta_portfolio')}</button>
+                        <a href="/design" target="_blank" rel="noreferrer">
+                            <button className="newsBtn">{t('cta_details')}</button>
                         </a>
                 </div>
 
@@ -78,9 +78,9 @@ const SliderDesign = () => {
         </div>
 
         <div className="slider_headers">
-        <a href="/projects">
-                    <button className="consBtn">SEE ALL MY PROJECTS</button>
-               </a>
+                <a href="/projects" target="_blank" rel="noreferrer">
+                            <button className="consBtn">{t('cta_portfolio')}</button>
+                </a>
         </div>
           
    </div>

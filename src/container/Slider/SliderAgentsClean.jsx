@@ -2,7 +2,7 @@ import React from 'react';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
-import './Slider.scss';
+import './SliderClean.scss';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,7 +11,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const SliderAgents = () => {
+const SliderAgentsClean = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -22,25 +22,8 @@ const SliderAgents = () => {
             <h2 className="slider_h2">{t('portfolio_header_h')}</h2>
         </div> */}
           <section id="cta" className="ctaContainer">
-            <div className="heading_mainsection">
-
-                <div className="heading_section_1">                          
-                    <h2 data-aos="zoom-in" className="cta_section_info_h2">
-                    {t('aicta_subtitle1')}
-                    </h2>                    
-                    {/* <p className="cta_section_info_p"> {t('designcta_subtitle1')}</p>          */}
-                </div>
-
-                <div className="heading_section_2">
-
-                        <p className="cta_section_info_basicp">{t('aicta_desc1')}</p>
-                        <a href="/ai-agents" target="_blank" rel="noreferrer">
-                            <button className="newsBtn">{t('cta_details')}</button>
-                        </a>
-                </div>
-
-            </div>
-</section>
+           
+        </section>
 
         <div className="sliderApp">
             <Swiper
@@ -71,9 +54,9 @@ const SliderAgents = () => {
         </div>
 
         <div className="slider_headers">
-                <a href="/ai" target="_blank" rel="noreferrer">
-                        <button className="consBtn">{t('cta_more')}</button>
-                 </a>
+        <a href="/projects">
+                    <button className="consBtn">My Portfolio</button>
+               </a>
         </div>
           
    </div>
@@ -83,4 +66,4 @@ const SliderAgents = () => {
 
 
 // export default Slider
-export default AppWrap(MotionWrap(SliderAgents, 'app__slider'), 'slider', 'app__whitebg');
+export default AppWrap(MotionWrap(SliderAgentsClean, 'app__slider'), 'slider', 'app__whitebg');

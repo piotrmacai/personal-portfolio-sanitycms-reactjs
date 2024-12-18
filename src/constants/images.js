@@ -117,8 +117,10 @@ import macaicyberpunk from '../assets/macaicyberpunk.png';
 import pgr from '../assets/pgr.jpg';
 import klicious from '../assets/klicious.jpg';
 import git from '../assets/git.jpg';
+import video1 from '../assets/video1.jpg';
 
 export default {
+  video1,
   git,
   klicious,
   pgr,

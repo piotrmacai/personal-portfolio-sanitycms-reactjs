@@ -20,7 +20,7 @@ const AboutAI = () => {
 
   return (
     <>
-      <h2 className="head-text"><span>{t('about_title')}</span></h2>
+      <h2 className="about-head-text"><span>{t('about_title')}</span></h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           // <div key={index} className="about-item">

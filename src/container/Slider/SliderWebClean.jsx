@@ -2,7 +2,7 @@ import React from 'react';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
-import './Slider.scss';
+import './SliderClean.scss';
 import './Heading.scss';
 
 // Import Swiper React components
@@ -12,34 +12,17 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const SliderWeb = () => {
+const SliderWebClean = () => {
   const { t } = useTranslation();
   return (
     <>
-  <div className="sliderContainer">
+  <div className="sliderContainer clean">
 
             {/* <p className="slider_p">{t('portfolio_header_P')}</p>
             <h2 className="slider_h2">{t('portfolio_header_h')}</h2> */}
   <section id="cta" className="ctaContainer">
 
-        <div className="heading_mainsection">
-
-            <div className="heading_section_1">                          
-                <h2 data-aos="zoom-in" className="cta_section_info_h2">
-                {t('webcta_title1')}
-                </h2>                    
-                {/* <p className="cta_section_info_p"> {t('webcta_subtitle1')}</p>          */}
-            </div>
-
-            <div className="heading_section_2">
-
-                    <p className="cta_section_info_basicp">{t('webcta_desc1')}</p>
-                    <a href="/web" target="_blank" rel="noreferrer">
-                        <button className="newsBtn">{t('cta_details')}</button>
-                    </a>
-            </div>
-
-        </div>
+      
    </section>
 
     
@@ -89,4 +72,4 @@ const SliderWeb = () => {
 
 
 // export default Slider
-export default AppWrap(MotionWrap(SliderWeb, 'app__slider'), 'slider', 'app__whitebg');
+export default AppWrap(MotionWrap(SliderWebClean, 'app__slider'), 'slider', 'app__whitebg');

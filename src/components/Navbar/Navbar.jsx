@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
@@ -12,6 +11,10 @@ const Navbar = () => {
   const { t } = useTranslation();
   const [toggle, setToggle] = useState(false);
 
+  const handleMenuItemClick = () => {
+    setToggle(false);
+  };
+
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
@@ -19,35 +22,29 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
-          <Link to="/">{t('menu1')}</Link> 
+          <Link to="/" onClick={handleMenuItemClick}>{t('menu1')}</Link> 
         </li> 
         
-       
         {/* Main Portfolio Item with Submenu */}
         <li className="app__flex p-text portfolio-menu">
           <Link to="#">{t('menu_solutions')}</Link>
           <ul className="portfolio-submenu">
-            <li><Link to="/web">Web & Apps</Link></li>
-            <li><Link to="/design">Design & Visuals</Link></li>
-            <li><Link to="/ai-agents">{t('menu_chatbots')}</Link></li>
-            <li><Link to="/ai">{t('menu_guides')}</Link></li>      
+            <li><Link to="/web" onClick={handleMenuItemClick}>Web & Apps</Link></li>
+            <li><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li>
+            <li><Link to="/ai-agents" onClick={handleMenuItemClick}>{t('menu_chatbots')}</Link></li>
+            <li><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>      
           </ul>
         </li>
-         <li className="app__flex p-text">
-        <Link to="/projects">Portfolio</Link> 
+        <li className="app__flex p-text">
+          <Link to="/projects" onClick={handleMenuItemClick}>Portfolio</Link> 
         </li> 
         <li className="app__flex p-text">
-          <Link to="/contact">{t('menu4')}</Link> 
+          <Link to="/contact" onClick={handleMenuItemClick}>{t('menu4')}</Link> 
         </li>
-        
-        {/* <li className="app__flex p-text">
-          <Link to="https://ainsider.tools/" target="_blank" rel="noopener noreferrer">Ainsider</Link>
-        </li> */}
-        
         <li className="button app__flex p-text">
-          <Link to="https://ainsider.beehiiv.com/" target="_blank" rel="noopener noreferrer">AI Newsletter</Link> 
+          <Link to="https://ainsider.beehiiv.com/" target="_blank" rel="noopener noreferrer" onClick={handleMenuItemClick}>AI Newsletter</Link> 
         </li>
-        
+
         <li className="app__flex p-text">
           <LanguageSwitcher />
         </li>
@@ -64,26 +61,25 @@ const Navbar = () => {
             <HiX onClick={() => setToggle(false)} />
             <ul className="app__navbar-links">
               <li className="app__flex p-text">
-                <a href="/" onClick={() => setToggle(false)}>{t('menu1')}</a>
+                <a href="/" onClick={handleMenuItemClick}>{t('menu1')}</a>
               </li>
               <li className="app__flex p-text">
-                <Link to="/projects" onClick={() => setToggle(false)}>Portfolio</Link>
+                <Link to="/projects" onClick={handleMenuItemClick}>Portfolio</Link>
               </li>
               {/* <li className="button app__flex p-text">
                 <Link to="https://ainsider.tools/magazine" target="_blank" rel="noopener noreferrer">Blog</Link> 
               </li> */}
               
-              <li className="app__flex p-text"><Link to="/web">Web & Apps</Link></li>
-              <li className="app__flex p-text"><Link to="/design">Design & Visuals</Link></li> 
-               <li className="app__flex p-text"><Link to="/ai-agents">{t('menu_chatbots')}</Link></li>
-              <li className="app__flex p-text"><Link to="/ai">{t('menu_guides')}</Link></li>    
-              {/* <li className="app__flex p-text"><Link to="/genai">{t('menu_ai')}</Link></li>   */}
+              <li className="app__flex p-text"><Link to="/web" onClick={handleMenuItemClick}>Web & Apps</Link></li>
+              <li className="app__flex p-text"><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li> 
+              <li className="app__flex p-text"><Link to="/ai-agents" onClick={handleMenuItemClick}>{t('menu_chatbots')}</Link></li>
+              <li className="app__flex p-text"><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>    
 
               <li className="app__flex p-text">
-                <Link to="/contact" onClick={() => setToggle(false)}>{t('menu4')}</Link>
+                <Link to="/contact" onClick={handleMenuItemClick}>{t('menu4')}</Link>
               </li>
               <li className="button app__flex p-text">
-                <Link to="https://ainsider.beehiiv.com/" target="_blank" rel="noopener noreferrer">AI Newsletter</Link> 
+                <Link to="https://ainsider.beehiiv.com/" target="_blank" rel="noopener noreferrer" onClick={handleMenuItemClick}>AI Newsletter</Link> 
               </li>
             </ul>
           </motion.div>
