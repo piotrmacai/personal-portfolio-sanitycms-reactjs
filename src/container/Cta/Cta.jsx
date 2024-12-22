@@ -56,6 +56,10 @@ const Cta = () => {
                         <a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">
                             <button className="newsBtn">{t('cta_newsletter')}</button>
                         </a>
+                        
+                        
+                        
+                        
 
                 </div>
 

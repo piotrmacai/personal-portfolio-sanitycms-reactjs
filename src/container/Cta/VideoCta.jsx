@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { images } from '../../constants';
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
 import { FaFacebook, FaBehance } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const VideoCta = () => {
     const { t } = useTranslation();
@@ -54,9 +55,12 @@ const VideoCta = () => {
 
                     </div>
 
-                        <a href="/projects" target="_blank" rel="noreferrer">
+                        {/* <a href="/projects">
                             <button className="newsBtn">{t('cta_portfolio')}</button>
-                        </a>
+                        </a> */}
+                            <Link to="/projects">
+                                <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                            </Link>
 
                 </div>
 
@@ -71,9 +75,12 @@ const VideoCta = () => {
                     {t('videocta_title2')}
                     </h2>
                     <p className="cta_section_info_basicp">{t('videocta_desc2')}</p>
-                    <a href="/contact">
+                    {/* <a href="/contact">
                         <button className="consBtn">{t('cta_consultation')}</button>
-                    </a>
+                    </a> */}
+                    <Link to="/contact">
+                        <button className="newsletterBtn">{t('cta_consultation')}</button>
+                    </Link>
                 </div>
 
                 <div className="cta_section_img">   

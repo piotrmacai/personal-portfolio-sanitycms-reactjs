@@ -4,7 +4,7 @@ import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
 import './Slider.scss';
 import './Heading.scss';
-
+import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -34,9 +34,12 @@ const SliderWeb = () => {
             <div className="heading_section_2">
 
                     <p className="cta_section_info_basicp">{t('webcta_desc1')}</p>
-                    <a href="/web" target="_blank" rel="noreferrer">
+                    {/* <a href="/web" target="_blank" rel="noreferrer">
                         <button className="newsBtn">{t('cta_details')}</button>
-                    </a>
+                    </a> */}
+                    <Link to="/web">
+                        <button className="newsletterBtn">{t('cta_details')}</button>
+                    </Link>
             </div>
 
         </div>
@@ -77,9 +80,9 @@ const SliderWeb = () => {
         {/* <a href="/projects">
                     <button className="consBtn">SEE ALL MY PROJECTS</button>
                </a> */}
-                 <a href="/projects" target="_blank" rel="noreferrer">
-                        <button className="consBtn">{t('cta_portfolio')}</button>
-                    </a>
+                    <Link to="/projects">
+                    <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                  </Link>
         </div>
           
    </div>

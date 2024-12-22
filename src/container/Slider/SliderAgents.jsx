@@ -3,7 +3,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
 import './Slider.scss';
-
+import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -34,9 +34,12 @@ const SliderAgents = () => {
                 <div className="heading_section_2">
 
                         <p className="cta_section_info_basicp">{t('aicta_desc1')}</p>
-                        <a href="/ai-agents" target="_blank" rel="noreferrer">
+                        {/* <a href="/ai-agents">
                             <button className="newsBtn">{t('cta_details')}</button>
-                        </a>
+                        </a> */}
+                        <Link to="/ai-agents">
+                          <button className="newsletterBtn">{t('cta_details')}</button>
+                        </Link>
                 </div>
 
             </div>

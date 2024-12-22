@@ -118,8 +118,12 @@ import pgr from '../assets/pgr.jpg';
 import klicious from '../assets/klicious.jpg';
 import git from '../assets/git.jpg';
 import video1 from '../assets/video1.jpg';
+import beehiiv from '../assets/beehiiv.jpg';
+import cloudainsider from '../assets/cloudainsider.jpg';
 
 export default {
+  cloudainsider,
+  beehiiv,
   video1,
   git,
   klicious,

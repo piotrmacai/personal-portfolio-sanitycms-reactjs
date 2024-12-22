@@ -25,10 +25,7 @@ const Web = () => {
   const { t } = useTranslation();
   return (
     <>
- 
-    <div  className="ai_chatContainer">
-        <Chatbot/>
-     </div>
+
 
   <Header /> 
   <SliderWebClean/> 

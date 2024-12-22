@@ -4,6 +4,7 @@ import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
 import './SliderClean.scss';
 import './Heading.scss';
+import { Link } from 'react-router-dom';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -60,9 +61,10 @@ const SliderWebClean = () => {
         {/* <a href="/projects">
                     <button className="consBtn">SEE ALL MY PROJECTS</button>
                </a> */}
-                 <a href="/projects" target="_blank" rel="noreferrer">
-                        <button className="consBtn">{t('cta_portfolio')}</button>
-                    </a>
+               <Link to="/projects">
+                <button className="newsletterBtn">{t('cta_portfolio')}</button>
+              </Link>
+                    
         </div>
           
    </div>

@@ -6,6 +6,7 @@ import { images } from '../../constants';
 import { motion } from 'framer-motion';
 import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs';
 import { FaBehance } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const GridPortfolio = () => {
   const { t } = useTranslation();
@@ -81,9 +82,12 @@ const GridPortfolio = () => {
                     </div>
                   </a>
                 </div>
-                <a href="/contact" target="_blank" rel="noreferrer">
+                {/* <a href="/contact">
                   <button className="newsBtn">{t('cta_talk')}</button>
-                </a>
+                </a> */}
+                    <Link to="/contact">
+                  <button className="newsletterBtn">{t('cta_talk')}</button>
+                </Link>
               </div>
             ) : (
               <a href={item.link || '#'} target={item.link ? '_blank' : '_self'} rel="noreferrer">

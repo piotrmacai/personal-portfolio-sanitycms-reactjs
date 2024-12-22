@@ -3,7 +3,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
 import './SliderClean.scss';
-
+import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -54,9 +54,12 @@ const SliderAgentsClean = () => {
         </div>
 
         <div className="slider_headers">
-        <a href="/projects">
+        {/* <a href="/projects">
                     <button className="consBtn">My Portfolio</button>
-               </a>
+               </a> */}
+               <Link to="/projects">
+                        <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                    </Link>
         </div>
           
    </div>

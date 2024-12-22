@@ -3,7 +3,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { useTranslation } from "react-i18next";
 import './Slider.scss';
-
+import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -34,9 +34,12 @@ const SliderDesign = () => {
                 <div className="heading_section_2">
 
                         <p className="cta_section_info_basicp">{t('designcta_desc1')}</p>
-                        <a href="/design" target="_blank" rel="noreferrer">
+                        {/* <a href="/design">
                             <button className="newsBtn">{t('cta_details')}</button>
-                        </a>
+                        </a> */}
+                        <Link to="/design">
+                          <button className="newsBtn">{t('cta_details')}</button>
+                      </Link>
                 </div>
 
             </div>
@@ -78,9 +81,12 @@ const SliderDesign = () => {
         </div>
 
         <div className="slider_headers">
-                <a href="/projects" target="_blank" rel="noreferrer">
+                {/* <a href="/projects" target="_blank" rel="noreferrer">
                             <button className="consBtn">{t('cta_portfolio')}</button>
-                </a>
+                </a> */}
+                  <Link to="/projects">
+                    <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                  </Link>
         </div>
           
    </div>
