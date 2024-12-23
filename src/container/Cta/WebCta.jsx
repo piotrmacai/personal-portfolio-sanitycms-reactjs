@@ -59,7 +59,7 @@ const AiCta = () => {
                             <button className="newsBtn">{t('cta_portfolio')}</button>
                         </a> */}
                 <Link to="/projects">
-                  <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                  <button className="newsBtn">{t('cta_portfolio')}</button>
                 </Link>
 
                 </div>
@@ -79,7 +79,7 @@ const AiCta = () => {
                         <button className="consBtn">{t('cta_consultation')}</button>
                     </a> */}
                         <Link to="/contact">
-                        <button className="newsletterBtn">{t('cta_talk')}</button>
+                        <button className="newsBtn">{t('cta_talk')}</button>
                         </Link>
                 </div>
 

@@ -38,7 +38,7 @@ const SliderAgents = () => {
                             <button className="newsBtn">{t('cta_details')}</button>
                         </a> */}
                         <Link to="/ai-agents">
-                          <button className="newsletterBtn">{t('cta_details')}</button>
+                          <button className="newsBtn">{t('cta_details')}</button>
                         </Link>
                 </div>
 

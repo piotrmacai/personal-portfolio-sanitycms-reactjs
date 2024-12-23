@@ -27,6 +27,7 @@ const HeadingWeb = () => {
                         <a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">
                             <button className="newsBtn">{t('cta_newsletter')}</button>
                         </a>
+                        <a href="/contact" className="consBtn">Contact Us</a>
                 </div>
 
             </div>

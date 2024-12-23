@@ -85,7 +85,7 @@ const SliderDesign = () => {
                             <button className="consBtn">{t('cta_portfolio')}</button>
                 </a> */}
                   <Link to="/projects">
-                    <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                    <button className="consBtn">{t('cta_portfolio')}</button>
                   </Link>
         </div>
           

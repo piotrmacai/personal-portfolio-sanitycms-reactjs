@@ -38,7 +38,7 @@ const SliderWeb = () => {
                         <button className="newsBtn">{t('cta_details')}</button>
                     </a> */}
                     <Link to="/web">
-                        <button className="newsletterBtn">{t('cta_details')}</button>
+                        <button className="newsBtn">{t('cta_details')}</button>
                     </Link>
             </div>
 
@@ -81,7 +81,7 @@ const SliderWeb = () => {
                     <button className="consBtn">SEE ALL MY PROJECTS</button>
                </a> */}
                     <Link to="/projects">
-                    <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                    <button className="consBtn">{t('cta_portfolio')}</button>
                   </Link>
         </div>
           

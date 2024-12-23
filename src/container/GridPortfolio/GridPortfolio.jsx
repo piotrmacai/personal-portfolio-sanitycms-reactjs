@@ -94,7 +94,7 @@ const GridPortfolio = () => {
                   <button className="newsBtn">{t('cta_portfolio')}</button>
                 </a> */}
                 <Link to="/projects">
-                  <button className="newsletterBtn">{t('cta_portfolio')}</button>
+                  <button className="newsBtn">{t('cta_portfolio')}</button>
                 </Link>
               </div>
             ) : (
