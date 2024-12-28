@@ -1,6 +1,6 @@
 import {React, useEffect} from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { Navbar, Contact, Chatbot, Projects, Web, Assistants, Building, Video, Resources, Design } from './components';
+import { Navbar, Contact, Chatbot, Projects, Web, AboutMe, Assistants, Building, Video, Resources, Design } from './components';
 import './App.scss';
 import {Homepage} from './container';
 import HttpsRedirect from 'react-https-redirect';
@@ -27,8 +27,8 @@ const App = () => {
     <div className="app">
       <HttpsRedirect>
       
-      <BrowserRouter>
-      <I18nextProvider i18n={i18n}>
+      <BrowserRouter basename="/">
+<I18nextProvider i18n={i18n}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -39,6 +39,7 @@ const App = () => {
           <Route path="/myprojects" element={<Building/>} />
           <Route path="/ai" element={<Video/>} />
           <Route path="/aitech" element={<Resources/>} />
+          <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         </I18nextProvider>

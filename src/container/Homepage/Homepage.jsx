@@ -5,10 +5,9 @@ import './Homepage.scss';
 const Homepage = () => {
   return (
     <>
-      <Header />   
-      <Slider/>   
+      <Header />     
+      <About />    
        <Cta/> 
-      {/* <About />  */}
       <SliderDesign/>
       <SliderWeb/>
        <SliderAgents/>

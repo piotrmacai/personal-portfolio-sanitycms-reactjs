@@ -10,6 +10,44 @@
     "menu_chatbots":"AI Agents & Chatbots",
     "menu_ai":"Visuals",
     "menu_guides":"AI Implementation",
+    "menuabout":"About",
+
+    "agentsTabVisit":"Visit",
+
+
+    "agentsTab1Title":"My Huggingface Assitants",
+    "agentsTab1Desc1":"Personal Assistant",
+    "agentsTab1Desc2":"AI Software & Tool Recomendation",
+    "agentsTab1Desc3":"Email Writer",
+    
+    "agentsTab2Title":"Voice AI Agent for Client Support",
+    "agentsTab21Desc1":"Ultrarealistic voice ai agent for websites",
+    "agentsTab2Desc2":"Created with Elevenlabs and Claude Sonnet",
+    "agentsTab2Desc3":"Custom database knowledge with info about services and contact data",
+    "agentsTab2Desc4":"Automation for lead generation with CRM created with custom webhook and Make.com",
+
+
+    "agentsTab3Title":"Lead Generation AI Agent",
+    "agentsTab3Desc1":"Created with Botpress and Claude Sonnet",
+    "agentsTab3Desc2":"Custom database knowledge with info about services and contact data",
+    "agentsTab3Desc3":"Automation for lead generation with CRM created with Make.com",
+
+    
+    "agentsTab4Title":"My Google AI Studio Assistants",
+    "agentsTab4Desc1":"Personal AI Assistant",
+    "agentsTab4Desc2":"Image-to-Text Prompt Generator",
+    "agentsTab4Desc3":"AI Video Prompt Creator",
+    
+    "agentsTab5Title":"AI Ecommerce Support Agent with Product Recommendation",
+    "agentsTab5Desc1":"Biblioteka Narzędzi AI z Blogiem i Newsletterem",
+    "agentsTab5Desc2":"Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
+    "agentsTab5Desc3":"Gen AI Studio tworzące kreatywne materiały wizualne dla biznesu",
+    
+"agentsTab6Title": "Custom Multimodal AI Agent with RAG and Application Login",
+"agentsTab6Desc1": "Built in clean code using Next.js",
+"agentsTab6Desc2": "Multimodal application - accepts text, images, and files as input",
+"agentsTab6Desc3": "Login system with custom database implementation",
+"agentsTab6Desc4": "Conversation memory",
 
     "resourcesTabDesc1":"Explore my comprehensive AI Tools Library, which includes an extensive collection of resources, insightful blog posts, and a newsletter that keeps you updated on the latest trends and innovations in artificial intelligence.",
     "resourcesTabDesc2":"My Web & AI Studio is dedicated to empowering businesses by providing cutting-edge solutions that leverage the latest technology, enabling them to scale effectively and achieve sustainable growth in today's competitive landscape.",
@@ -27,6 +65,8 @@
     "footermenu4":"Tech",
     "footermenu5":"Pricing & Contact",
     "footermenu6":"AI Tools",
+    "footermenuabout":"About",
+
 
     "calendly":"Make an appointment",
     "pricingPhone": "Phone",
@@ -180,10 +220,10 @@
     "counter_title1": "A Few Numbers I'm Proud Of",
     "counter_desc1": "",
 
-    "mainwelcome": "Web | AI | Design | Automation",
+    "mainwelcome": "Design | Code | AI | Web | Automation",
     "mainintro": "Designer & Developer",
     "maindesc": "Piotr Machowski",
-    "main_heroP": "Consultations | Strategies | Implementation | LLMs | Custom Models | Tools | AI Technology",
+    "main_heroP": "Combining cutting-edge solutions for business using the best technology",
     "main_heroP2": "with Web & AI",
 
     

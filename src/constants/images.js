@@ -120,8 +120,18 @@ import git from '../assets/git.jpg';
 import video1 from '../assets/video1.jpg';
 import beehiiv from '../assets/beehiiv.jpg';
 import cloudainsider from '../assets/cloudainsider.jpg';
+import flowisetools from '../assets/flowisetools.jpg';
+import elevenbot from '../assets/elevenbot.jpg';
+import botpressleadbot from '../assets/botpressleadbot.jpg';
+import voiceflowchat1 from '../assets/voiceflowchat1.jpg';
+import voiceflowchat2 from '../assets/voiceflowchat2.jpg';
 
 export default {
+  voiceflowchat1,
+  voiceflowchat2,
+  botpressleadbot,
+  elevenbot,
+  flowisetools,
   cloudainsider,
   beehiiv,
   video1,

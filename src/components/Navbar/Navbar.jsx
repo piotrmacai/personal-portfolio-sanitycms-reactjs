@@ -39,6 +39,9 @@ const Navbar = () => {
           <Link to="/projects" onClick={handleMenuItemClick}>Portfolio</Link> 
         </li> 
         <li className="app__flex p-text">
+          <Link to="/aboutme" onClick={handleMenuItemClick}>{t('menuabout')}</Link> 
+        </li>
+        <li className="app__flex p-text">
           <Link to="/contact" onClick={handleMenuItemClick}>{t('menu4')}</Link> 
         </li>
         <li className="button app__flex p-text">
@@ -74,7 +77,9 @@ const Navbar = () => {
               <li className="app__flex p-text"><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li> 
               <li className="app__flex p-text"><Link to="/ai-agents" onClick={handleMenuItemClick}>{t('menu_chatbots')}</Link></li>
               <li className="app__flex p-text"><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>    
-
+              <li className="app__flex p-text">
+                <Link to="/aboutme" onClick={handleMenuItemClick}>{t('menuabout')}</Link>
+              </li>
               <li className="app__flex p-text">
                 <Link to="/contact" onClick={handleMenuItemClick}>{t('menu4')}</Link>
               </li>

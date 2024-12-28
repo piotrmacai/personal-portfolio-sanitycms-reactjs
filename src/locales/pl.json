@@ -14,10 +14,43 @@
     "menu_chatbots":"Chatboty i Agenci AI",
     "menu_ai":"Wdrożenia AI",
     "menu_guides":"Implementacje AI",
+    "menuabout":"O mnie",
 
-    "resourcesTabDesc1":"Biblioteka Narzędzi AI z Blogiem i Newsletterem",
-    "resourcesTabDesc2":"Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
-    "resourcesTabDesc3":"Gen AI Studio tworzące kreatywne materiały wizualne dla biznesu",
+    "agentsTabVisit":"Odwiedź",
+   
+        "agentsTab1Title": "Moi Asystenci Huggingface",
+        "agentsTab1Desc1": "Osobisty Asystent",
+        "agentsTab1Desc2": "Rekomendacje Oprogramowania i Narzędzi AI",
+        "agentsTab1Desc3": "Kreator Wiadomości Email",
+        
+        "agentsTab2Title": "Głosowy Agent AI do Obsługi Klienta",
+        "agentsTab21Desc1": "Ultrarealistyczny głosowy agent AI dla stron internetowych",
+        "agentsTab2Desc2": "Stworzony z wykorzystaniem Elevenlabs i Claude Sonnet",
+        "agentsTab2Desc3": "Niestandardowa baza wiedzy zawierająca informacje o usługach i dane kontaktowe",
+        "agentsTab2Desc4": "Automatyzacja generowania leadów z CRM utworzona za pomocą niestandardowego webhooka i Make.com",
+        
+        "agentsTab3Title": "Agent AI do Generowania Leadów",
+        "agentsTab3Desc1": "Stworzony z wykorzystaniem Botpress i Claude Sonnet",
+        "agentsTab3Desc2": "Niestandardowa baza wiedzy zawierająca informacje o usługach i dane kontaktowe",
+        "agentsTab3Desc3": "Automatyzacja generowania leadów z CRM utworzona za pomocą Make.com",
+        
+        "agentsTab4Title": "Moi Asystenci Google AI Studio",
+        "agentsTab4Desc1": "Osobisty Asystent AI",
+        "agentsTab4Desc2": "Generator Promptów z Obrazu na Tekst",
+        "agentsTab4Desc3": "Kreator Promptów do Wideo AI",
+        
+        "agentsTab5Title": "Agent AI do Obsługi E-commerce z Rekomendacją Produktów",
+        "agentsTab5Desc1": "Biblioteka Narzędzi AI z Blogiem i Newsletterem",
+        "agentsTab5Desc2": "Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
+        "agentsTab5Desc3": "Gen AI Studio tworzące kreatywne materiały wizualne dla biznesu",
+        
+        "agentsTab6Title": "Customowy Multimdalny AI Agent Z RAG z logowaniem do aplikacji",
+        "agentsTab6Desc1": "Stworzony w czystym kodzie wykorzystując Next.js",
+        "agentsTab6Desc2": "Multimodalna aplikacja - jako input przyjmuje text, zdjęcia oraz pliki",
+        "agentsTab6Desc4": "Pamięc rozmów",
+        "agentsTab6Desc3": "System logowania z implementacją własnej bazy danych",
+
+
     "resourcesTabDesc4":"Biblioteka Narzędzi AI z Blogiem i Newsletterem przeznaczona dla polskojęzycznej audiencji",
     "resourcesTabDesc5":"Newsletter na temat technologii AI oraz narzędzi i modeli dla kreatorów",
     "resourcesTabDesc6":"Zestaw Asystentów i Agentów AI dla różnych biznesowych celów",
@@ -36,6 +69,7 @@
     "footermenu4":"Technologie",
     "footermenu5":"Kontakt",
     "footermenu6":"Narzędzia AI",
+    "footermenuabout":"O mnie",
 
     "skiils_header":"Moje umiejętności i wykorzystywane technologie",
 

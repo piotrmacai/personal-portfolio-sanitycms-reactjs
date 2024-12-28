@@ -14,6 +14,7 @@ const Footer = () => {
             <ul className="permalinks">
                 <li><a href="/">Home</a></li>
                 <li><a href="/projects">Portfolio</a></li>
+                <li><a href="/aboutme">{t('menuabout')}</a></li>
                 <li><a href="/contact">{t('footermenu5')}</a></li>
                 <li><a href="https://ainsider.tools/" target="_blank" rel="noopener noreferrer">Ai Tools</a> </li>
                 <li><a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">Ai Newsletter</a></li>

@@ -2,12 +2,11 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './socialmedia.scss';
-import { Header, AiWork, Footer, AgentTabs, AboutAgents, AiCta, Pricing, FeaturesTab, ResourcesTabs, SliderAgentsClean, } from '../../container';
+import { Header, WebWork, Footer, ResourcesTabs, Cta, Pricing, GridPortfolio, FeaturesTab, Slider, SliderWebClean, AboutWeb } from '../../container';
 import Chatbot from '../Chatbot/Chatbot'
 import { useTranslation } from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
 import { FaFacebook, FaBehance } from 'react-icons/fa';
-import './Assistants.scss';
 
 const scaleVariants = {
   whileInView: {
@@ -20,26 +19,18 @@ const scaleVariants = {
   },
 };
 
-// 
 
-const Assistants = () => {
+const AboutMe = () => {
   const { t } = useTranslation();
   return (
     <>
-
-<Header /> 
-<AgentTabs/>
-<AboutAgents/>
-<AiCta/>
-<FeaturesTab/> 
-<div className="hide-on-mobile">
-  <ResourcesTabs/>
-</div> 
-
-
-{/* <AiWork/> */}
-
-
+ <Header /> 
+ <Slider/>   
+ <Cta/> 
+ <div className="hide-on-mobile">
+        <ResourcesTabs/>
+</div>    
+<GridPortfolio/>
 <Pricing/>
 <Footer/>
 
@@ -48,4 +39,4 @@ const Assistants = () => {
 };
 
 // export default AppWrap(Portfolio, 'portfolio');
-export default Assistants;
+export default AboutMe;

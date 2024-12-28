@@ -11,3 +11,5 @@ export { default as Web } from './Web/Web';
 export { default as Video } from './Video/Video';
 export { default as Resources } from './Resources/Resources';
 export { default as Design } from './Design/Design';
+export { default as AboutMe } from './AboutMe/AboutMe';
+

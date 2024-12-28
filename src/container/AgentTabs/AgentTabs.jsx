@@ -16,7 +16,7 @@ const AgentTabs = () => {
     const skillsQuery = '*[_type == "skills"]';
     client.fetch(skillsQuery).then((data) => setSkills(data));
   }, []);
-
+ 
   return (
     <div className="app__agenttabs-container">
       <h2 className="agent-header"><span>{t('agenttabs_header')}</span></h2>
