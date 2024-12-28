@@ -8,11 +8,10 @@ const Homepage = () => {
       <Header />     
       <About />    
        <Cta/> 
-      <SliderDesign/>
+       <SliderAgents/> 
       <SliderWeb/>
-       <SliderAgents/>
+      <SliderDesign/>
       <FeaturesTab/>   
-
       {/* <Work/>      */}
       <div className="hide-on-mobile">
         <ResourcesTabs/>
