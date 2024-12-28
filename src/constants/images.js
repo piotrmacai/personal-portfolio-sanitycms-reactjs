@@ -125,8 +125,12 @@ import elevenbot from '../assets/elevenbot.jpg';
 import botpressleadbot from '../assets/botpressleadbot.jpg';
 import voiceflowchat1 from '../assets/voiceflowchat1.jpg';
 import voiceflowchat2 from '../assets/voiceflowchat2.jpg';
+import hfassistantsapp from '../assets/hfassistantsapp.jpg';
+import nextjsbot from '../assets/nextjsbot.jpg';
 
 export default {
+  nextjsbot,
+  hfassistantsapp,
   voiceflowchat1,
   voiceflowchat2,
   botpressleadbot,
