@@ -39,7 +39,7 @@ export const AgentTabsData = () => {
             <li>{t('agentsTab2Desc3')}</li>
             <li>{t('agentsTab2Desc4')}</li>
         </ul>
-        <a href="https://you.com/?chatMode=user_mode_e24077a4-a9b7-490c-b281-f88d98921146" className="Btn">{t('agentsTabVisit')}</a>
+        <a href="https://szkolajazdymachowski.pl/kontakt.html" className="Btn">{t('agentsTabVisit')}</a>
         </div>
       ),
     },
@@ -55,7 +55,7 @@ export const AgentTabsData = () => {
             <li>{t('agentsTab3Desc2')}</li>
             <li>{t('agentsTab3Desc3')}</li>
         </ul>
-        <a href="https://you.com/?chatMode=user_mode_e24077a4-a9b7-490c-b281-f88d98921146" className="Btn">{t('agentsTabVisit')}</a>
+        <a href="https://macai.studio" className="Btn">{t('agentsTabVisit')}</a>
         </div>
       ),
     },
@@ -89,13 +89,13 @@ export const AgentTabsData = () => {
               <li>{t('agentsTab5Desc2')}</li>
               <li>{t('agentsTab5Desc3')}</li>
           </ul>
-          <a href="https://poe.com/piotrmacai" className="Btn">{t('agentsTabVisit')}</a>
+          <a href="https://macai.cloud" className="Btn">{t('agentsTabVisit')}</a>
           </div>
         ),
       },
       {
         id: "6",
-        label: "Cusstom AI Agent with memory and sign-up In Next.js",
+        label: "Custom AI Agent in Next.js",
         content: (
           <div>
             <h2>{t('agentsTab6Title')}n</h2>
@@ -106,7 +106,39 @@ export const AgentTabsData = () => {
               <li>{t('agentsTab6Desc3')}</li>
               <li>{t('agentsTab6Desc4')}</li>
           </ul>
-          <a href="https://poe.com/piotrmacai" className="Btn">{t('agentsTabVisit')}</a>
+          <a href="https://github.com/piotrmacai/ai-chatbot-vercel-v1.0" className="Btn">{t('agentsTabVisit')}</a>
+          </div>
+        ),
+      },
+      {
+        id: "7",
+        label: "Local RAG AI Assitant",
+        content: (
+          <div>
+            <h2>{t('agentsTab7Title')}n</h2>
+            <img src={images.ollamalocalrag} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+            <ul>
+              <li>{t('agentsTab7Desc1')}</li>
+              <li>{t('agentsTab7Desc2')}</li>
+              <li>{t('agentsTab7Desc3')}</li>
+          </ul>
+          <a href="https://github.com/piotrmacai/agent-flowise-local-ollama-rag" className="Btn">{t('agentsTabVisit')}</a>
+          </div>
+        ),
+      },
+      {
+        id: "8",
+        label: "AI Tools Finder",
+        content: (
+          <div>
+            <h2>{t('agentsTab8Title')}n</h2>
+            <img src={images.aitoolsagent} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+            <ul>
+              <li>{t('agentsTab8Desc1')}</li>
+              <li>{t('agentsTab8Desc2')}</li>
+              <li>{t('agentsTab8Desc3')}</li>
+          </ul>
+          <a href="https://github.com/piotrmacai/agent-flowise-aitoolsfinder" className="Btn">{t('agentsTabVisit')}</a>
           </div>
         ),
       },

@@ -43,11 +43,22 @@
     "agentsTab5Desc2":"Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
     "agentsTab5Desc3":"Gen AI Studio tworzące kreatywne materiały wizualne dla biznesu",
     
-"agentsTab6Title": "Custom Multimodal AI Agent with RAG and Application Login",
-"agentsTab6Desc1": "Built in clean code using Next.js",
-"agentsTab6Desc2": "Multimodal application - accepts text, images, and files as input",
-"agentsTab6Desc3": "Login system with custom database implementation",
-"agentsTab6Desc4": "Conversation memory",
+    "agentsTab6Title": "Custom Multimodal AI Agent with RAG and Application Login",
+    "agentsTab6Desc1": "Built in clean code using Next.js",
+    "agentsTab6Desc2": "Multimodal application - accepts text, images, and files as input",
+    "agentsTab6Desc3": "Login system with custom database implementation",
+    "agentsTab6Desc4": "Conversation memory",
+
+    "agentsTab7Title": "Local AI RAG Ollama Agent",
+    "agentsTab7Desc1": "Fully private agent operating on your own machine",
+    "agentsTab7Desc2": "Utilizing Ollama which ensures privacy from the LLM side",
+    "agentsTab7Desc3": "Any knowledge base, in any form",
+
+    "agentsTab8Title": "Agent that will help you find AI tools for Ainsider.tools",
+    "agentsTab8Desc1": "Multi-Agent RAG that exclusively uses an individual database",
+    "agentsTab8Desc2": "Self-correcting and answer verification",
+    "agentsTab8Desc3": "Will help you find AI tools or workflows using them perfectly tailored to your goals",
+
 
     "resourcesTabDesc1":"Explore my comprehensive AI Tools Library, which includes an extensive collection of resources, insightful blog posts, and a newsletter that keeps you updated on the latest trends and innovations in artificial intelligence.",
     "resourcesTabDesc2":"My Web & AI Studio is dedicated to empowering businesses by providing cutting-edge solutions that leverage the latest technology, enabling them to scale effectively and achieve sustainable growth in today's competitive landscape.",

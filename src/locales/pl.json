@@ -50,6 +50,15 @@
         "agentsTab6Desc4": "Pamięc rozmów",
         "agentsTab6Desc3": "System logowania z implementacją własnej bazy danych",
 
+        "agentsTab7Title": "Lokalny AI RAG Agent",
+        "agentsTab7Desc1": "W pełni prywatny Agent działający na własnej maszynie",
+        "agentsTab7Desc2": "Wykorzystujący Ollama co zapewnia prywatność od strony LLM",
+        "agentsTab7Desc3": "Dowolna baza wiedzy, w dowolnej formie",
+
+        "agentsTab8Title": "Agent AI dla Ainsider.tools",
+        "agentsTab8Desc1": "Multi-Agent RAG korzystający wyłącznie z indywidualnej bazy danych",
+        "agentsTab8Desc2": "Autopoprawianie i weryfikacja odpowiedzi",
+        "agentsTab8Desc3": "Pomoże znaleźć narzędzia AI lub workflow z ich użyciem idealnie dopasowany do Twoich celów",
 
     "resourcesTabDesc4":"Biblioteka Narzędzi AI z Blogiem i Newsletterem przeznaczona dla polskojęzycznej audiencji",
     "resourcesTabDesc5":"Newsletter na temat technologii AI oraz narzędzi i modeli dla kreatorów",
