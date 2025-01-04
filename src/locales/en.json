@@ -21,7 +21,7 @@
     "agentsTab1Desc3":"Email Writer",
     
     "agentsTab2Title":"Voice AI Agent for Client Support",
-    "agentsTab21Desc1":"Ultrarealistic voice ai agent for websites",
+    "agentsTab2Desc1":"Ultrarealistic voice ai agent for websites",
     "agentsTab2Desc2":"Created with Elevenlabs and Claude Sonnet",
     "agentsTab2Desc3":"Custom database knowledge with info about services and contact data",
     "agentsTab2Desc4":"Automation for lead generation with CRM created with custom webhook and Make.com",
@@ -39,9 +39,9 @@
     "agentsTab4Desc3":"AI Video Prompt Creator",
     
     "agentsTab5Title":"AI Ecommerce Support Agent with Product Recommendation",
-    "agentsTab5Desc1":"Biblioteka Narzędzi AI z Blogiem i Newsletterem",
-    "agentsTab5Desc2":"Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
-    "agentsTab5Desc3":"Gen AI Studio tworzące kreatywne materiały wizualne dla biznesu",
+    "agentsTab5Desc1":"AI Ecommerce Support Agent with tailored product recommendations",
+    "agentsTab5Desc2":"A comprehensive AI solution designed to enhance ecommerce operations and drive sales growth through personalized recommendations and insights.",
+    "agentsTab5Desc3":"An innovative AI Studio focused on creating engaging visual content and marketing strategies to elevate your ecommerce brand.",
     
     "agentsTab6Title": "Custom Multimodal AI Agent with RAG and Application Login",
     "agentsTab6Desc1": "Built in clean code using Next.js",
@@ -233,7 +233,7 @@
 
     "mainwelcome": "Design | Code | AI | Web | Automation",
     "mainintro": "Designer & Developer",
-    "maindesc": "Piotr Machowski",
+    "maindesc": "With love to building AI Agents",
     "main_heroP": "Combining cutting-edge solutions for business using the best technology",
     "main_heroP2": "with Web & AI",
 
@@ -292,6 +292,7 @@
     "pricing_header":"Get to know",
     "pricing_formHeader": "Free project pricing",
     "pricing_desc":"Contact",
+    "pricing_contactcta": "You can also talk to the AI Assistant in the bottom right corner",
     "pricing_mess":"Talk",
     "pricing_phone":"Talk or text",
     "pricing_formName":"Your name",

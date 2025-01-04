@@ -15,6 +15,16 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 2rem;
+
+    .no-decoration {
+      text-decoration: none; /* Removes underline */
+      color: inherit; /* Ensures text color matches the parent element */
+    }
+    
+    .no-decoration:hover {
+      text-decoration: none; /* Prevents decoration on hover */
+    }
+
   }
 
   .about-head-text {

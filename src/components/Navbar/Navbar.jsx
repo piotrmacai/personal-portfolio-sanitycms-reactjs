@@ -29,11 +29,11 @@ const Navbar = () => {
         <li className="app__flex p-text portfolio-menu">
           <Link to="#">{t('menu_solutions')}</Link>
           <ul className="portfolio-submenu">
+            <li><Link to="/ai-agents" onClick={handleMenuItemClick}>{t('menu_chatbots')}</Link></li>
+            <li><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>        
             <li><Link to="/web" onClick={handleMenuItemClick}>Web & Apps</Link></li>
             <li><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li>
-            <li><Link to="/ai-agents" onClick={handleMenuItemClick}>{t('menu_chatbots')}</Link></li>
-            <li><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>      
-          </ul>
+         </ul>
         </li>
         <li className="app__flex p-text">
           <Link to="/projects" onClick={handleMenuItemClick}>Portfolio</Link> 
@@ -72,11 +72,10 @@ const Navbar = () => {
               {/* <li className="button app__flex p-text">
                 <Link to="https://ainsider.tools/magazine" target="_blank" rel="noopener noreferrer">Blog</Link> 
               </li> */}
-              
-              <li className="app__flex p-text"><Link to="/web" onClick={handleMenuItemClick}>Web & Apps</Link></li>
-              <li className="app__flex p-text"><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li> 
               <li className="app__flex p-text"><Link to="/ai-agents" onClick={handleMenuItemClick}>{t('menu_chatbots')}</Link></li>
               <li className="app__flex p-text"><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>    
+              <li className="app__flex p-text"><Link to="/web" onClick={handleMenuItemClick}>Web & Apps</Link></li>
+              <li className="app__flex p-text"><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li> 
               <li className="app__flex p-text">
                 <Link to="/aboutme" onClick={handleMenuItemClick}>{t('menuabout')}</Link>
               </li>

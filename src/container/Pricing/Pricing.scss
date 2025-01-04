@@ -12,9 +12,13 @@
     .title {
         display:flex;
         justify-content: center;
-        font-size:50px;
-        margin-bottom:6rem;
+        font-size:4rem;
+        margin-bottom:2rem;
         margin-top:1rem;
+        @media screen and (max-width: 915px) {
+            font-size:2.4rem;
+        margin-bottom:1.4rem;
+          }
     }
 
     .subtitle {

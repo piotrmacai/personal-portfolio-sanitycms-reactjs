@@ -18,6 +18,7 @@ const Pricing = () => {
         <div className="pricing_container" id="pricing">
             <h5 className="subtitle">{t('pricing_header')}</h5>
             <h2 className="title">{t('pricing_desc')}</h2>
+            <h5 className="subtitle" style={{ marginBottom: '2rem' }}>{t('pricing_contactcta')}</h5>
 
             <div className="pricing_contact_container">
                 <div className="pricing_contact__options">

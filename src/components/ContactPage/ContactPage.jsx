@@ -26,9 +26,8 @@ const Contact = () => {
     <>
     <div className="contactpage_main_container">
 
-        {/* // HEADER */}
-    <div className="app__header app__flex contactpage_hero" >
-    {/* <motion.div
+    {/* <div className="app__header app__flex contactpage_hero" >
+    <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
       className="app__header-info"
@@ -54,15 +53,12 @@ const Contact = () => {
                           </div>
                         ))}
                </motion.div>
-    </motion.div> */}
+    </motion.div>
 
-    <div className="contactpage_chatContainer">
-      {/* <h4>{t('talkwithgpt')}</h4> */}
-          <Chatbot/>
-    </div>
-
-  </div>
  
+
+  </div> */}
+  <Chatbot/>
   {/* OTHER COMPONENTS*/}
   <Pricing/>
   <Footer/>

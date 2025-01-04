@@ -129,8 +129,22 @@ import hfassistantsapp from '../assets/hfassistantsapp.jpg';
 import nextjsbot from '../assets/nextjsbot.jpg';
 import ollamalocalrag from '../assets/ollamalocalrag.jpg';
 import aitoolsagent from '../assets/aitoolsagent.jpg';
+import mockupvoicebot from '../assets/mockupvoicebot.png';
+import mbotpress from '../assets/mbotpress.png';
+import mwrapper from '../assets/mwrapper.png';
+import mmao from '../assets/mmao.png';
+import mecom from '../assets/mecom.png';
+import mollama from '../assets/mecom.png';
+import mnews from '../assets/mnews.png';
 
 export default {
+  mnews,
+  mollama,
+  mecom,
+  mmao,
+  mwrapper,
+  mbotpress,
+  mockupvoicebot,
   aitoolsagent,
   ollamalocalrag,
   nextjsbot,

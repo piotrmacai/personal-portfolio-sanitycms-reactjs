@@ -14,13 +14,12 @@ export const AgentTabsData = () => {
         <div>
           <h2 style={{ marginBottom: '30px' }}>
           {t('agentsTab1Title')}</h2>
-          <img src={images.hfassistantsapp} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+          <img src={images.hfassistantsapp} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }} />
           {/* <p>{t('Overview content goes here, describing key features and functionality.')}</p> */}
           <ul>
             <li>{t('agentsTab1Desc1')}</li>
             <li>{t('agentsTab1Desc2')}</li>
             <li>{t('agentsTab1Desc3')}</li>
-            <li>{t('agentsTab1Desc4')}</li>
           </ul>
           <a href="https://huggingface.co/chat/assistants?user=Piotr-Macai" className="Btn">{t('agentsTabVisit')}</a>
         </div>
@@ -32,7 +31,7 @@ export const AgentTabsData = () => {
       content: (
         <div>
           <h2>{t('agentsTab2Title')}</h2>
-          <img src={images.elevenbot} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+          <img src={images.elevenbot} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }}/>
           <ul>
             <li>{t('agentsTab2Desc1')}</li>
             <li>{t('agentsTab2Desc2')}</li>
@@ -49,7 +48,7 @@ export const AgentTabsData = () => {
       content: (
         <div>
           <h2>{t('agentsTab3Title')}</h2>
-          <img src={images.botpressleadbot} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+          <img src={images.botpressleadbot} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }} />
           <ul>
             <li>{t('agentsTab3Desc1')}</li>
             <li>{t('agentsTab3Desc2')}</li>
@@ -83,7 +82,7 @@ export const AgentTabsData = () => {
         content: (
           <div>
             <h2>{t('agentsTab5Title')}n</h2>
-            <img src={images.voiceflowchat1} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+            <img src={images.voiceflowchat1} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }} />
             <ul>
               <li>{t('agentsTab5Desc1')}</li>
               <li>{t('agentsTab5Desc2')}</li>
@@ -99,7 +98,7 @@ export const AgentTabsData = () => {
         content: (
           <div>
             <h2>{t('agentsTab6Title')}n</h2>
-            <img src={images.nextjsbot} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+            <img src={images.nextjsbot} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }} />
             <ul>
               <li>{t('agentsTab6Desc1')}</li>
               <li>{t('agentsTab6Desc2')}</li>
@@ -116,7 +115,7 @@ export const AgentTabsData = () => {
         content: (
           <div>
             <h2>{t('agentsTab7Title')}n</h2>
-            <img src={images.ollamalocalrag} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+            <img src={images.ollamalocalrag} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }} />
             <ul>
               <li>{t('agentsTab7Desc1')}</li>
               <li>{t('agentsTab7Desc2')}</li>
@@ -132,7 +131,7 @@ export const AgentTabsData = () => {
         content: (
           <div>
             <h2>{t('agentsTab8Title')}n</h2>
-            <img src={images.aitoolsagent} className="app_tab-img" alt="profile_bg" style={{ marginBottom: '30px' }} />
+            <img src={images.aitoolsagent} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px' }} />
             <ul>
               <li>{t('agentsTab8Desc1')}</li>
               <li>{t('agentsTab8Desc2')}</li>

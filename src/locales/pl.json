@@ -24,7 +24,7 @@
         "agentsTab1Desc3": "Kreator Wiadomości Email",
         
         "agentsTab2Title": "Głosowy Agent AI do Obsługi Klienta",
-        "agentsTab21Desc1": "Ultrarealistyczny głosowy agent AI dla stron internetowych",
+        "agentsTab2Desc1": "Ultrarealistyczny głosowy agent AI dla stron internetowych",
         "agentsTab2Desc2": "Stworzony z wykorzystaniem Elevenlabs i Claude Sonnet",
         "agentsTab2Desc3": "Niestandardowa baza wiedzy zawierająca informacje o usługach i dane kontaktowe",
         "agentsTab2Desc4": "Automatyzacja generowania leadów z CRM utworzona za pomocą niestandardowego webhooka i Make.com",
@@ -409,6 +409,7 @@
     "pricing_header": "Poznajmy się bliżej",
     "pricing_formHeader": "Darmowa wycena projektu",
     "pricing_desc": "Kontakt",
+    "pricing_contactcta": "Możesz także porozmawawiać z Asystentem AI - w prawym dolnym rogu",
     "pricing_mess": "Rozmowa",
     "pricing_phone":"Zadzwoń lub napisz",
     "pricing_formName": "Twoje imię",
