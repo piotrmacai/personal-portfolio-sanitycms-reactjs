@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './socialmedia.scss';
-import { Header, AiWork, Footer, AgentTabs, AboutAgents, AiCta, Pricing, FeaturesTab, ResourcesTabs, SliderAgentsClean, } from '../../container';
+import { HeaderAi, AiWork, Footer, AgentTabs, AboutAgents, AiCta, Pricing, FeaturesTab, ResourcesTabs, SliderAgentsClean, } from '../../container';
 import Chatbot from '../Chatbot/Chatbot'
 import { useTranslation } from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
@@ -27,14 +27,15 @@ const Assistants = () => {
   return (
     <>
 
-<Header /> 
-<AgentTabs/>
+<HeaderAi /> 
 <AboutAgents/>
+<AgentTabs/>
+
 <AiCta/>
 <FeaturesTab/> 
-<div className="hide-on-mobile">
+{/* <div className="hide-on-mobile">
   <ResourcesTabs/>
-</div> 
+</div>  */}
 
 
 {/* <AiWork/> */}

@@ -12,9 +12,9 @@ export const ResourcesTabsData = () => {
       label: "Ainsider.tools",
       content: (
         <div>
-          <h2 style={{ marginBottom: '30px' }}>Ainsider.tools - AI Tools Directory for creators</h2>
-          <img src={images.insdrcloud} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
-          <p>{t('resourcesTabDesc1')}</p>
+          <h2 style={{ marginBottom: '30px' }}>Ainsider.tools</h2>
+          <img src={images.ainsiderToolsNew} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
+          <p>{t('resourcesTabAinsiderTools')}</p>
           <a href="https://ainsider.tools" className="Btn">Ainsider.tools</a>
         </div>
       ),
@@ -24,7 +24,7 @@ export const ResourcesTabsData = () => {
       label: "Ainsider.pl",
       content: (
         <div>
-          <h2 style={{ marginBottom: '30px' }}>Ainsider.pl - AI Tools Directory for polish audience</h2>
+          <h2 style={{ marginBottom: '30px' }}>Ainsider.pl</h2>
           <img src={images.ainsiderpl} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
           <p>{t('resourcesTabDesc4')}</p>
           <a href="https://ainsider.pl" className="Btn">Ainsider.pl</a>
@@ -36,22 +36,22 @@ export const ResourcesTabsData = () => {
       label: "AI Newsletter",
       content: (
         <div>
-          <h2 style={{ marginBottom: '30px' }}>Ainsider AI Newsletter with Beehiiv</h2>
+          <h2 style={{ marginBottom: '30px' }}>Ainsider AI Newsletter</h2>
           <img src={images.beehiv} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
-          <p>{t('resourcesTabDesc5')}</p>
+          <p>{t('resourcesTabDescNewsletter')}</p>
           <a href="https://ainsider.beehiiv.com/" className="Btn">AI Newsletter</a>
         </div>
       ),
     },
     {
       id: "4",
-      label: "AI Tutorials",
+      label: "AI Tutorials & Guides",
       content: (
         <div>
-          <h2 style={{ marginBottom: '30px' }}>AI Guides and Tutorials</h2>
-          <img src={images.gumroad} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
+          <h2 style={{ marginBottom: '30px' }}>{t('resourcesTabDesc7Title')}</h2>
+          <img src={images.cloudainsider} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
           <p>{t('resourcesTabDesc7')}</p>
-          <a href="https://macaipiotr.gumroad.com/" className="Btn">See My AI Guides at Gumroad</a>
+          <a href="https://macaicloud/" className="Btn">See My AI Guides at Gumroad</a>
         </div>
       ),
     },

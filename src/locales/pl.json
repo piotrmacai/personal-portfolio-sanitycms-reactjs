@@ -18,52 +18,103 @@
 
     "agentsTabVisit":"Odwiedź",
    
-        "agentsTab1Title": "Moi Asystenci Huggingface",
-        "agentsTab1Desc1": "Osobisty Asystent",
+        "agentsTab1Title": "Personalni Asystenci Huggingface",
+        "agentsTab1Desc1": "Osobisty Asystent dla konkretnych celów",
         "agentsTab1Desc2": "Rekomendacje Oprogramowania i Narzędzi AI",
         "agentsTab1Desc3": "Kreator Wiadomości Email",
+        "agentsTab1Desc4": "Kreator Wiadomości Email",
+        "agentsTab1Description1": "Personalni Asystenci Huggingface to zaawansowane rozwiązanie oparte na sztucznej inteligencji, które dostosowuje się do unikalnych potrzeb Twojego biznesu. Działając 24/7, oferują wsparcie w obsłudze klienta, odpowiadając na pytania, pozyskując leady oraz automatyzując rutynowe zadania, co pozwala na zwiększenie efektywności operacyjnej.",
+        "agentsTab1Description2": "Personalni Asystenci Huggingface to nie tylko technologia, ale strategiczna inwestycja w rozwój Twojej firmy. Dzięki nim zyskujesz przewagę konkurencyjną, poprawiasz satysfakcję klientów oraz wspierasz wzrost sprzedaży. Umożliwiają one skoncentrowanie się na kluczowych aspektach działalności, takich jak budowanie relacji z klientami i rozwijanie marki.",
         
+        "agentsTabIntegrationsTitle": "Integracje z Twoimi platformami",
+        "agentsTabIntegrations1": "Gmail & Google Workspace",
+        "agentsTabIntegrations2": "Notion",
+        "agentsTabIntegrations3": "Airtable",
+        "agentsTabIntegrations4": "Systemy CRM",
+        "agentsTabIntegrationsWoo": "Woocommerce & Wordpress",
+        "agentsTabIntegrationsShopify": "Shopify",
+        "agentsTabIntegrations5": "Indywidualne Integracje",
+        "agentsTabIntegrationsWho": "Dla kogo jest Asystent AI?",
+        "agentsTabIntegrationsWho1": "Firmy i organizacje, które chcą poprawić jakość obsługi klienta.",
+        "agentsTabIntegrationsWho2": "Przedsiębiorstwa szukające nowych sposobów na generowanie leadów.",
+        "agentsTabIntegrationsWho3": "Marki działające online, które potrzebują wsparcia 24/7 w komunikacji z użytkownikami.",
+        "agentsTabIntegrationsWho4": "Organizacje chcące automatyzować procesy i redukować koszty obsługi.",
+
+
         "agentsTab2Title": "Głosowy Agent AI do Obsługi Klienta",
         "agentsTab2Desc1": "Ultrarealistyczny głosowy agent AI dla stron internetowych",
         "agentsTab2Desc2": "Stworzony z wykorzystaniem Elevenlabs i Claude Sonnet",
         "agentsTab2Desc3": "Niestandardowa baza wiedzy zawierająca informacje o usługach i dane kontaktowe",
         "agentsTab2Desc4": "Automatyzacja generowania leadów z CRM utworzona za pomocą niestandardowego webhooka i Make.com",
-        
+        "agentsTab2Description1": "Głosowy Agent AI to innowacyjne rozwiązanie wykorzystujące ultrarealistyczną syntezę mowy do prowadzenia naturalnych rozmów z klientami. Dzięki integracji z Elevenlabs i Claude Sonnet, agent potrafi płynnie komunikować się głosowo przez Twoją stronę internetową, odpowiadając na pytania i obsługując zapytania klientów z wykorzystaniem dedykowanej bazy wiedzy.",
+        "agentsTab2Description2": "System został zaprojektowany, aby nie tylko odpowiadać na pytania, ale także aktywnie pozyskiwać leady poprzez integrację z CRM. Wykorzystując niestandardowe webhooki i automatyzację Make.com, każda interakcja może być przekształcona w wartościowy kontakt sprzedażowy. To kompleksowe rozwiązanie, które łączy zaawansowaną technologię głosową z efektywną automatyzacją procesów biznesowych.",
+       
         "agentsTab3Title": "Agent AI do Generowania Leadów",
+        "agentsTab3Description1": "gent AI dla generacji leadów to wyspecjalizowane narzędzie wdrażane w Twojej firmie, które aktywnie pozyskuje i kwalifikuje potencjalnych klientów. Wykorzystując zaawansowane algorytmy AI, agent prowadzi wartościowe rozmowy z odwiedzającymi, identyfikuje ich potrzeby i automatycznie przekształca zainteresowanych w leady sprzedażowe.",
+        "agentsTab3Description2": "Nasze wdrożenie obejmuje pełną konfigurację agenta pod Twoją branżę, szkolenie modelu AI na podstawie Twojej oferty oraz integrację z systemami sprzedażowymi. Dzięki temu otrzymujesz gotowe do działania narzędzie generujące wysokiej jakości leady 24/7.",
         "agentsTab3Desc1": "Stworzony z wykorzystaniem Botpress i Claude Sonnet",
-        "agentsTab3Desc2": "Niestandardowa baza wiedzy zawierająca informacje o usługach i dane kontaktowe",
-        "agentsTab3Desc3": "Automatyzacja generowania leadów z CRM utworzona za pomocą Make.com",
-        
-        "agentsTab4Title": "Moi Asystenci Google AI Studio",
+        "agentsTab3Desc2": "Agent AI dla leadów to wyspecjalizowane narzędzie wdrażane w Twojej firmie, które aktywnie pozyskuje i kwalifikuje potencjalnych klientów. Wykorzystując zaawansowane algorytmy AI, agent prowadzi wartościowe rozmowy z odwiedzającymi, identyfikuje ich potrzeby i automatycznie przekształca zainteresowanych w leady sprzedażowe.",
+        "agentsTab3Desc3": "Nasze wdrożenie obejmuje pełną konfigurację agenta pod Twoją branżę, szkolenie modelu AI na podstawie Twojej oferty oraz integrację z systemami sprzedażowymi. Dzięki temu otrzymujesz gotowe do działania narzędzie generujące wysokiej jakości leady 24/7.",
+
+        "agentsTabSupportBotTitle": "Agent AI dla wsparcia i obsługi klienta",
+        "agentsTabSupportBotDescription1": "Agent AI dla wsparcia i obsługi klienta to zaawansowane rozwiązanie, które automatyzuje interakcje z klientami, zapewniając szybką i efektywną pomoc. Dzięki wykorzystaniu sztucznej inteligencji, agent potrafi rozpoznawać potrzeby klientów, odpowiadać na ich pytania oraz prowadzić naturalne rozmowy, co znacząco poprawia jakość obsługi.",
+        "agentsTabSupportBotDescription2": "Nasze wdrożenie obejmuje pełną konfigurację agenta dostosowaną do specyfiki Twojej branży, szkolenie modelu AI na podstawie Twoich usług oraz integrację z istniejącymi systemami obsługi klienta. Dzięki temu zyskujesz narzędzie, które działa 24/7, zwiększając satysfakcję klientów i efektywność operacyjną.",
+        "agentsTabSupportBotDesc1": "Stworzony z wykorzystaniem Botpress i Claude Sonnet, nasz agent AI jest w stanie dostarczać spersonalizowane odpowiedzi i wsparcie, co przekłada się na lepsze doświadczenia klientów.",
+        "agentsTabSupportBotDesc2": "Agent AI dla wsparcia i obsługi klienta to innowacyjne narzędzie, które automatyzuje procesy komunikacji, pozwalając Twojemu zespołowi skupić się na bardziej złożonych zadaniach.",
+        "agentsTabSupportBotDesc3": "Nasze wdrożenie zapewnia pełną konfigurację agenta, szkolenie modelu AI oraz integrację z systemami, co pozwala na efektywne zarządzanie interakcjami z klientami.",
+
+
+        "agentsTabIntegrationsWhoe": "Dla kogo jest Asystent AI?",
+        "agentsTabIntegrationsWhoe1": "Firm B2B szukających automatyzacji procesu pozyskiwania leadów.",
+        "agentsTabIntegrationsWhoe2": "Działów sprzedaży potrzebujących stałego dopływu wykwalifikowanych kontaktów.",
+        "agentsTabIntegrationsWhoe3": "E-commerce chcących zwiększyć konwersję i wartość koszyka zakupowego.",
+        "agentsTabIntegrationsWhoe4": "Zespołów marketingowych dążących do optymalizacji ROI z ruchu na stronie.",
+
+        "agentsTab4Title": "Asystenci Google AI Studio",
         "agentsTab4Desc1": "Osobisty Asystent AI",
         "agentsTab4Desc2": "Generator Promptów z Obrazu na Tekst",
         "agentsTab4Desc3": "Kreator Promptów do Wideo AI",
+        "agentsTab4Description1": "Asystenci Google AI Studio to zaawansowane rozwiązanie wykorzystujące najnowsze modele językowe Google, pozwalające na tworzenie spersonalizowanych asystentów AI dostosowanych do konkretnych zadań. Dzięki intuicyjnemu interfejsowi możesz łatwo skonfigurować własnego asystenta, który będzie wspierał Twój biznes w generowaniu treści, analizie danych czy automatyzacji procesów.",
+        "agentsTab4Description2": "Wdrożenie obejmuje pełną konfigurację asystentów pod Twoje potrzeby, w tym dostosowanie bazy wiedzy, integrację z istniejącymi systemami oraz szkolenie z obsługi platformy. Asystenci mogą być wykorzystywani do różnorodnych zadań - od generowania kreatywnych promptów do obrazów i wideo, przez tworzenie treści marketingowych, aż po zaawansowaną analitykę biznesową.",
         
-        "agentsTab5Title": "Agent AI do Obsługi E-commerce z Rekomendacją Produktów",
+        "agentsTab5Title": "Agent AI Ecommerce z Rekomendacją Produktów",
         "agentsTab5Desc1": "Biblioteka Narzędzi AI z Blogiem i Newsletterem",
         "agentsTab5Desc2": "Studio Web & AI pomagające skalować i rozwijać przedsiębiorstwa z wykorzystaniem najnowszej technologii",
         "agentsTab5Desc3": "Gen AI Studio tworzące kreatywne materiały wizualne dla biznesu",
-        
+        "agentsTab5Description1": "Asystent AI dla e-commerce to inteligentne narzędzie personalizujące doświadczenia zakupowe. Analizując zachowania klientów w czasie rzeczywistym, dostarcza trafnych rekomendacji produktowych i zwiększa konwersję w Twoim sklepie internetowym.",
+        "agentsTab5Description2": "System wykorzystuje uczenie maszynowe do zrozumienia preferencji każdego klienta, sugerując produkty najlepiej dopasowane do jego potrzeb. Automatycznie identyfikuje wzorce zakupowe, cross-selling i up-selling, maksymalizując wartość koszyka.",
+     
         "agentsTab6Title": "Customowy Multimdalny AI Agent Z RAG z logowaniem do aplikacji",
         "agentsTab6Desc1": "Stworzony w czystym kodzie wykorzystując Next.js",
         "agentsTab6Desc2": "Multimodalna aplikacja - jako input przyjmuje text, zdjęcia oraz pliki",
         "agentsTab6Desc4": "Pamięc rozmów",
         "agentsTab6Desc3": "System logowania z implementacją własnej bazy danych",
-
+        "agentsTab6Description1": "Customowy Multimodalny AI Agent z RAG to zaawansowane rozwiązanie, które integruje różnorodne źródła danych, aby dostarczać spersonalizowane odpowiedzi i wsparcie dla Twoich klientów. Dzięki funkcji logowania do aplikacji, agent może dostosować swoje interakcje do indywidualnych potrzeb użytkowników, zapewniając im dostęp do informacji w czasie rzeczywistym oraz automatyzując procesy obsługi klienta.",
+        "agentsTab6Description2": "Ten agent to nie tylko narzędzie, ale kompleksowe rozwiązanie, które zwiększa efektywność operacyjną Twojego biznesu. Dzięki możliwości integracji z różnymi systemami, zapewnia płynne doświadczenie użytkownika, co przekłada się na wyższą satysfakcję klientów i lepsze wyniki sprzedażowe. Inwestując w Customowy Multimodalny AI Agent, zyskujesz przewagę konkurencyjną i możliwość skupienia się na strategicznym rozwoju swojej marki.",
+      
         "agentsTab7Title": "Lokalny AI RAG Agent",
         "agentsTab7Desc1": "W pełni prywatny Agent działający na własnej maszynie",
         "agentsTab7Desc2": "Wykorzystujący Ollama co zapewnia prywatność od strony LLM",
         "agentsTab7Desc3": "Dowolna baza wiedzy, w dowolnej formie",
-
+        "agentsTab7Description1": "Lokalny Asystent AI to rozwiązanie działające w pełni na Twojej infrastrukturze, bez połączenia z chmurą. Wszystkie dane i interakcje pozostają na Twoich serwerach, zapewniając maksymalny poziom bezpieczeństwa i zgodność z RODO.",
+        "agentsTab7Description2": "System działa w modelu on-premise, wykorzystując lokalne modele AI bez wysyłania danych na zewnątrz. Gwarantuje to pełną kontrolę nad danymi, co jest kluczowe dla firm operujących na wrażliwych danych klientów i transakcjach.",
+     
         "agentsTab8Title": "Agent AI dla Ainsider.tools",
         "agentsTab8Desc1": "Multi-Agent RAG korzystający wyłącznie z indywidualnej bazy danych",
         "agentsTab8Desc2": "Autopoprawianie i weryfikacja odpowiedzi",
         "agentsTab8Desc3": "Pomoże znaleźć narzędzia AI lub workflow z ich użyciem idealnie dopasowany do Twoich celów",
-
-    "resourcesTabDesc4":"Biblioteka Narzędzi AI z Blogiem i Newsletterem przeznaczona dla polskojęzycznej audiencji",
-    "resourcesTabDesc5":"Newsletter na temat technologii AI oraz narzędzi i modeli dla kreatorów",
+        "agentsTab8Description1": "Asystent AI to nowoczesne rozwiązanie, które wykorzystuje sztuczną inteligencję, aby wspierać Twoich klientów i zwiększać efektywność Twojego biznesu. Dzięki niemu Twoja firma zyskuje wirtualnego doradcę, który działa 24/7, odpowiada na pytania klientów, pozyskuje nowe leady i automatyzuje wiele procesów.",
+        "agentsTab8Description2": "Asystent AI to nie tylko narzędzie, to także inwestycja w przyszłość Twojego biznesu. Zapewnia przewagę konkurencyjną, zwiększa satysfakcję klientów i wspiera rozwój sprzedaży. Dzięki niemu możesz skupić się na tym, co najważniejsze, budowaniu relacji z klientami i rozwijaniu swojej marki.",
+     
+    "resourcesTabDesc4":"Biblioteka Narzędzi AI z Blogiem i Newsletterem - odpowiednik Ainsider.tools lecz dla polskojęzycznej audiencji",
+    "resourcesTabDescNewsletter":"Newsletter na temat technologii AI zawierający newsy, poradniki i tutoriale na temat AI",
     "resourcesTabDesc6":"Zestaw Asystentów i Agentów AI dla różnych biznesowych celów",
     "resourcesTabDesc7":"Szkolenia i Poradniki AI - oferuję różnorodne szkolenia oraz szczegółowe poradniki dotyczące sztucznej inteligencji, które pomogą Ci zrozumieć i wdrożyć nowoczesne technologie w Twoim biznesie.",
+    "resourcesTabDesc7Title":"Szkolenia i Poradniki AI",
+
+
+    "resourcesTabAinsiderTools":"Biblioteka Narzędzi AI z Blogiem i Newsletterem przeznaczona dla polskojęzycznej audiencji",
+
 
     "genaiTabHeader":"Zobacz moje Video i Grafiki stworzone z AI",
     "resourcestabs_header":"Zobacz moje Biblioteki i Poradniki AI",
@@ -161,6 +212,7 @@
     "cta_newsletter": "Dołącz do AI Newslettera",
     "cta_consultation": "Darmowa Konsultacja",
     "cta_talk": "Porozmawiajmy o Twoim Projekcie",
+    "cta_agent": "Porozmawiajmy o Twoim AI Asystencie",
     "cta_details": "Dowiedz się więcej",
     "cta_portfolio": "Zobacz Moje Portfolio",
     "cta_more": "Zobacz szczegóły",
@@ -232,6 +284,26 @@
     "mainintro": "AI & Web Specialist",
     "maindesc": "Design | Web | AI | Automatyzacje",
     "main_heroP": "Konsultacje | Strategie | Wdrożenia | Modele | Narzędzia | Technologia AI",
+    "main_portfolio": "Zobacz moje portfolia:",
+
+    "aimainwelcome": "Agenci AI | Aplikacje AI | Automatyzacje",
+    "aimainintro": "AI Developer & Specialist",
+    "aimaindesc": "Z pasją do tworzenia Agentów i Rozwiązań AI",
+    "aimain_heroP": "Łączę najnowocześniejsze rozwiązania biznesowe wykorzystując najlepszą technologię",
+    "aimain_heroP2": "Zobacz moje AI portfolio:",
+
+    "webmainwelcome": "Web | Code | E-commerce | UX/UI | CRM",
+    "webmainintro": "Web Developer & Designer",
+    "webmaindesc": "Z pasją tworzę najwyższej jakości rozwiązania webowe",
+    "webmain_heroP": "Łączę najnowocześniejsze rozwiązania biznesowe wykorzystując najlepszą technologię",
+    "webmain_heroP2": "Zobacz moje web projekty:",
+
+    "designmainwelcome": "Design | Grafiki | Branding | Wideo",
+    "designmainintro": "Designer",
+    "designmaindesc": "Z pasją tworzę zachwycające materiały wizualne",
+    "designmain_heroP": "Łączę najnowocześniejsze rozwiązania biznesowe wykorzystując najlepszą technologię",
+    "designmain_heroP2": "Zobacz moje prace i portoflio:",
+
 
     "about_title": "Moje Usługi",
     "about_title2": " oraz specjalizacje",

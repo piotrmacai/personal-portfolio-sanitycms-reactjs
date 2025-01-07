@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
-import './Header.scss';
+import './HeaderWeb.scss';
 import {Chatbot} from '../../components'
 import { useTranslation} from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
@@ -21,7 +21,7 @@ const scaleVariants = {
 };
 
 
-const Header = () => {
+const HeaderWeb = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -34,17 +34,28 @@ const Header = () => {
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
           <div>
-            <p className="cta_section_info_p">{t('mainwelcome')}</p>
-            <h1 className="head-text">{t('mainintro')}</h1>
-            <p className="p-text"> {t('maindesc')}</p>
+            <p className="cta_section_info_p">{t('webmainwelcome')}</p>
+            <h1 className="head-text">{t('webmainintro')}</h1>
+            <p className="p-text"> {t('webmaindesc')}</p>
           </div>
         </div>
-
         <div className="tag-cmp app__flex">
-          <p className="p-text">{t('main_portfolio')}</p>
+          <p className="p-text">{t('designmain_heroP2')}</p>
         </div>
-        <div className="cta_social hidedeskop">
-                           
+        <div className="cta_social">
+                              <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
+                           <div> <FaBehance/>    </div>                               
+                        </a>  
+                        <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
+                           <div>< BsGithub /></div>
+                       </a>
+
+                        <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
+                           <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
+                        </a>
+                        <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
+                           <div> <img src={images.dapp} width={32} height={32} alt="Huggingface"/>    </div>                               
+                        </a>
                            <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
                                <div> <BsTwitter /> </div>
                            </a>
@@ -52,27 +63,9 @@ const Header = () => {
                        <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" rel="noreferrer">
                             <div> <BsLinkedin />     </div>
                        </a>
-                     <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
-                           <div>< BsGithub /></div>
-                       </a>
-                       <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
-                           <div> <FaBehance/>    </div>                               
-                        </a>   
-                        <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
-                           <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
-                        </a>
-                        {/* <a href="https://www.deviantart.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
-                           <div> 
-                             <img src={images.deviantartsvg} width={22} height={22} alt="Huggingface" style={{ filter: 'invert(100%)' }} />   
-                           </div>                               
-                        </a>     */}
-                     
-                        {/* <a href="https://huggingface.co/Piotr-Macai" target="_blank" rel="noopener noreferrer">         
-                           <div> <img src={images.hflogo} width={32} height={32} alt="Huggingface"/>    </div>                               
-                        </a>      */}
-
                </div>
 
+        
         {/* <a href="/contact">
         <button className="newsletterBtn">{t('cta_consultation')}</button>
         </a> */}
@@ -115,5 +108,4 @@ const Header = () => {
   )
 };
 
-export default AppWrap(Header, 'home');
-
+export default AppWrap(HeaderWeb, 'home');
