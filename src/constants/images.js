@@ -137,8 +137,12 @@ import mecom from '../assets/mecom.png';
 import mollama from '../assets/mecom.png';
 import mnews from '../assets/mnews.png';
 import offerpdf from '../assets/offerpdf.jpg';
+import ainsiderlink from '../assets/ainsiderlink.jpg';
+import voiceflowecom from '../assets/voiceflowecom.png';
 
 export default {
+  voiceflowecom,
+  ainsiderlink,
   offerpdf,
   mnews,
   mollama,

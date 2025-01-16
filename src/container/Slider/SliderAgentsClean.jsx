@@ -37,6 +37,7 @@ const SliderAgentsClean = () => {
             className="mySwiper"
           >
          <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.mockupvoicebot} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
+         <SwiperSlide><a href="https://macai.cloud" target="_blank" rel="noreferrer"><img src={images.voiceflowecom} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.mwrapper} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer"><img src={images.mbotpress} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="https://github.com/piotrmacai/aiagent-voiceflow-leadbot" target="_blank" rel="noreferrer"><img src={images.mecom} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
