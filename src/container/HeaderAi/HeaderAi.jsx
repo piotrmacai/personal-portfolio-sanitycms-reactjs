@@ -39,11 +39,12 @@ const HeaderAi = () => {
             <p className="p-text"> {t('aimaindesc')}</p>
           </div>
         </div>
-        <div className="tag-cmp app__flex">
+        {/* <div className="tag-cmp app__flex">
           <p className="p-text">{t('aimain_heroP2')}</p>
-        </div>
+        </div> */}
         <div className="cta_social">
-                           
+        <p className="p-text hiddentext">{t('aimain_heroP2')}</p>
+
                            <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
                                <div> <BsTwitter /> </div>
                            </a>

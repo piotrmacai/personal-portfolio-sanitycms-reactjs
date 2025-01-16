@@ -56,6 +56,7 @@ const SliderDesign = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
+                        <SwiperSlide><img src={images.offerpdf} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.art3} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>

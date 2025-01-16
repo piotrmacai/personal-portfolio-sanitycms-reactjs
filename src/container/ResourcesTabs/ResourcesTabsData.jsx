@@ -51,7 +51,7 @@ export const ResourcesTabsData = () => {
           <h2 style={{ marginBottom: '30px' }}>{t('resourcesTabDesc7Title')}</h2>
           <img src={images.cloudainsider} className="app_header-img" alt="profile_bg" style={{ maxWidth: '600px', marginBottom:'20px' }} />
           <p>{t('resourcesTabDesc7')}</p>
-          <a href="https://macaicloud/" className="Btn">See My AI Guides at Gumroad</a>
+          <a href="https://macaicloud/" className="Btn">Macai.cloud Store</a>
         </div>
       ),
     },

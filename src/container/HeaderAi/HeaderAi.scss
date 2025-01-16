@@ -53,15 +53,7 @@
   align-items: flex-start;
   flex-direction: column;
   
-  .hidedeskop {
-    display: block;
-  }
   
-  @media screen and (min-width: 769px) {
-    .hidedeskop {
-      display: none;
-    }
-  }
   
   .cta_social {
     display: flex;
@@ -72,7 +64,13 @@
     margin-top:0.5rem;
     // @media screen and (min-width: 1000px) {
     //   display: none;
-    // }   
+    // } 
+    .hiddentext {
+      display: block; // Default display
+      @media (max-width: 914px) {
+        display: none; // Hide on smaller screens
+      }
+    }
   
     div {
       width: 40px;
@@ -160,6 +158,13 @@
       @media screen and (max-width: 915px) {
       padding-left:1.5rem;
       margin-top:1rem; 
+      }
+
+      .hiddentext {
+        display: block; // Default display
+        @media (max-width: 914px) {
+          display: none; // Hide on smaller screens
+        }
       }
     }
   

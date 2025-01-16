@@ -36,6 +36,7 @@ const Web = () => {
 <GridPortfolio/>
 <Pricing/>
 <Footer/>
+<Chatbot/>
 
   </>
   )

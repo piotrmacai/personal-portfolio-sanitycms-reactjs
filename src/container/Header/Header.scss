@@ -54,14 +54,16 @@ align-items: flex-start;
 flex-direction: column;
 
 .hidedeskop {
-  display: block;
+  display: none;
 }
-
-@media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) {
   .hidedeskop {
-    display: none;
+    display: block;
   }
 }
+
+
+
 
 .cta_social {
   display: flex;

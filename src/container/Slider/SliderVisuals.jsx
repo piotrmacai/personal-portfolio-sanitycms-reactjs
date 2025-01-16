@@ -43,6 +43,7 @@ const SliderVisuals = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
+                        <SwiperSlide><img src={images.offerpdf} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.art3} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><a href="https://vimeo.com/1039849145" target="_blank" rel="noreferrer"><img src={images.video1} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
                         <SwiperSlide><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>

@@ -61,6 +61,7 @@ const SliderWeb = () => {
             <SwiperSlide><img src={images.insdr} className="app_header-img" alt="profile_bg" /></SwiperSlide>
             <SwiperSlide><img src={images.aiwareCloud} className="app_header-img" alt="profile_bg" /></SwiperSlide>
             <SwiperSlide><img src={images.volton_slider} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+            <SwiperSlide><img src={images.offerpdf} className="app_header-img" alt="profile_bg" /></SwiperSlide>
             <SwiperSlide><img src={images.bakaliovelove} className="app_header-img" alt="profile_bg" /></SwiperSlide>
             <SwiperSlide><img src={images.afterrave} className="app_header-img" alt="profile_bg" /></SwiperSlide>
             <SwiperSlide><img src={images.uichatbot} className="app_header-img" alt="profile_bg" /></SwiperSlide>

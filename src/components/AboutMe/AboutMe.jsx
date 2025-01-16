@@ -33,6 +33,7 @@ const AboutMe = () => {
 <GridPortfolio/>
 <Pricing/>
 <Footer/>
+<Chatbot/>
 
   </>
   )

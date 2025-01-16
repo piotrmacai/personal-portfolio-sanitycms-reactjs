@@ -33,6 +33,7 @@ const Projects = () => {
      </div> */}
 <Work/>
 <Footer/>
+<Chatbot/>
 
   </>
   )

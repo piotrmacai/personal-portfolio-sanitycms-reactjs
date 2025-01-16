@@ -73,6 +73,13 @@
     // @media screen and (min-width: 1000px) {
     //   display: none;
     // }   
+
+    .hiddentext {
+      display: block; // Default display
+      @media (max-width: 914px) {
+        display: none; // Hide on smaller screens
+      }
+    }
   
     div {
       width: 40px;

@@ -1,0 +1,20 @@
+#bp-web-widget-container {
+    bottom: 100px !important;
+  }
+  
+  .bp-widget-web {
+    bottom: 100px !important;
+  }
+  
+  #webchat {
+    margin-bottom: 100px;
+  }
+  
+  .webchat-wrapper {
+    bottom: 100px !important;
+  }
+  
+  // Target the iframe directly
+  iframe[id^="bp-widget-web"] {
+    bottom: 100px !important;
+  }

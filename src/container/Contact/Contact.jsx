@@ -6,6 +6,7 @@ import { BsTelephone } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
+
 const ContactPage = () => {
 
     const form = useRef();
@@ -33,7 +34,8 @@ const handleSubmit = () => {
 
             <h5 className="subtitle">Get to know</h5>
             <h2 className="title">Contact</h2>
-          
+
+           
             
         <div className="contact_Container">
 

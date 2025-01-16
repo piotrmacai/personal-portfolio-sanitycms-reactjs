@@ -37,6 +37,7 @@ const Design = () => {
 {/* < GridPortfolioDesignSecond/> */}
 <Pricing/>
 <Footer/>
+<Chatbot/>
 
   </>
   )

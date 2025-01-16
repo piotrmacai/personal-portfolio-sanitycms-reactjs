@@ -39,28 +39,31 @@ const Header = () => {
             <p className="p-text"> {t('maindesc')}</p>
           </div>
         </div>
-
+{/* 
         <div className="tag-cmp app__flex">
           <p className="p-text">{t('main_portfolio')}</p>
-        </div>
+        </div> */}
         <div className="cta_social hidedeskop">
-                           
-                           <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
-                               <div> <BsTwitter /> </div>
-                           </a>
-                      
-                       <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" rel="noreferrer">
-                            <div> <BsLinkedin />     </div>
-                       </a>
-                     <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
-                           <div>< BsGithub /></div>
-                       </a>
+        <p className="p-text">{t('main_portfolio')}</p>
+       
+                        
+                  
                        <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
                            <div> <FaBehance/>    </div>                               
                         </a>   
                         <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
                            <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
                         </a>
+                              <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
+                           <div>< BsGithub /></div>
+                       </a>
+                        <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
+                               <div> <BsTwitter /> </div>
+                           </a>
+                      
+                       <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" rel="noreferrer">
+                            <div> <BsLinkedin />     </div>
+                       </a>
                         {/* <a href="https://www.deviantart.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
                            <div> 
                              <img src={images.deviantartsvg} width={22} height={22} alt="Huggingface" style={{ filter: 'invert(100%)' }} />   

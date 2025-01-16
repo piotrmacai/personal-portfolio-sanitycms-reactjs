@@ -39,17 +39,19 @@ const HeaderDesign = () => {
             <p className="p-text"> {t('designmaindesc')}</p>
           </div>
         </div>
-
+{/* 
+      <div className="tag-cmp app__flex">
+          <p className="p-text hiddentext">{t('designmain_heroP2')}</p>
+        </div> */}
+        
         <div className="cta_social">
-           <div className="tag-cmp app__flex">
-          <p className="p-text">{t('designmain_heroP2')}</p>
-        </div>                
+        <p className="p-text hiddentext">{t('designmain_heroP2')}</p>  
         <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
                            <div> <FaBehance/>    </div>                               
                         </a>  
-                        <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
+                        {/* <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
                            <div>< BsGithub /></div>
-                       </a>
+                       </a> */}
 
                         <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
                            <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
@@ -57,13 +59,13 @@ const HeaderDesign = () => {
                         <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
                            <div> <img src={images.dapp} width={32} height={32} alt="Huggingface"/>    </div>                               
                         </a>
-                           <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
+                           {/* <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
                                <div> <BsTwitter /> </div>
                            </a>
                       
                        <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" rel="noreferrer">
                             <div> <BsLinkedin />     </div>
-                       </a>
+                       </a> */}
 
                </div>
 

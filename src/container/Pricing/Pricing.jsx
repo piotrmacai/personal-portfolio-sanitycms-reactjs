@@ -4,6 +4,8 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsCalendar4Week, BsFillTelephoneFill } from 'react-icons/bs';
 import { useTranslation } from "react-i18next";
+import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
+import { FaFacebook, FaBehance } from 'react-icons/fa';
 
 const Pricing = () => {
     const { t } = useTranslation();
@@ -18,6 +20,35 @@ const Pricing = () => {
         <div className="pricing_container" id="pricing">
             <h5 className="subtitle">{t('pricing_header')}</h5>
             <h2 className="title">{t('pricing_desc')}</h2>
+
+            <div className="cta_social">
+                           
+                           <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
+                               <div> <BsTwitter /> </div>
+                           </a>
+                      
+                       <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" rel="noreferrer">
+                            <div> <BsLinkedin />     </div>
+                       </a>
+                     <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
+                           <div>< BsGithub /></div>
+                       </a>
+                       <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
+                           <div> <FaBehance/>    </div>                               
+                        </a>   
+                        {/* <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
+                           <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
+                        </a> */}
+                        {/* <a href="https://www.deviantart.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
+                           <div> 
+                             <img src={images.deviantartsvg} width={22} height={22} alt="Huggingface" style={{ filter: 'invert(100%)' }} />   
+                           </div>                               
+                        </a>     */}
+                     
+
+               </div>
+
+
             <h5 className="subtitle" style={{ marginBottom: '2rem' }}>{t('pricing_contactcta')}</h5>
 
             <div className="pricing_contact_container">
