@@ -17,6 +17,41 @@
     "menuabout":"O mnie",
 
     "agentsTabVisit":"Odwiedź",
+
+    "cookiesmessage": "Używamy plików cookie, aby poprawić Twoje doświadczenia podczas przeglądania. Kontynuując korzystanie z naszej strony, zgadzasz się na naszą",
+    "cookiesprivacyLink": "Politykę Prywatności",
+    "cookiesaccept": "Akceptuj",
+      
+        "privacy": {
+            "head":"POLITYKA PRYWATNOŚCI ORAZ COOKIES MACAI.STUDIO",
+            "head1":"§1. POSTANOWIENIA OGÓLNE",
+            "desc1": "POSTANOWIENIA OGÓLNE - Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych Klientów Platformy Internetowej https://macai.studio (zwanego dalej Platformą), prowadzonego przez Piotra Machowskiego (zwanego dalej „Administratorem”).Administrator dokłada wszelkich starań, aby przetwarzać dane osobowe Klientów zgodnie z obowiązującymi przepisami prawa, w szczególności z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).",
+            "head2":"§2. RODZAJ PRZETWARZANYCH DANYCH",
+            "desc2": "Administrator przetwarza dane osobowe Klientów niezbędne do realizacji zamówień, w tym: imię, nazwisko, adres e-mail, numer telefonu, adres dostawy. Dodatkowo, podczas korzystania z Platformy, Administrator może gromadzić informacje o aktywności Klienta, takie jak: historia przeglądanych stron, oraz na potrzeby obsługi formularzy jak i wycen projektów.",
+            "head3":"§3. CEL I PODSTAWA PRAWNA PRZETWARZANIA DANYCH",
+            "desc3": "Dane osobowe Klientów przetwarzane są w celu: a) realizacji zawartej Umowy Sprzedaży (art. 6 ust. 1 lit. b RODO), b) wykonania ciążących na Administratorze obowiązków prawnych, np. wystawiania faktur (art. 6 ust. 1 lit. c RODO), c) marketingu bezpośredniego produktów i usług Administratora (art. 6 ust. 1 lit. f RODO). Podanie danych osobowych jest dobrowolne, jednak niezbędne do realizacji zamówienia w Platformie.",
+            "head4":"§4. UDOSTĘPNIANIE I PRZEKAZYWANIE DANYCH",
+            "desc4": "Dane osobowe Klientów mogą być udostępniane podmiotom świadczącym usługi na rzecz Administratora, takim jak: dostawcy IT, biura rachunkowe, itp. Dane osobowe Klientów nie będą przekazywane poza Europejski Obszar Gospodarczy.",
+            "head5":"§5. PRAWA KLIENTÓW",
+            "desc5": "Klienci mają prawo dostępu do swoich danych osobowych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia danych, wniesienia sprzeciwu oraz cofnięcia zgody na przetwarzanie danych. W celu realizacji swoich praw Klienci mogą skontaktować się z Administratorem drogą elektroniczną na adres: piotr@macai.studio.",
+            "head6":"§6. POSTANOWIENIA KOŃCOWE",
+            "desc6": "Niniejsza Polityka Prywatności wchodzi w życie z dniem 22.05.2024. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Prywatności. O zmianach Klienci będą informowani drogą elektroniczną.",
+            "head7":"",
+            "headcook":"POLITYKA COOKIES MACAI.STUDIO",
+            "cook1": "Cookies – małe pliki tekstowe wysyłane przez serwer www i zapisywane na urządzeniu końcowym (np. komputer, smartfon) użytkownika, podczas korzystania ze stron internetowych. Cookies sesyjne – pliki cookies usuwane po zakończeniu sesji przeglądarki.Cookies stałe – pliki cookies pozostające na urządzeniu użytkownika przez określony czas. Cookies pierwszej strony – pliki cookies umieszczane przez stronę, którą użytkownik aktualnie odwiedza.Cookies stron trzecich – pliki cookies umieszczane przez serwisy inne niż odwiedzana strona.",
+            "headcook1":"§1. DEFINICJE",
+            "cook2": "Administrator wykorzystuje następujące rodzaje plików cookies: a) Niezbędne do funkcjonowania Sklepu: Przechowywanie zawartości koszyka, Zapamiętywanie logowania użytkownika, Dostosowanie wyświetlanej zawartości do użytkownika. b) Funkcjonalne:Zapamiętywanie preferencji użytkownika (np. język, region),Zapamiętywanie ustawień wyglądu strony. c) Analityczne:Mierzenie ruchu na stronie w celu ulepszania jej funkcjonowania,Generowanie anonimowych statystyk i raportów. d) Marketingowe:Personalizacja reklam wyświetlanych użytkownikowi, Analiza skuteczności kampanii marketingowych.",
+            "headcook2":"§2. RODZAJE I CELE WYKORZYSTYWANIA COOKIES",
+            "cook3": "Pliki cookies są wykorzystywane w celu: a) Zapewnienia prawidłowego działania i bezpieczeństwa Sklepu, b) Analizy ruchu na stronie i optymalizacji funkcjonalności Sklepu, c) Dostosowania treści i funkcjonalności do preferencji użytkownika, d) Prowadzenia działań marketingowych i reklamowych.",
+            "headcook3":"§3. ZARZĄDZANIE PLIKAMI COOKIES",
+            "cook4": "Użytkownik może w każdej chwili zmienić ustawienia przeglądarki, aby zablokować zapisywanie plików cookies lub usunąć już zapisane pliki. Zablokowanie lub usunięcie plików cookies może spowodować utrudnienia w korzystaniu ze Sklepu lub uniemożliwić korzystanie z niektórych jego funkcji. Użytkownik może w dowolnym momencie wycofać zgodę na używanie plików cookies, korzystając z ustawień przeglądarki.",
+            "headcook4":"§4. COOKIES STRON TRZECICH",
+            "cook5": "Na stronie Sklepu mogą być również umieszczane pliki cookies pochodzące od podmiotów trzecich, takich jak: a) Dostawcy usług analitycznych (np. Google Analytics), b) Dostawcy usług reklamowych (np. Google Ads), c) Podmioty świadczące usługi wtyczek społecznościowych. Pliki cookies stron trzecich podlegają odrębnym politykom prywatności tych podmiotów",
+            "headcook5":"§5. KONTAKT I REKLAMACJE",
+            "cook6": "W sprawach związanych z wykorzystywaniem plików cookies na stronie Sklepu, użytkownik może skontaktować się z Administratorem pod adresem email: piotr@macai.studio . Użytkownik ma prawo wniesienia skargi do organu nadzorczego (Prezesa Urzędu Ochrony Danych Osobowych) w zakresie naruszenia przepisów dotyczących ochrony danych osobowych.",
+            "headcook6":"§6. POSTANOWIENIA KOŃCOWE",
+            "cook7": "Niniejsza Polityka Cookies wchodzi w życie z dniem 01.05.2024. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Cookies. O zmianach Klienci będą informowani drogą elektroniczną."
+          },
    
         "agentsTab1Title": "Personalni Asystenci Huggingface",
         "agentsTab1Desc1": "Osobisty Asystent dla konkretnych celów",
@@ -495,6 +530,10 @@
     "pricing_formRodo": "Wyrażam zgodę na przetwarzanie danych osobowych niezbędnych do obsługi formularza i udzielenia odpowiedzi na zapytanie",
     "pricing_formButton": "Wyślij",
     "pricing_formButtonDesc": "Dziękuję za wiadomość!",
-    "pricing_Calendly":"Rozmowa"
+    "pricing_Calendly":"Rozmowa",
+
+    "cookie_message": "This website uses cookies to enhance your experience. By continuing to use this site, you agree to our use of cookies.",
+    "privacy_policy": "Privacy Policy",
+    "accept_cookies": "Accept"
 
 }

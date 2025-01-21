@@ -41,4 +41,6 @@ export { default as GridPortfolioDesign } from './GridPortfolio/GridPortfolioDes
 export { default as GridPortfolioDesignSecond } from './GridPortfolio/GridPortfolioDesignSecond';
 export { default as FeaturesTab } from './FeaturesTab/FeaturesTab';
 export { default as HeadingWeb } from './Heading/HeadingWeb';
+export { default as Privacypolicy } from './Privacypolicy/Privacypolicy';
+export { default as Cookie } from './Cookie/Cookie';
 

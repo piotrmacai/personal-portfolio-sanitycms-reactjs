@@ -14,4 +14,5 @@ export { default as Video } from './Video/Video';
 export { default as Resources } from './Resources/Resources';
 export { default as Design } from './Design/Design';
 export { default as AboutMe } from './AboutMe/AboutMe';
+export { default as Privacy } from './Privacy/Privacy';
 

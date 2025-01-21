@@ -1,8 +1,8 @@
 import {React, useEffect} from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { Navbar, Contact, Chatbot, CombinedBots, Projects, Web, AboutMe, Assistants, Building, Video, Resources, Design } from './components';
+import { Navbar, Privacy, Contact, Chatbot, CombinedBots, Projects, Web, AboutMe, Assistants, Building, Video, Resources, Design } from './components';
 import './App.scss';
-import {Homepage} from './container';
+import {Homepage, Cookie} from './container';
 import HttpsRedirect from 'react-https-redirect';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
@@ -41,7 +41,9 @@ const App = () => {
           <Route path="/aitech" element={<Resources/>} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
+        <Cookie />
         </I18nextProvider>
       </BrowserRouter> 
        <CombinedBots/>
