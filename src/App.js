@@ -46,7 +46,7 @@ const App = () => {
         <Cookie />
         </I18nextProvider>
       </BrowserRouter> 
-       <CombinedBots/>
+       <Chatbot/>
       </HttpsRedirect>
     </div>
   );

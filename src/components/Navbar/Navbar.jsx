@@ -24,7 +24,7 @@ const Navbar = () => {
         <li className="app__flex p-text">
           <Link to="/" onClick={handleMenuItemClick}>{t('menu1')}</Link> 
         </li> 
-        
+         
         {/* Main Portfolio Item with Submenu */}
         <li className="app__flex p-text portfolio-menu">
           <Link to="#">{t('menu_solutions')}</Link>

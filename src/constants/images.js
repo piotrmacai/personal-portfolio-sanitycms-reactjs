@@ -139,8 +139,16 @@ import mnews from '../assets/mnews.png';
 import offerpdf from '../assets/offerpdf.jpg';
 import ainsiderlink from '../assets/ainsiderlink.jpg';
 import voiceflowecom from '../assets/voiceflowecom.png';
+import bottlemockup from '../assets/bottlemockup.png';
+import midposter from '../assets/midposter.png';
+import nikeair from '../assets/nikeair.png';
+import posteri from '../assets/posteri.png';
 
 export default {
+  posteri,
+  nikeair,
+  midposter,
+  bottlemockup,
   voiceflowecom,
   ainsiderlink,
   offerpdf,

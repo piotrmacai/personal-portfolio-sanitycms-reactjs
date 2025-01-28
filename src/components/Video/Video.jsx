@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './socialmedia.scss';
-import { Header, Work, Footer, GenAiTabs, VideoCta, GridPortfolio, ResourcesTabs, AboutAI, SliderAgents, FeaturesTab, AiCta } from '../../container';
+import { HeaderAi, Work, Footer, GenAiTabs, VideoCta, GridPortfolio, ResourcesTabs, AboutAI, SliderAgents, FeaturesTab, AiCta } from '../../container';
 import Chatbot from '../Chatbot/Chatbot'
 import { useTranslation } from "react-i18next";
 import { BsLinkedin, BsTwitter, BsGithub} from 'react-icons/bs';
@@ -30,7 +30,7 @@ const Video = () => {
         <Chatbot/>
      </div>
  
-<Header />  
+<HeaderAi/>  
 <AboutAI/>
 <AiCta/>
 <FeaturesTab/> 

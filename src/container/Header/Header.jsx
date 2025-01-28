@@ -79,9 +79,16 @@ const Header = () => {
         {/* <a href="/contact">
         <button className="newsletterBtn">{t('cta_consultation')}</button>
         </a> */}
-       <Link to="/contact">
-      <button className="newsletterBtn">{t('cta_consultation')}</button>
-    </Link>
+           <div>
+           <Link to="https://insdr.cloud" target="_blank">
+          <button className="secondBtn">{t('cta_insdr')}</button>
+        </Link>
+        <Link to="/contact">
+          <button className="newsletterBtn">{t('cta_consultation')}</button>
+        </Link>
+          
+    </div>
+
     
       </div>
     </motion.div>

@@ -36,7 +36,7 @@ const HeaderAi = () => {
           <div>
             <p className="cta_section_info_p">{t('aimainwelcome')}</p>
             <h1 className="head-text">{t('aimainintro')}</h1>
-            <p className="p-text"> {t('aimaindesc')}</p>
+            <p className="p-text"> {t('aimain_insdr')}</p>
           </div>
         </div>
         {/* <div className="tag-cmp app__flex">
@@ -69,19 +69,21 @@ const HeaderAi = () => {
                              <img src={images.deviantartsvg} width={22} height={22} alt="Huggingface" style={{ filter: 'invert(100%)' }} />   
                            </div>                               
                         </a>     */}
-                     
-                    
-
                </div>
 
-       
         {/* <a href="/contact">
         <button className="newsletterBtn">{t('cta_consultation')}</button>
         </a> */}
-       <Link to="/contact">
-      <button className="newsletterBtn">{t('cta_consultation')}</button>
-    </Link>
-    
+        <div>
+           <Link to="https://insdr.cloud" target="_blank">
+          <button className="secondBtn">{t('cta_insdr')}</button>
+        </Link>
+        <Link to="/contact">
+          <button className="newsletterBtn">{t('cta_consultation')}</button>
+        </Link>
+          
+    </div>
+
       </div>
     </motion.div>
 

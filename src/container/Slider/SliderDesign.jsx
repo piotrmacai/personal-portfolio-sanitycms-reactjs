@@ -57,6 +57,10 @@ const SliderDesign = () => {
             className="mySwiper"
           >
                         <SwiperSlide><img src={images.offerpdf} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.posteri} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.midposter} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.nikeair} className="app_header-img" alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.bottlemockup} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.art3} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
                         <SwiperSlide><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>

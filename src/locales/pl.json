@@ -14,6 +14,7 @@
     "menu_chatbots":"Chatboty i Agenci AI",
     "menu_ai":"Wdrożenia AI",
     "menu_guides":"Implementacje AI",
+    "menu_beehiiv":"https://ainsider.pl/",
     "menuabout":"O mnie",
 
     "agentsTabVisit":"Odwiedź",
@@ -251,6 +252,7 @@
     "cta_details": "Dowiedz się więcej",
     "cta_portfolio": "Zobacz Moje Portfolio",
     "cta_more": "Zobacz szczegóły",
+    "cta_insdr": "AI & Web Studio",
 
     "grid_subtitle1": "Zobacz Moje Study-Cases",
     "grid_title1": "Portfolio & Projekty",
@@ -326,6 +328,7 @@
     "aimaindesc": "Z pasją do tworzenia Agentów i Rozwiązań AI",
     "aimain_heroP": "Łączę najnowocześniejsze rozwiązania biznesowe wykorzystując najlepszą technologię",
     "aimain_heroP2": "Zobacz moje AI portfolio:",
+    "aimain_insdr": "Tworzący rozwiązania AI z insdr.cloud",
 
     "webmainwelcome": "Web | Code | E-commerce | UX/UI | CRM",
     "webmainintro": "Web Developer & Designer",

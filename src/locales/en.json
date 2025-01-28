@@ -10,6 +10,7 @@
     "menu_chatbots":"AI Agents & Chatbots",
     "menu_ai":"Visuals",
     "menu_guides":"AI Implementation",
+    "menu_beehiiv":"https://ainsider.beehiiv.com/",
     "menuabout":"About",
 
     "agentsTabVisit":"Visit",
@@ -271,6 +272,7 @@
     "cta_details": "All details",
     "cta_more": "More",
     "cta_agent": "Let's talk about Your AI Assitant",
+    "cta_insdr": "AI & Web Studio",
 
 
     "grid_subtitle1": "Explore my Works with Study Cases",
@@ -329,6 +331,8 @@
     "aimaindesc": "With love to building AI Agents and AI Solutions",
     "aimain_heroP": "Combining cutting-edge solutions for business using the best technology",
     "aimain_heroP2": "See my AI portfolios",
+    "aimain_insdr": "Creating AI solutions with insdr.cloud",
+
 
     "webmainwelcome": "Web | Code | Ecommerce | UX/UI | CRM",
     "webmainintro": "Web Designer & Developer",
