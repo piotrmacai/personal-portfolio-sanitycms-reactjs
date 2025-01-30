@@ -19,20 +19,23 @@ const GridPortfolio = () => {
   };
 
   const gridItemTexts = [
-    'AI & Automations',
-    'Design',
-    'Github',
+    'DeviantArt',
+    'Behance',
+    'Instagram',
     'AI',
-    'My Portfolio',
-    'Visuals'
+    'AI & Web',
+    'ArtStation'
   ];
 
   const gridItems = [
-    { src: images.mobileaiware, className: 'large', link: 'https://insdr.cloud' },
+    { src: images.deviantimage, className: 'large', link: 'https://www.deviantart.com/piotrmacai' },
+    // { src: images.mobileaiware, className: 'large', link: 'https://insdr.cloud' },
     { src: images.behanceBanner, className: 'medium', link: 'https://www.behance.net/macaistudio/' }, 
-    { src: images.git, className: 'medium', link: 'https://github.com/piotrmacai' },
+    // { src: images.git, className: 'medium', link: 'https://github.com/piotrmacai' },
+    { src: images.igicon, className: 'medium', link: 'https://www.instagram.com/piotr.macai/' },
     { type: 'info', link: null },
-    { src: images.deviceHead4, className: 'small imghead', link: '/web' },
+    // { src: images.deviceHead4, className: 'small imghead', link: '/web' },
+    { src: images.deviceHead4, className: 'small imghead', link: 'https://insdr.cloud/' },
     { src: images.artstationBanner, className: 'small', link: 'https://www.artstation.com/piotrmacai' },
   ];
 
@@ -111,7 +114,7 @@ const GridPortfolio = () => {
         ))}
       </motion.div>
     </section>
-  );
+  ); 
 };
 
 export default AppWrap(MotionWrap(GridPortfolio, 'app__cta'), 'cta', 'app__whitebg');

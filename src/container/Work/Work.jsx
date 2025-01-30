@@ -3,6 +3,7 @@ import { AiFillEye } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
+import { Link } from 'react-router-dom';
 import './Work.scss';
 
 const Work = () => {
@@ -42,7 +43,7 @@ const Work = () => {
             </h2>
 
             <div className="app__work-filter">
-                {['All', 'Web', 'Code' , 'Low/no-code', 'AI', 'Agents', 'Visuals'].map((item, index) => (
+                {['All', 'AI', 'Agents', 'Web', 'Code', 'Low/no-code'].map((item, index) => (
                     <div
                         key={index}
                         onClick={() => handleWorkFilter(item)}
@@ -53,7 +54,11 @@ const Work = () => {
                         {item}
                     </div>
                 ))}
+              <a href="/design" target="_blank" rel="noreferrer" className="app__work-filter-item app__flex p-text" style={{ textDecoration: 'none' }}>
+                  Design
+              </a>  
             </div>
+            
 
             <motion.div
                 animate={animateCard}

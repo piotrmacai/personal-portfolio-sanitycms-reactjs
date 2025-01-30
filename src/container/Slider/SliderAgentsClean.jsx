@@ -36,6 +36,7 @@ const SliderAgentsClean = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
+            <SwiperSlide><a href="https://github.com/piotrmacai/agent-ollama-deepseek-localrag" target="_blank" rel="noreferrer"><img src={images.deepseekimg} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
          <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.mockupvoicebot} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
          <SwiperSlide><a href="https://macai.cloud" target="_blank" rel="noreferrer"><img src={images.voiceflowecom} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
             <SwiperSlide><a href="/projects" target="_blank" rel="noreferrer"><img src={images.mwrapper} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>

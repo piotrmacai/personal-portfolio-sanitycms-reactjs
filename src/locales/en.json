@@ -50,6 +50,13 @@
     "cook7": "This Cookie Policy enters into force on 01.05.2024. The Administrator reserves the right to amend this Cookie Policy. Customers will be informed of any changes electronically."
     },
 
+    "agentsDeepseekTitle": "Local RAG AI Chatbot based on the Deepseek R1 model",
+    "agentsDeepseekDesc1": "A fully private chatbot operating on your infrastructure",
+    "agentsDeepseekDesc2": "With a user interface in Streamlit, providing easy handling",
+    "agentsDeepseekDesc3": "Ability to integrate with various knowledge sources",
+    "agentsDeepseekDescription1": "The Local RAG AI Chatbot is a solution that operates entirely on your infrastructure, without the need to connect to the cloud. All data and interactions are stored on your servers, ensuring maximum security and compliance with GDPR.",
+    "agentsDeepseekDescription2": "The system operates in an on-premise model, utilizing the local Deepseek R1 model, which guarantees full control over data, which is crucial for companies operating on sensitive customer data and transactions.",
+
     "agentsTab1Title": "Personal Assistants Huggingface",
     "agentsTab1Desc1": "Personal Assistant for specific purposes",
     "agentsTab1Desc2": "Software and AI Tools Recommendations",

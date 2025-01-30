@@ -143,8 +143,15 @@ import bottlemockup from '../assets/bottlemockup.png';
 import midposter from '../assets/midposter.png';
 import nikeair from '../assets/nikeair.png';
 import posteri from '../assets/posteri.png';
+import igicon from '../assets/igicon.png';
+import deviantimage from '../assets/deviantimage.png';
+import deepseekimg from '../assets/deepseekimg.png';
+
 
 export default {
+  deepseekimg,
+  deviantimage,
+  igicon,
   posteri,
   nikeair,
   midposter,

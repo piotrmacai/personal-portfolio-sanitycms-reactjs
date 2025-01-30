@@ -28,6 +28,7 @@ const Design = () => {
   
   <HeaderDesign /> 
   <SliderVisuals/>
+  <GridPortfolio/>
   <AboutDesign/>
 
   <DesignCta/> 

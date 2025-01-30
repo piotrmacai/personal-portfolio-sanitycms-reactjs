@@ -53,6 +53,13 @@
             "headcook6":"§6. POSTANOWIENIA KOŃCOWE",
             "cook7": "Niniejsza Polityka Cookies wchodzi w życie z dniem 01.05.2024. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Cookies. O zmianach Klienci będą informowani drogą elektroniczną."
           },
+          
+          "agentsDeepseekTitle": "Lokalny RAG AI Chatbot oparty na modelu Deepseek R1",
+          "agentsDeepseekDesc1": "W pełni prywatny chatbot działający na Twojej infrastrukturze",
+          "agentsDeepseekDesc2": "Z interfejsem użytkownika w Streamlit, zapewniającym łatwą obsługę",
+          "agentsDeepseekDesc3": "Możliwość integracji z różnymi źródłami wiedzy",
+          "agentsDeepseekDescription1": "Lokalny RAG AI Chatbot to rozwiązanie, które działa całkowicie na Twojej infrastrukturze, bez potrzeby łączenia się z chmurą. Wszystkie dane i interakcje są przechowywane na Twoich serwerach, co zapewnia maksymalne bezpieczeństwo i zgodność z RODO.",
+          "agentsDeepseekDescription2": "System działa w modelu on-premise, wykorzystując lokalny model Deepseek R1, co gwarantuje pełną kontrolę nad danymi, co jest kluczowe dla firm operujących na wrażliwych danych klientów i transakcjach.",
    
         "agentsTab1Title": "Personalni Asystenci Huggingface",
         "agentsTab1Desc1": "Osobisty Asystent dla konkretnych celów",

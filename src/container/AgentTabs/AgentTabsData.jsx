@@ -9,6 +9,35 @@ export const AgentTabsData = () => {
   return [
     {
       id: "1",
+      label: "DeepSeek Local RAG AI",
+      content: (
+        <div>
+          <h2>{t('agentsDeepseekTitle')}n</h2>
+          <p style={{marginBottom: '20px', marginTop: '10px' }}>{t('agentsTab7Description1')}</p>
+          <img src={images.deepseekimg} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
+          <p style={{marginBottom: '20px', marginTop: '10px' }}>{t('agentsTab7Description2')}</p>
+          <ul style={{ paddingLeft: '20px'}}>
+            <li>{t('agentsDeepseekDesc1')}</li>
+            <li>{t('agentsDeepseekDesc2')}</li>
+            <li>{t('agentsDeepseekDesc3')}</li>
+        </ul>
+        <h2 style={{ marginBottom: '30px', marginTop: '30px' }}>
+        {t('agentsTabIntegrationsTitle')}
+        </h2>
+        <ul style={{ paddingLeft: '20px'}}>
+          <li>{t('agentsTabIntegrations1')}</li>
+          <li>{t('agentsTabIntegrations2')}</li>
+          <li>{t('agentsTabIntegrations3')}</li>
+          <li>{t('agentsTabIntegrations4')}</li>
+          <li>{t('agentsTabIntegrations5')}</li>
+        </ul>
+        <a href="/contact" className="Btn">{t('cta_agent')}</a>
+        {/* <a href="https://github.com/piotrmacai/agent-flowise-local-ollama-rag" className="Btn">{t('agentsTabVisit')}</a> */}
+        </div>
+      ),
+    },
+    {
+      id: "2",
       label: "Customer Support Agent",
       content: (
         <div>
@@ -46,7 +75,7 @@ export const AgentTabsData = () => {
       ),
     },
     {
-      id: "2",
+      id: "3",
       label: "Lead Gen Agent",
       content: (
         <div>
@@ -84,7 +113,7 @@ export const AgentTabsData = () => {
       ),
     },
     {
-      id: "3",
+      id: "4",
       label: "AI Ecom Agent",
       content: (
         <div>
@@ -113,8 +142,8 @@ export const AgentTabsData = () => {
       ),
     }, 
     {
-      id: "4",
-      label: "Local RAG AI Assitant",
+      id: "5",
+      label: "Local RAG AI Assistant",
       content: (
         <div>
           <h2>{t('agentsTab7Title')}n</h2>
@@ -142,7 +171,7 @@ export const AgentTabsData = () => {
       ),
     },
     {
-      id: "5",
+      id: "6",
       label: "AI Voice Support Agent",
       content: (
         <div>
@@ -162,7 +191,7 @@ export const AgentTabsData = () => {
       ),
     },
     {
-      id: "6",
+      id: "7",
       label: "Huggingface",
       content: (
         <div>
@@ -193,7 +222,7 @@ export const AgentTabsData = () => {
     },
    
     {
-      id: "7",
+      id: "8",
       label: "Google AI Studio",
       content: (
         <div>
@@ -213,7 +242,7 @@ export const AgentTabsData = () => {
       ),
     },
       {
-        id: "8",
+        id: "9",
         label: "Custom AI Agent in Next.js",
         content: (
           <div>
