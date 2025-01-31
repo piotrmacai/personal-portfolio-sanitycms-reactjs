@@ -53,6 +53,20 @@
             "headcook6":"§6. POSTANOWIENIA KOŃCOWE",
             "cook7": "Niniejsza Polityka Cookies wchodzi w życie z dniem 01.05.2024. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Cookies. O zmianach Klienci będą informowani drogą elektroniczną."
           },
+          "googlestreamlitTitle": "Model Google Gemini AI Studio zaimplementowany w Streamlit z użyciem Pythona",
+          "googlestreamlitDesc1": "Zaawansowana implementacja asystenta AI modelu Google Gemini w niestandardowym interfejsie.",
+          "googlestreamlitDesc2": "Interfejs przyjazny użytkownikowi: Zaprojektowany z użyciem Streamlit, aby ułatwić intuicyjną interakcję i efektywne zarządzanie aplikacjami AI.",
+          "googlestreamlitDesc3": "Możliwości integracji: Bezproblemowo integruje się z różnymi źródłami danych i interfejsami API, zwiększając funkcjonalność i bazę wiedzy AI.",
+          "googlestreamlitDescription1": "Solidne rozwiązanie: Google Gemini AI Studio jest specjalnie zaprojektowane do rozwijania aplikacji AI, które działają całkowicie na Twojej infrastrukturze, zapewniając lokalne przetwarzanie danych dla lepszego bezpieczeństwa i zgodności z regulacjami RODO.",
+          "googlestreamlitDescription2": "Model on-premise: Ta platforma wykorzystuje lokalny model Deepseek R1, dając pełną kontrolę nad Twoimi danymi, co jest kluczowe dla organizacji zarządzających wrażliwymi informacjami i przestrzegających rygorystycznych standardów ochrony danych.",
+      
+          "googlenextTitle": "Model Google Gemini AI Studio zaimplementowany w Next.js z użyciem JavaScript",
+          "googlenextDesc1": "Zaawansowana implementacja asystenta AI modelu Google Gemini w niestandardowym interfejsie.",
+          "googlenextDesc2": "Oferuje płynny interfejs użytkownika zbudowany w Next.js, umożliwiający intuicyjną interakcję i zarządzanie aplikacjami AI.",
+          "googlenextDesc3": "Obsługuje integrację z różnorodnymi źródłami danych i interfejsami API, zwiększając możliwości i bazę wiedzy AI.",
+          "googlenextDescription1": "Google Gemini AI Studio jest zaprojektowane do działania lokalnie, eliminując potrzebę łączności z chmurą. Zapewnia to, że wszystkie dane i interakcje pozostają na Twoich serwerach, co zapewnia maksymalne bezpieczeństwo i zgodność z regulacjami RODO.",
+          "googlenextDescription2": "Ta platforma działa w modelu on-premise, wykorzystując moc Next.js do dostarczenia responsywnego i efektywnego doświadczenia użytkownika, jednocześnie zachowując pełną kontrolę nad wrażliwymi danymi.",
+      
           
           "agentsDeepseekTitle": "Lokalny RAG AI Chatbot oparty na modelu Deepseek R1",
           "agentsDeepseekDesc1": "W pełni prywatny chatbot działający na Twojej infrastrukturze",

@@ -50,6 +50,20 @@
     "cook7": "This Cookie Policy enters into force on 01.05.2024. The Administrator reserves the right to amend this Cookie Policy. Customers will be informed of any changes electronically."
     },
 
+    "googlestreamlitTitle": "Google Gemini AI Studio model implemented in Streamlit with python",
+    "googlestreamlitDesc1": "An advanced AI Assistant implementation of Google Gemini model at custom interface.",
+    "googlestreamlitDesc2": "User-Friendly Interface: Designed with Streamlit to facilitate intuitive interaction and efficient management of AI applications.",
+    "googlestreamlitDesc3": "Integration Capabilities: Seamlessly integrates with various data sources and APIs, enhancing the AI's functionality and knowledge base.",
+    "googlestreamlitDescription1": "Robust Solution: The Google Gemini AI Studio is specifically crafted for developing AI applications that operate entirely on your infrastructure, ensuring local data processing for superior security and compliance with GDPR regulations.",
+    "googlestreamlitDescription2": "On-Premise Model: This platform utilizes the local Deepseek R1 model, granting complete control over your data, which is crucial for organizations managing sensitive information and adhering to strict data protection standards.",
+
+    "googlenextTitle": "Google Gemini AI Studio model implemented in Next.js",
+    "googlenextDesc1": "An advanced AI Assistant implementation of Google Gemini model at custom interface.",
+    "googlenextDesc2": "Features a seamless user interface built with Next.js, allowing for intuitive interaction and management of AI applications.",
+    "googlenextDesc3": "Supports integration with diverse data sources and APIs, enhancing the AI's capabilities and knowledge base.",
+    "googlenextDescription1": "The Google Gemini AI Studio is designed to run locally, eliminating the need for cloud connectivity. This ensures that all data and interactions remain on your servers, providing maximum security and compliance with GDPR regulations.",
+    "googlenextDescription2": "This platform operates in an on-premise model, leveraging the power of Next.js to deliver a responsive and efficient user experience while maintaining complete control over sensitive data.",
+
     "agentsDeepseekTitle": "Local RAG AI Chatbot based on the Deepseek R1 model",
     "agentsDeepseekDesc1": "A fully private chatbot operating on your infrastructure",
     "agentsDeepseekDesc2": "With a user interface in Streamlit, providing easy handling",

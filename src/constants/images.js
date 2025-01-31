@@ -146,9 +146,13 @@ import posteri from '../assets/posteri.png';
 import igicon from '../assets/igicon.png';
 import deviantimage from '../assets/deviantimage.png';
 import deepseekimg from '../assets/deepseekimg.png';
+import googleaijs from '../assets/googleaijs.jpg';
+import googleaipython from '../assets/googleaipython.jpg';
 
 
 export default {
+  googleaipython,
+  googleaijs,
   deepseekimg,
   deviantimage,
   igicon,

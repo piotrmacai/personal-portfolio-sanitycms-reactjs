@@ -37,6 +37,64 @@ export const AgentTabsData = () => {
       ),
     },
     {
+      id: "1.1",
+      label: "Google AI Studio Custom Assistant App",
+      content: (
+        <div>
+          <h2>{t('googlenextTitle')}n</h2>
+          <p style={{marginBottom: '20px', marginTop: '10px' }}>{t('googlenextDescription1')}</p>
+          <img src={images.googleaijs} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
+          <p style={{marginBottom: '20px', marginTop: '10px' }}>{t('googlenextDescription2')}</p>
+          <ul style={{ paddingLeft: '20px'}}>
+            <li>{t('googlenextDesc1')}</li>
+            <li>{t('googlenextDesc2')}</li>
+            <li>{t('googlenextDesc3')}</li>
+        </ul>
+        <h2 style={{ marginBottom: '30px', marginTop: '30px' }}>
+        {t('agentsTabIntegrationsTitle')}
+        </h2>
+        <ul style={{ paddingLeft: '20px'}}>
+          <li>{t('agentsTabIntegrations1')}</li>
+          <li>{t('agentsTabIntegrations2')}</li>
+          <li>{t('agentsTabIntegrations3')}</li>
+          <li>{t('agentsTabIntegrations4')}</li>
+          <li>{t('agentsTabIntegrations5')}</li>
+        </ul>
+        <a href="/contact" className="Btn">{t('cta_agent')}</a>
+        {/* <a href="https://github.com/piotrmacai/agent-flowise-local-ollama-rag" className="Btn">{t('agentsTabVisit')}</a> */}
+        </div>
+      ),
+    },
+    {
+      id: "1.2",
+      label: "Google AI Studio Custom Assistant App at Python",
+      content: (
+        <div>
+          <h2>{t('googlestreamlitTitle')}n</h2>
+          <p style={{marginBottom: '20px', marginTop: '10px' }}>{t('googlestreamlitDescription1')}</p>
+          <img src={images.googleaipython} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
+          <p style={{marginBottom: '20px', marginTop: '10px' }}>{t('googlestreamlitDescription2')}</p>
+          <ul style={{ paddingLeft: '20px'}}>
+            <li>{t('googlestreamlitDesc1')}</li>
+            <li>{t('googlestreamlitDesc2')}</li>
+            <li>{t('googlestreamlitDesc3')}</li>
+        </ul>
+        <h2 style={{ marginBottom: '30px', marginTop: '30px' }}>
+        {t('agentsTabIntegrationsTitle')}
+        </h2>
+        <ul style={{ paddingLeft: '20px'}}>
+          <li>{t('agentsTabIntegrations1')}</li>
+          <li>{t('agentsTabIntegrations2')}</li>
+          <li>{t('agentsTabIntegrations3')}</li>
+          <li>{t('agentsTabIntegrations4')}</li>
+          <li>{t('agentsTabIntegrations5')}</li>
+        </ul>
+        <a href="/contact" className="Btn">{t('cta_agent')}</a>
+        {/* <a href="https://github.com/piotrmacai/agent-flowise-local-ollama-rag" className="Btn">{t('agentsTabVisit')}</a> */}
+        </div>
+      ),
+    },
+    {
       id: "2",
       label: "Customer Support Agent",
       content: (
