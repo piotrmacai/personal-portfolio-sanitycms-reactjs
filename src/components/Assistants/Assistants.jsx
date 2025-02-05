@@ -27,9 +27,10 @@ const Assistants = () => {
   return (
     <>
 
-<HeaderAi /> 
+<HeaderAi />
+<AgentTabs/> 
 <AboutAgents/>
-<AgentTabs/>
+
 
 <AiCta/>
 <FeaturesTab/> 

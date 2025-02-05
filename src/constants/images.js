@@ -148,9 +148,11 @@ import deviantimage from '../assets/deviantimage.png';
 import deepseekimg from '../assets/deepseekimg.png';
 import googleaijs from '../assets/googleaijs.jpg';
 import googleaipython from '../assets/googleaipython.jpg';
+import resdeepseek from '../assets/resdeepseek.png';
 
 
 export default {
+  resdeepseek,
   googleaipython,
   googleaijs,
   deepseekimg,
