@@ -33,6 +33,8 @@ const Navbar = () => {
             <li><Link to="/ai" onClick={handleMenuItemClick}>{t('menu_guides')}</Link></li>        
             <li><Link to="/web" onClick={handleMenuItemClick}>Web & Apps</Link></li>
             <li><Link to="/design" onClick={handleMenuItemClick}>Design & Visuals</Link></li>
+            <li><Link to="https://store.macai.studio" onClick={handleMenuItemClick}>AI Store</Link></li>
+
          </ul>
         </li>
         <li className="app__flex p-text">

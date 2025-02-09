@@ -28,10 +28,10 @@ const GridPortfolio = () => {
   ];
 
   const gridItems = [
-    { src: images.adadidas, className: 'small', link: 'https://www.behance.net/macaistudio/' },
+    { src: images.postcommunism, className: 'small', link: 'https://www.behance.net/macaistudio/' },
     { src: images.gptebook, className: 'medium', link: 'https://www.behance.net/macaistudio/' },
-    { src: images.ainsiderbanner2, className: 'small', link: 'https://www.behance.net/macaistudio/' },
-    { src: images.art1, className: 'medium', link: 'https://www.behance.net/macaistudio/' },
+    { src: images.art2, className: 'small', link: 'https://www.behance.net/macaistudio/' },
+    { src: images.perfume, className: 'medium', link: 'https://www.behance.net/macaistudio/' },
     { src: images.promptrlogo, className: 'medium', link: 'https://www.behance.net/macaistudio/' },
     { src: images.art3, className: 'large', link: 'https://www.behance.net/macaistudio/' },
     { src: images.aibanner, className: 'medium', link: 'https://www.behance.net/macaistudio/' },

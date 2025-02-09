@@ -46,18 +46,17 @@ const HeaderDesign = () => {
         
         <div className="cta_social">
         <p className="p-text hiddentext">{t('designmain_heroP2')}</p>  
-        <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
+                        <a href="https://www.behance.net/macaistudio/" target="_blank" rel="noopener noreferrer">         
                            <div> <FaBehance/>    </div>                               
                         </a>  
-                        {/* <a href="https://github.com/piotrmacai/" target="_blank" rel="noopener noreferrer">
-                           <div>< BsGithub /></div>
-                       </a> */}
-
                         <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
                            <div> <img src={images.artstation} width={32} height={32} alt="Huggingface"/>    </div>                               
                         </a>
-                        <a href="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
-                           <div> <img src={images.dapp} width={32} height={32} alt="Huggingface"/>    </div>                               
+                        <a href="https://www.deviantart.com/piotrmacai" target="_blank" rel="noopener noreferrer">         
+                           <div> <img src={images.deviantlogo} width={32} height={32} alt="Huggingface"/>    </div>                               
+                        </a>
+                        <a href="https://www.instagram.com/piotr.macai" target="_blank" rel="noopener noreferrer">         
+                           <div> <img src={images.insta} width={32} height={32} alt="Huggingface"/>    </div>                               
                         </a>
                            {/* <a href="https://twitter.com/piotrmacai" target="_blank" rel="noreferrer">
                                <div> <BsTwitter /> </div>
@@ -100,12 +99,26 @@ const HeaderDesign = () => {
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.openai, images.behanceicon, images.hflogo].map((circle, index) => (
-        <div className="circle-cmp app__flex" key={`circle-${index}`}>
-          <img src={circle} alt="profile_bg" />
+      <Link to="https://behance.net/macaistudio" target="_blank" rel="noopener noreferrer">
+        <div className="circle-cmp app__flex">
+          <img src={images.behanceicon} alt="behance icon" />
         </div>
-      ))}
+      </Link>
+      
+      <Link to="https://www.deviantart.com/piotrmacai" target="_blank" rel="noopener noreferrer">
+        <div className="circle-cmp app__flex">
+          <img src={images.deviant} alt="deviant art icon" />
+        </div>
+      </Link>
+      
+      <Link to="https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">
+        <div className="circle-cmp app__flex">
+          <img src={images.artstationicon} alt="artstation icon" />
+        </div>
+      </Link>
+
     </motion.div>
+
     <Chatbot/>
   </div>
   </>

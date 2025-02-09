@@ -149,9 +149,29 @@ import deepseekimg from '../assets/deepseekimg.png';
 import googleaijs from '../assets/googleaijs.jpg';
 import googleaipython from '../assets/googleaipython.jpg';
 import resdeepseek from '../assets/resdeepseek.png';
+import artstationicon from '../assets/artstationicon.jpeg';
+import deviant from '../assets/deviant.png';
+import insta from '../assets/insta.png';
+import bottlephoto from '../assets/bottlephoto.png';
+import bottlebeach from '../assets/bottlebeach.png';
+import statue from '../assets/statue.png';
+import bottlecoctail from '../assets/bottlecoctail.png';
+import postcommunism from '../assets/postcommunism.png';
+import perfume from '../assets/perfume.png';
+import deviantlogo from '../assets/deviantlogo.png';
 
 
 export default {
+  deviantlogo,
+  perfume,
+  postcommunism,
+  bottlecoctail,
+  statue,
+  bottlebeach,
+  bottlephoto,
+  insta,
+  deviant,
+  artstationicon,
   resdeepseek,
   googleaipython,
   googleaijs,

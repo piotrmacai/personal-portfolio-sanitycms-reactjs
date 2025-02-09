@@ -25,17 +25,14 @@ const Design = () => {
   const { t } = useTranslation();
   return (
     <>
-  
   <HeaderDesign /> 
-  <SliderVisuals/>
+  <SliderVisuals/> 
+   <AboutDesign/>
   <GridPortfolio/>
-  <AboutDesign/>
-
-  <DesignCta/> 
-  <FeaturesTab/>   
-
+ <DesignCta/> 
 <GridPortfolioDesign/>
-{/* < GridPortfolioDesignSecond/> */}
+  <FeaturesTab/>   
+< GridPortfolioDesignSecond/>
 <Pricing/>
 <Footer/>
 <Chatbot/>

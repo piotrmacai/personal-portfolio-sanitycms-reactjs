@@ -16,8 +16,10 @@ const Footer = () => {
                 <li><a href="/projects">Portfolio</a></li>
                 <li><a href="/aboutme">{t('menuabout')}</a></li>
                 <li><a href="/contact">{t('footermenu5')}</a></li>
-                <li><a href="https://ainsider.tools/" target="_blank" rel="noopener noreferrer">Ai Tools</a> </li>
+                <li><a href="https://ainsider.tools/" target="_blank" rel="noopener noreferrer">Ai Tools Directory</a> </li>
                 <li><a href="https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer">Ai Newsletter</a></li>
+                <li><a href="https://store.macai.studio/" target="_blank" rel="noreferrer">Ai Store</a></li>
+
             </ul>
 
             <div className="footer__socials">

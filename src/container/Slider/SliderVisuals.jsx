@@ -31,42 +31,38 @@ const SliderVisuals = () => {
                         </a>
                 </div> */}
 </section>
-
         <div className="sliderApp">
             <Swiper
             slidesPerView={'auto'}
             centeredSlides={true}
-            spaceBetween={30}
+            spaceBetween={1}
             pagination={{
               clickable: true,
             }}
             modules={[Pagination]}
             className="mySwiper"
           >
-                        <SwiperSlide><img src={images.offerpdf} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.posteri} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.midposter} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.nikeair} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.bottlemockup} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.art3} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><a href="https://vimeo.com/1039849145" target="_blank" rel="noreferrer"><img src={images.video1} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>
-                        <SwiperSlide><img src={images.webbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.macaistudiobanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.behanceBanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.art2} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.aibanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.art1} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.gptbanner} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.ainsiderbanner1} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.productad1} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.nftlanding} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-                        <SwiperSlide><img src={images.ainsiderbanner2} className="app_header-img" alt="profile_bg" /></SwiperSlide>
-
-            {/* <SwiperSlide><a href="https://huggingface.co/chat/assistants?user=Piotr-Macai" target="_blank" rel="noreferrer"><img src={images.hfassistants} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>  */}
-            {/* <SwiperSlide><a href="https://tools.ainsider.tech" target="_blank" rel="noreferrer"><img src={images.imgpromptr} className="app_header-img" alt="profile_bg" /></a></SwiperSlide>            <SwiperSlide><a href="https://szkolajazdymachowski.pl" target="_blank" rel="noreferrer"><img src={images.szkolajazdychatbot_slider} className="app_header-img" alt="profile_bg" /></a></SwiperSlide> */}
-            {/* <SwiperSlide><a href="https://insdr.digital" target="_blank" rel="noreferrer"><img src={images.ainsidertoolsbot} className="app_header-img" alt="profile_bg" /></a></SwiperSlide> */}
-            {/* <SwiperSlide><a href="https://https://ainsider.beehiiv.com/" target="_blank" rel="noreferrer"><img src={images.beehiv} className="app_header-img" alt="profile_bg" /></a></SwiperSlide> */}
-           
+                        <SwiperSlide><img src={images.offerpdf} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.bottlecoctail} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.bottlephoto} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.statue} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.posteri} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.midposter} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.nikeair} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.bottlemockup} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.art3} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><a href="https://vimeo.com/1039849145" target="_blank" rel="noreferrer"><img src={images.video1} className="app_header-img" style={{ maxWidth: '80%', height: 'auto' }} alt="profile_bg" /></a></SwiperSlide>
+                        <SwiperSlide><img src={images.webbanner} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.macaistudiobanner} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.behanceBanner} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.art2} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.aibanner} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.art1} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.gptbanner} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.ainsiderbanner1} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.productad1} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.nftlanding} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
+                        <SwiperSlide><img src={images.ainsiderbanner2} className="app_header-img" style={{ maxWidth: '95%', height: 'auto' }} alt="profile_bg" /></SwiperSlide>
           </Swiper>
         </div>
 

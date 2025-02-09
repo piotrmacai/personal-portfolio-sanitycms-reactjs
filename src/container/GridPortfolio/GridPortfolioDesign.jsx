@@ -29,8 +29,8 @@ const GridPortfolio = () => {
 
   const gridItems = [
     { src: images.nikead, className: 'small', link: 'https://www.behance.net/macaistudio/' },
-    { src: images.video1, className: 'medium', link: 'https://vimeo.com/1039849145' },
-    { src: images.art2, className: 'small', link: 'https://ainsider.tools' },
+    { src: images.statue, className: 'medium', link: 'https://vimeo.com/1039849145' },
+    { src: images.bottlephoto, className: 'small', link: 'https://ainsider.tools' },
     { src: images.cosmic, className: 'medium', link: 'https://www.skinprojectclinic.pl/' },
     { src: images.myartstation, className: 'medium', link: 'https://www.behance.net/macaistudio/' },
     { src: images.macaistudiobanner, className: 'large', link: 'https://paintball-osada.pl/' },
