@@ -276,6 +276,10 @@
     "resourcesTabDesc6":"I offer a diver se set of AI Assistants and Agents, each tailored for various business purposes, designed to streamline operations, improve efficiency, and enhance customer engagement through intelligent automation.",
     "resourcesTabDesc7":"My AI Training and Tutorials encompass a wide array of training sessions and in-depth guides on artificial intelligence, aimed at equipping you with the knowledge and skills necessary to understand and effectively implement modern technologies in your business.",
     "resourcesTabDesc7Title":"AI Courses and Guides",
+    "resourcesTabDescStudioTitle":"AI Automation Agency for Business and Organizations",
+    "resourcesTabDescStudio":"Ainsider.co is your go-to platform for AI-driven solutions tailored for businesses. We specialize in providing innovative tools and services that enhance operational efficiency, streamline processes, and drive growth. Our offerings include personalized AI assistants, automation solutions, and comprehensive training programs designed to empower organizations in leveraging the latest advancements in artificial intelligence.",
+
+
 
     "resourcesTabAinsiderTools":"Explore my comprehensive AI Tools Library, which includes an extensive collection of resources, insightful blog posts, and a newsletter that keeps you updated on the latest trends and innovations in artificial intelligence.",
 
@@ -411,6 +415,14 @@
     "cta_subtitle2": "Perfectly Tailored Solutions",
     "cta_title2": "For Your Business Needs",
     "cta_desc2": "You will receive solutions that address your specific challenges, streamline operations, and give you a distinct advantage in your market.",
+
+    "githubcta_subtitle1": "See my Github with AI Apps and Agents Showcase",
+    "githubcta_title1": "Github with powerful AI Agents & AI Apps",
+    "githubcta_desc1": "Explore a collection of innovative AI applications and agents designed to streamline various processes and enhance productivity.",
+    "githubcta_subtitle2": "Empowering Businesses with AI",
+    "githubcta_title2": "Your Gateway to Intelligent Automation",
+    "githubcta_desc2": "My GitHub showcases projects that automate key tasks, improve user interactions, and drive operational efficiency.",
+
 
     "aicta_subtitle1": "AI Agents | Assistants | Automations | AI Apps",
     "aicta_title1": "Based on individual needs, according to a planned strategy",

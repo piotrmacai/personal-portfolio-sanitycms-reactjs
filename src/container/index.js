@@ -21,6 +21,7 @@ export { default as Faq } from './Faq/Faq';
 export { default as Pricing } from './Pricing/Pricing';
 export { default as Cta } from './Cta/Cta';
 export { default as AiCta } from './Cta/AiCta';
+export { default as GithubCta } from './Cta/GithubCta';
 export { default as WebCta } from './Cta/WebCta';
 export { default as DesignCta } from './Cta/DesignCta';
 export { default as VideoCta } from './Cta/VideoCta';

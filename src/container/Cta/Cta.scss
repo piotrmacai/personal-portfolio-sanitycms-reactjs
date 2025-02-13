@@ -88,6 +88,25 @@
               }  
             }
         }
+
+        .githubcta_section_img{
+          flex: 1;
+          width: 40%;
+          @media screen and (max-width: 1000px) {
+            width: 100%;
+            order:2;
+            margin-top:5rem;
+          }   
+          
+          img {
+              width: 35vw;
+              border-radius:12px;
+              @media screen and (max-width: 1000px) {
+                width: 80vw;
+              }  
+            }
+        }
+
         .cta_section_info {
             flex: 1;
             width: 50%;

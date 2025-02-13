@@ -52,13 +52,13 @@ export const AgentTabsData = () => {
           <img src={images.deepseekimg} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
           <ul style={{ paddingLeft: '20px'}}>
             <li style={{ marginBottom: '10px' }}>{t('localAgents1')} :  <br />
-              <a href="https://github.com/piotrmacai/agent-ollama-deepseek-localrag" target="_blank" rel="noreferrer">https://github.com/piotrmacai/agent-ollama-deepseek-localrag</a>
+              <a href="https://github.com/piotrmacai/agent-ollama-deepseek-localrag" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-ollama-deepseek-localrag</a>
             </li> 
             <li style={{ marginBottom: '10px' }}>{t('localAgents2')} :   <br />             
-              <a href="https://github.com/piotrmacai/agent-flowise-local-ollama-rag" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/agent-flowise-local-ollama-rag</a>
+              <a href="https://github.com/piotrmacai/agent-flowise-local-ollama-rag" target="_blank" rel="noreferrer"> github.com/piotrmacai/agent-flowise-local-ollama-rag</a>
             </li>
             <li style={{ marginBottom: '10px' }}>{t('localAgents3')} :  <br />
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer">github.com/piotrmacai</a>
             </li>
         </ul>
         {/* <h2 style={{ marginBottom: '30px', marginTop: '30px' }}>
@@ -89,7 +89,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/agent-ollama-deepseek-researcher" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-ollama-deepseek-researcher</a>
             </li> 
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer">github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer">github.com/piotrmacai</a>
             </li>
         </ul>
         <Link to="/contact" className="Btn">{t('cta_agent')}</Link>
@@ -106,13 +106,13 @@ export const AgentTabsData = () => {
           <img src={images.elevenbot} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
           <ul style={{ paddingLeft: '20px'}}>
             <li style={{ marginBottom: '10px' }}>{t('leadAgents1')} :  <br />
-              <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer">https://github.com/piotrmacai/agent-botpress-leadbot-v2</a>
+              <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-botpress-leadbot-v2</a>
             </li>  
             <li style={{ marginBottom: '10px' }}>{t('leadAgents1')} :  <br />
               <a href="https://github.com/piotrmacai/aiagent-botpress-businessleadbot" target="_blank" rel="noreferrer">github.com/piotrmacai/aiagent-botpress-businessleadbot</a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer">github.com/piotrmacai</a>
             </li>
             <li style={{ marginBottom: '10px' }}>          
               <a href="https://macai.studio/contact" target="_blank" rel="noreferrer"> Agent at Macai Studio </a>
@@ -143,19 +143,19 @@ export const AgentTabsData = () => {
           <img src={images.mbotpress} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
           <ul style={{ paddingLeft: '20px'}}>
             <li style={{ marginBottom: '10px' }}>{t('supportAgents1')} :  <br />
-              <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer">https://github.com/piotrmacai/agent-botpress-leadbot-v2</a>
+              <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-botpress-leadbot-v2</a>
             </li>   
             <li style={{ marginBottom: '10px' }}>{t('supportAgents1')} :  <br />
               <a href="https://github.com/piotrmacai/aiagent-botpress-businessleadbot" target="_blank" rel="noreferrer">github.com/piotrmacai/aiagent-botpress-businessleadbot</a>
             </li>
              <li style={{ marginBottom: '10px' }}>{t('supportAgents3')} :  <br />
-              <a href="https://github.com/piotrmacai/agent-flowise-ragtools-support-agent" target="_blank" rel="noreferrer">https://github.com/piotrmacai/agent-flowise-ragtools-support-agent</a>
+              <a href="https://github.com/piotrmacai/agent-flowise-ragtools-support-agent" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-flowise-ragtools-support-agent</a>
             </li>
               <li style={{ marginBottom: '10px' }}>{t('ecomAgents2')} :   <br />             
-              <a href="https://github.com/piotrmacai/agent-voiceflow-ecom-v1" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/agent-voiceflow-ecom-v1 </a>
+              <a href="https://github.com/piotrmacai/agent-voiceflow-ecom-v1" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-voiceflow-ecom-v1 </a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer">github.com/piotrmacai</a>
             </li>
          
         </ul>
@@ -183,16 +183,16 @@ export const AgentTabsData = () => {
           <img src={images.mecom} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
           <ul style={{ paddingLeft: '20px'}}>
             <li style={{ marginBottom: '10px' }}>{t('ecomAgents2')} :   <br />             
-              <a href="https://github.com/piotrmacai/agent-voiceflow-ecom-v1" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/agent-voiceflow-ecom-v1 </a>
+              <a href="https://github.com/piotrmacai/agent-voiceflow-ecom-v1" target="_blank" rel="noreferrer"> github.com/piotrmacai/agent-voiceflow-ecom-v1 </a>
             </li>
             <li style={{ marginBottom: '10px' }}>{t('ecomAgents1')} :  <br />
-              <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer">https://github.com/piotrmacai/agent-botpress-leadbot-v2</a>
+              <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer"> github.com/piotrmacai/agent-botpress-leadbot-v2</a>
             </li> 
             <li style={{ marginBottom: '10px' }}>{t('ecomAgents3')} :  <br />
-              <a href="https://ainsider.store" target="_blank" rel="noreferrer"> https://ainsider.store</a>
+              <a href="https://ainsider.store" target="_blank" rel="noreferrer"> ainsider.store</a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li>
         </ul>
         <Link to="/contact" className="Btn">{t('cta_agent')}</Link>
@@ -209,10 +209,10 @@ export const AgentTabsData = () => {
           <img src={images.mockupvoicebot} className="app_tab-img" alt="profile_bg" style={{ maxWidth: '700px', marginBottom: '30px', borderRadius:'20px' }} />
           <ul style={{ paddingLeft: '20px'}}>
             <li style={{ marginBottom: '10px' }}>{t('voiceAgents1')} :  <br />
-              <a href="https://macai.studio" target="_blank" rel="noreferrer">https://macai.studio</a>
+              <a href="https://macai.studio" target="_blank" rel="noreferrer">macai.studio</a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai/</a>
             </li> 
         </ul>
 
@@ -236,7 +236,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/assistant-ai-googlestudio-streamlit" target="_blank" rel="noreferrer"> github.com/piotrmacai/assistant-ai-googlestudio-streamlit </a>
             </li>
             <li style={{ marginBottom: '10px' }}>{t('localAgents3')}
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer">github.com/piotrmacai</a>
             </li> 
         </ul>
 
@@ -259,7 +259,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/agent-ollama-deepseek-localrag" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-ollama-deepseek-localrag</a>
             </li> 
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li> 
         </ul>
       
@@ -284,7 +284,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/assistant-ai-googlestudio-nextjs" target="_blank" rel="noreferrer"> github.com/piotrmacai/assistant-ai-googlestudio-nextjs </a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li> 
         </ul>
         <a href="/contact" className="Btn">{t('cta_agent')}</a>
@@ -308,7 +308,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/assistant-ai-googlestudio-streamlit" target="_blank" rel="noreferrer"> github.com/piotrmacai/assistant-ai-googlestudio-streamlit </a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li> 
         </ul>
         <a href="/contact" className="Btn">{t('cta_agent')}</a>
@@ -341,7 +341,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/aiagent-flowise-agents-orchestration-rag" target="_blank" rel="noreferrer">github.com/piotrmacai/aiagent-flowise-agents-orchestration-rag</a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li> 
         </ul>
         <a href="/contact" className="Btn">{t('cta_agent')}</a>
@@ -365,7 +365,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noreferrer">github.com/piotrmacai/agent-botpress-leadbot-v2 </a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li> 
         
         </ul>
@@ -390,7 +390,7 @@ export const AgentTabsData = () => {
               <a href="https://github.com/piotrmacai/aiagent-voiceflow-leadbot" target="_blank" rel="noreferrer">github.com/piotrmacai/aiagent-voiceflow-leadbot </a>
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> https://github.com/piotrmacai/</a>
+              <a href="https://github.com/piotrmacai/" target="_blank" rel="noreferrer"> github.com/piotrmacai</a>
             </li> 
         </ul>
         <a href="/contact" className="Btn">{t('cta_agent')}</a>
